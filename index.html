@@ -10,42 +10,49 @@
 <body>
 
     <header>
-        <h1 id="course-title">Carregando curso...</h1>
+        <h1 id="course-title">Curso de Grego Coinê Bíblico</h1>
         <p id="course-description"></p>
     </header>
 
-    <div class="container">
-        <nav>
-            <h2>Módulos</h2>
-            <ul id="module-list"></ul>
+    <div class="main-container">
+        <nav id="nav-left">
+            <h2>Teoria</h2>
+            <ul id="theory-module-list"></ul>
         </nav>
 
-        <main>
-            <article>
-                <h2 id="module-title"></h2>
-                
-                <section id="module-content">
-                    <h3>Conteúdo da Lição</h3>
-                    <div id="content-html"></div>
-                </section>
-
-                <section id="module-flashcards">
-                    <h3>Flashcards</h3>
-                    <div id="flashcards-container"></div>
-                </section>
-
-                <section id="module-exercises">
-                    <h3>Exercícios</h3>
-                    <div id="exercises-container"></div>
-                </section>
-
-            </article>
+        <main id="theory-content-area">
+            <h2 id="module-title">Bem-vindo!</h2>
+            <div id="content-html"><p>Selecione um módulo teórico no menu à esquerda para começar.</p></div>
         </main>
+
+        <aside id="nav-right">
+            <h2>Prática</h2>
+            <ul id="practice-module-list"></ul>
+            <button id="custom-quiz-btn">Prova Personalizada</button>
+            <hr>
+            <div id="practice-content-area">
+                <div id="flashcards-container"></div>
+                <div id="exercises-container"></div>
+            </div>
+        </aside>
     </div>
 
     <footer>
         <p>Curso desenvolvido por Rodrigo Niskier e Gemini. Hospedado com ❤️ no GitHub Pages.</p>
     </footer>
+
+    <div id="quiz-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Criar Prova Personalizada</h2>
+            <p>Selecione de 1 a 5 módulos para gerar uma prova com as questões difíceis.</p>
+            <form id="quiz-setup-form">
+                <div id="quiz-module-options"></div>
+                <button type="submit" id="generate-quiz-btn">Gerar Prova</button>
+            </form>
+            <p id="quiz-error-message" class="error-message"></p>
+        </div>
+    </div>
 
 </body>
 </html>
