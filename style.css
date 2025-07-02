@@ -97,14 +97,24 @@ main {
     background-color: #218838;
 }
 
-/* Conteúdo Teórico */
-#content-html {
+/* Conteúdo exibido na área central (Teoria ou Prática) */
+#module-display-area {
     font-family: 'Cardo', serif;
     font-size: 1.1rem;
 }
-#content-html table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-#content-html th, #content-html td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-#content-html th { background-color: #f2f2f2; }
+#module-display-area table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+#module-display-area th, #module-display-area td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+#module-display-area th {
+    background-color: #f2f2f2;
+}
 
 /* Conteúdo Prático (Flashcards e Exercícios) */
 #flashcards-container h3, #exercises-container h3 { font-family: 'Cardo', serif; color: #0056b3; }
