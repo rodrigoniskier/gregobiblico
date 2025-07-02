@@ -1,125 +1,174 @@
-// Aguarda o carregamento completo do HTML antes de executar o script
 document.addEventListener('DOMContentLoaded', () => {
-    
-    // Constantes e variáveis globais
-    const TOTAL_MODULES = 15;
+    // Referências aos elementos HTML
     const courseTitleEl = document.getElementById('course-title');
     const courseDescriptionEl = document.getElementById('course-description');
-    const moduleListEl = document.getElementById('module-list');
+    const theoryListEl = document.getElementById('theory-module-list');
+    const practiceListEl = document.getElementById('practice-module-list');
     const moduleTitleEl = document.getElementById('module-title');
     const contentHtmlEl = document.getElementById('content-html');
     const flashcardsContainerEl = document.getElementById('flashcards-container');
     const exercisesContainerEl = document.getElementById('exercises-container');
-    let courseData = {};
+    
+    // Referências à janela (modal) da prova
+    const quizModal = document.getElementById('quiz-modal');
+    const openQuizBtn = document.getElementById('custom-quiz-btn');
+    const closeQuizBtn = document.querySelector('.close-button');
+    const quizSetupForm = document.getElementById('quiz-setup-form');
+    const quizModuleOptionsEl = document.getElementById('quiz-module-options');
+    const quizErrorMsgEl = document.getElementById('quiz-error-message');
 
-    // Função principal para carregar e exibir um módulo
-    async function loadModule(moduleId) {
+    const TOTAL_MODULES = 15;
+    let allModulesData = []; // Armazenará os dados de todos os módulos
+
+    // Função para buscar TODOS os módulos de uma vez
+    async function fetchAllModules() {
         try {
-            // Se os dados do curso ainda não foram carregados, carrega o primeiro módulo para obter os títulos
-            if (!courseData.courseTitle) {
-                const response = await fetch(`./data/modulo_01.json`);
-                if (!response.ok) throw new Error(`Erro ao carregar dados iniciais: ${response.statusText}`);
-                courseData = await response.json();
-                displayCourseInfo();
+            const fetchPromises = [];
+            for (let i = 1; i <= TOTAL_MODULES; i++) {
+                const url = `./data/modulo_${String(i).padStart(2, '0')}.json`;
+                fetchPromises.push(fetch(url).then(res => res.json()));
             }
-
-            // Carrega o JSON do módulo específico
-            const response = await fetch(`./data/modulo_${String(moduleId).padStart(2, '0')}.json`);
-            if (!response.ok) throw new Error(`Erro ao carregar módulo ${moduleId}: ${response.statusText}`);
-            const moduleData = (await response.json()).modules[0];
-            
-            displayModule(moduleData);
-            updateActiveButton(moduleId);
-
+            allModulesData = await Promise.all(fetchPromises);
+            return true;
         } catch (error) {
-            console.error("Falha ao carregar o módulo:", error);
-            moduleTitleEl.textContent = "Erro ao carregar módulo.";
-            contentHtmlEl.innerHTML = `<p>Não foi possível encontrar o arquivo do módulo. Verifique se o arquivo 'modulo_${String(moduleId).padStart(2, '0')}.json' existe na pasta 'data'.</p>`;
+            console.error("Erro fatal ao carregar os dados dos módulos:", error);
+            moduleTitleEl.textContent = "Erro ao carregar os dados do curso.";
+            return false;
         }
     }
 
-    // Exibe as informações globais do curso (título e descrição)
-    function displayCourseInfo() {
-        courseTitleEl.textContent = courseData.courseTitle;
-        courseDescriptionEl.textContent = courseData.courseDescription;
+    // Função para popular as informações do curso e as listas de módulos
+    function populateCourseFramework() {
+        const firstModuleData = allModulesData[0];
+        courseTitleEl.textContent = firstModuleData.courseTitle;
+        courseDescriptionEl.textContent = firstModuleData.courseDescription;
+
+        // Limpa listas antes de popular
+        theoryListEl.innerHTML = '';
+        practiceListEl.innerHTML = '';
+        quizModuleOptionsEl.innerHTML = '';
+
+        allModulesData.forEach((moduleContainer, index) => {
+            const module = moduleContainer.modules[0];
+            const moduleId = index + 1;
+            
+            // Cria botões para a lista de Teoria
+            const theoryLi = document.createElement('li');
+            const theoryBtn = document.createElement('button');
+            theoryBtn.textContent = module.moduleTitle;
+            theoryBtn.dataset.moduleId = moduleId;
+            theoryBtn.addEventListener('click', () => displayTheoreticalContent(moduleId));
+            theoryLi.appendChild(theoryBtn);
+            theoryListEl.appendChild(theoryLi);
+
+            // Cria botões para a lista de Prática
+            const practiceLi = document.createElement('li');
+            const practiceBtn = document.createElement('button');
+            practiceBtn.textContent = module.moduleTitle;
+            practiceBtn.dataset.moduleId = moduleId;
+            practiceBtn.addEventListener('click', () => displayPracticalContent(moduleId));
+            practiceLi.appendChild(practiceBtn);
+            practiceListEl.appendChild(practiceLi);
+
+            // Cria checkboxes para a prova
+            const quizLabel = document.createElement('label');
+            const quizCheckbox = document.createElement('input');
+            quizCheckbox.type = 'checkbox';
+            quizCheckbox.value = moduleId;
+            quizLabel.appendChild(quizCheckbox);
+            quizLabel.append(` ${module.moduleTitle}`);
+            quizModuleOptionsEl.appendChild(quizLabel);
+        });
     }
 
-    // Renderiza o conteúdo de um módulo na página
-    function displayModule(module) {
+    // Funções para exibir os conteúdos
+    function displayTheoreticalContent(moduleId) {
+        const module = allModulesData[moduleId - 1].modules[0];
         moduleTitleEl.textContent = `${module.moduleId}: ${module.moduleTitle}`;
         contentHtmlEl.innerHTML = module.content.html;
-        
-        // Renderiza os flashcards
-        flashcardsContainerEl.innerHTML = module.flashcards.map(card => `
-            <div class="flashcard">
-                <div class="front">${card.front}</div>
-                <div class="back">${card.back}</div>
-            </div>
-        `).join('');
-
-        // Renderiza os exercícios
-        exercisesContainerEl.innerHTML = module.exercises.map((ex, index) => `
-            <div class="exercise">
-                <p class="prompt">${index + 1}. ${ex.prompt}</p>
-                <div class="options">
-                    ${ex.options ? ex.options.map((opt, i) => `
-                        <label>
-                            <input type="radio" name="ex${index}" value="${i}"> ${opt}
-                        </label>
-                    `).join('') : '<input type="text" name="ex' + index + '">'}
-                </div>
-                <button class="check-answer" data-ex-index="${index}">Verificar Resposta</button>
-                <div class="explanation" id="exp${index}"></div>
-            </div>
-        `).join('');
-
-        // Adiciona funcionalidade aos botões de "Verificar Resposta"
-        addExerciseListeners(module.exercises);
-    }
-
-    // Adiciona os "escutadores" de eventos para os botões dos exercícios
-    function addExerciseListeners(exercises) {
-        document.querySelectorAll('.check-answer').forEach(button => {
-            button.addEventListener('click', (event) => {
-                const exIndex = event.target.dataset.exIndex;
-                const exercise = exercises[exIndex];
-                const explanationEl = document.getElementById(`exp${exIndex}`);
-                
-                explanationEl.innerHTML = `<b>Explicação:</b> ${exercise.explanation}`;
-                explanationEl.style.display = 'block'; // Mostra a explicação
-            });
-        });
+        updateActiveButton(theoryListEl, moduleId);
     }
     
-    // Cria a lista de navegação dos módulos
-    function createModuleList() {
-        for (let i = 1; i <= TOTAL_MODULES; i++) {
-            const li = document.createElement('li');
-            const button = document.createElement('button');
-            button.textContent = `Módulo ${i}`;
-            button.dataset.moduleId = i;
-            button.addEventListener('click', () => loadModule(i));
-            li.appendChild(button);
-            moduleListEl.appendChild(li);
+    function displayPracticalContent(moduleId) {
+        const module = allModulesData[moduleId - 1].modules[0];
+        flashcardsContainerEl.innerHTML = `<h3>Flashcards: ${module.moduleTitle}</h3>` + module.flashcards.map(card => `
+            <div class="flashcard"><div class="front">${card.front}</div><div class="back">${card.back}</div></div>
+        `).join('');
+        
+        exercisesContainerEl.innerHTML = `<h3>Exercícios: ${module.moduleTitle}</h3>` + module.exercises.map((ex, index) => `
+            <div class="exercise">
+                <p class="prompt">${index + 1}. ${ex.prompt}</p>
+                <div class="options">${ex.options ? ex.options.map((opt, i) => `<label><input type="radio" name="ex${index}" value="${i}"> ${opt}</label>`).join('') : '<input type="text">'}</div>
+                <button class="check-answer" data-explanation="${ex.explanation}">Ver Resposta</button>
+                <div class="explanation"></div>
+            </div>
+        `).join('');
+        
+        document.querySelectorAll('.check-answer').forEach(button => {
+            button.addEventListener('click', e => {
+                const explanationText = e.target.dataset.explanation;
+                const explanationDiv = e.target.nextElementSibling;
+                explanationDiv.innerHTML = `<b>Explicação:</b> ${explanationText}`;
+                explanationDiv.style.display = explanationDiv.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+
+        updateActiveButton(practiceListEl, moduleId);
+    }
+
+    function updateActiveButton(list, moduleId) {
+        // Remove 'active' de todos os botões em AMBAS as listas
+        document.querySelectorAll('#nav-left button, #nav-right button').forEach(b => b.classList.remove('active'));
+        // Adiciona 'active' apenas ao botão clicado
+        const activeButton = list.querySelector(`button[data-module-id="${moduleId}"]`);
+        if (activeButton) activeButton.classList.add('active');
+    }
+
+    // Lógica da Prova Personalizada
+    openQuizBtn.onclick = () => { quizModal.style.display = 'block'; quizErrorMsgEl.textContent = ''; };
+    closeQuizBtn.onclick = () => { quizModal.style.display = 'none'; };
+    window.onclick = (event) => { if (event.target == quizModal) { quizModal.style.display = 'none'; } };
+
+    quizSetupForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const selectedCheckboxes = quizModuleOptionsEl.querySelectorAll('input:checked');
+        
+        if (selectedCheckboxes.length < 1 || selectedCheckboxes.length > 5) {
+            quizErrorMsgEl.textContent = 'Erro: Você deve selecionar entre 1 e 5 módulos.';
+            return;
+        }
+        
+        quizErrorMsgEl.textContent = '';
+        let hardQuestions = [];
+        selectedCheckboxes.forEach(checkbox => {
+            const moduleId = parseInt(checkbox.value, 10);
+            const module = allModulesData[moduleId - 1].modules[0];
+            const questions = module.exercises.filter(ex => ex.difficulty === 'hard');
+            hardQuestions.push(...questions);
+        });
+
+        if (hardQuestions.length === 0) {
+            quizErrorMsgEl.textContent = 'Os módulos selecionados não possuem questões difíceis para a prova.';
+            return;
+        }
+
+        const quizData = { title: 'Prova Personalizada', questions: hardQuestions };
+        localStorage.setItem('customQuizData', JSON.stringify(quizData));
+        
+        window.open('prova.html', '_blank');
+        quizModal.style.display = 'none';
+    });
+
+
+    // Função de inicialização
+    async function init() {
+        const success = await fetchAllModules();
+        if (success) {
+            populateCourseFramework();
+            // Carrega o conteúdo teórico do primeiro módulo por padrão
+            displayTheoreticalContent(1);
         }
     }
 
-    // Atualiza qual botão de módulo está "ativo"
-    function updateActiveButton(moduleId) {
-        document.querySelectorAll('#module-list button').forEach(button => {
-            if (button.dataset.moduleId == moduleId) {
-                button.classList.add('active');
-            } else {
-                button.classList.remove('active');
-            }
-        });
-    }
-
-    // Função de inicialização
-    function init() {
-        createModuleList();
-        loadModule(1); // Carrega o primeiro módulo por padrão
-    }
-
-    init(); // Inicia o site
+    init();
 });
