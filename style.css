@@ -1,4 +1,4 @@
-/* Importa uma fonte do Google Fonts para melhor legibilidade */
+/* Importa fontes */
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Lato:wght@400;700&display=swap');
 
 /* Configurações Globais */
@@ -9,13 +9,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-}
-
-.container {
-    display: flex;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
 }
 
 header {
@@ -30,26 +23,44 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Navegação (Lista de Módulos) */
-nav {
-    flex: 1;
-    margin-right: 20px;
+/* Layout Principal de 3 Colunas */
+.main-container {
+    display: flex;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 20px; /* Espaço entre as colunas */
+}
+
+/* Menus Laterais e Conteúdo Central */
+#nav-left, #nav-right {
+    flex: 1; /* Cada menu lateral ocupa 1 parte do espaço */
     background: #fff;
     padding: 20px;
     border-radius: 5px;
-    align-self: flex-start; /* Faz a navegação não esticar */
+    align-self: flex-start;
 }
 
-nav h2 {
+main {
+    flex: 2; /* O conteúdo central ocupa 2 partes, o dobro dos menus */
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#nav-left h2, #nav-right h2, main h2 {
+    font-family: 'Cardo', serif;
+    color: #0056b3;
     margin-top: 0;
 }
 
-nav ul {
+/* Estilo dos Botões de Módulo */
+#nav-left ul, #nav-right ul {
     list-style: none;
     padding: 0;
 }
 
-nav li button {
+#nav-left button, #nav-right button {
     display: block;
     width: 100%;
     padding: 10px;
@@ -59,63 +70,44 @@ nav li button {
     border-radius: 4px;
     cursor: pointer;
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #333;
     transition: background-color 0.3s ease;
 }
 
-nav li button:hover {
+#nav-left button:hover, #nav-right button:hover {
     background-color: #d0d0d0;
 }
 
-nav li button.active {
+#nav-left button.active, #nav-right button.active {
     background-color: #007BFF;
     color: white;
     font-weight: bold;
 }
 
-/* Conteúdo Principal */
-main {
-    flex: 3;
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
+/* Botão da Prova Personalizada */
+#custom-quiz-btn {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+#custom-quiz-btn:hover {
+    background-color: #218838;
 }
 
-article section {
-    margin-bottom: 40px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-}
-
-h2, h3 {
-    font-family: 'Cardo', serif;
-    color: #0056b3;
-}
-
-/* Estilos para o conteúdo HTML dos módulos */
+/* Conteúdo Teórico */
 #content-html {
     font-family: 'Cardo', serif;
     font-size: 1.1rem;
 }
-#content-html table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-#content-html th, #content-html td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-#content-html th {
-    background-color: #f2f2f2;
-}
-#content-html ul li {
-    margin-bottom: 10px;
-}
+#content-html table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+#content-html th, #content-html td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+#content-html th { background-color: #f2f2f2; }
 
-/* Estilos para Flashcards e Exercícios */
+/* Conteúdo Prático (Flashcards e Exercícios) */
+#flashcards-container h3, #exercises-container h3 { font-family: 'Cardo', serif; color: #0056b3; }
 .flashcard, .exercise {
     background: #fafafa;
     border: 1px solid #eaeaea;
@@ -124,35 +116,47 @@ h2, h3 {
     margin-bottom: 15px;
     border-radius: 4px;
 }
+.flashcard .front { font-size: 1.2rem; font-weight: bold; }
+.exercise .prompt { font-weight: bold; margin-bottom: 10px; }
+.exercise .options label { display: block; margin-bottom: 5px; }
+.exercise .explanation { margin-top: 10px; padding: 10px; background: #e7f3fe; border: 1px solid #cce5ff; border-radius: 4px; font-size: 0.9rem; display: none; }
 
-.flashcard .front {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.exercise .prompt {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-.exercise .options label {
-    display: block;
-    margin-bottom: 5px;
-}
-.exercise .explanation {
-    margin-top: 10px;
-    padding: 10px;
-    background: #e7f3fe;
-    border: 1px solid #cce5ff;
-    border-radius: 4px;
-    font-size: 0.9rem;
+/* Estilo da Janela (Modal) da Prova */
+.modal {
     display: none; /* Escondido por padrão */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
 }
-
-footer {
-    text-align: center;
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
     padding: 20px;
-    margin-top: 40px;
-    background: #333;
-    color: #fff;
-    font-size: 0.9rem;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
 }
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#quiz-module-options label { display: block; margin-bottom: 8px; }
+.error-message { color: red; font-size: 0.9em; }
+
+/* Estilo para a Página da Prova */
+#quiz-form { list-style-type: none; padding: 0; }
+#quiz-results { padding: 20px; background: #e7f3fe; border: 1px solid #cce5ff; margin-top: 20px; }
+.result-question { border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 10px; }
+.correct-answer { color: green; font-weight: bold; }
+.wrong-answer { color: red; font-weight: bold; }
+
+footer { text-align: center; padding: 20px; margin-top: 40px; background: #333; color: #fff; font-size: 0.9rem; }
