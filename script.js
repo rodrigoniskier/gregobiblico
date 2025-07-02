@@ -5,9 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const theoryListEl = document.getElementById('theory-module-list');
     const practiceListEl = document.getElementById('practice-module-list');
     const moduleTitleEl = document.getElementById('module-title');
-    const contentHtmlEl = document.getElementById('content-html');
-    const flashcardsContainerEl = document.getElementById('flashcards-container');
-    const exercisesContainerEl = document.getElementById('exercises-container');
+    const moduleDisplayAreaEl = document.getElementById('module-display-area'); // A nova área de exibição central
     
     // Referências à janela (modal) da prova
     const quizModal = document.getElementById('quiz-modal');
@@ -57,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const theoryBtn = document.createElement('button');
             theoryBtn.textContent = module.moduleTitle;
             theoryBtn.dataset.moduleId = moduleId;
-            theoryBtn.addEventListener('click', () => displayTheoreticalContent(moduleId));
+            theoryBtn.addEventListener('click', () => displayModuleContent(moduleId, 'theory'));
             theoryLi.appendChild(theoryBtn);
             theoryListEl.appendChild(theoryLi);
 
@@ -66,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const practiceBtn = document.createElement('button');
             practiceBtn.textContent = module.moduleTitle;
             practiceBtn.dataset.moduleId = moduleId;
-            practiceBtn.addEventListener('click', () => displayPracticalContent(moduleId));
+            practiceBtn.addEventListener('click', () => displayModuleContent(moduleId, 'practice'));
             practiceLi.appendChild(practiceBtn);
             practiceListEl.appendChild(practiceLi);
 
@@ -81,29 +79,43 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Funções para exibir os conteúdos
-    function displayTheoreticalContent(moduleId) {
+    // NOVA FUNÇÃO UNIFICADA para exibir qualquer tipo de conteúdo no centro
+    function displayModuleContent(moduleId, contentType) {
         const module = allModulesData[moduleId - 1].modules[0];
         moduleTitleEl.textContent = `${module.moduleId}: ${module.moduleTitle}`;
-        contentHtmlEl.innerHTML = module.content.html;
-        updateActiveButton(theoryListEl, moduleId);
+        let contentHTML = '';
+
+        if (contentType === 'theory') {
+            contentHTML = module.content.html;
+            updateActiveButton(theoryListEl, moduleId);
+        } else { // 'practice'
+            const flashcardsHTML = `<h3>Flashcards</h3>` + module.flashcards.map(card => `
+                <div class="flashcard"><div class="front">${card.front}</div><div class="back">${card.back}</div></div>
+            `).join('');
+            
+            const exercisesHTML = `<h3>Exercícios</h3>` + module.exercises.map((ex, index) => `
+                <div class="exercise">
+                    <p class="prompt">${index + 1}. ${ex.prompt}</p>
+                    <div class="options">${ex.options ? ex.options.map((opt, i) => `<label><input type="radio" name="ex${index}" value="${i}"> ${opt}</label>`).join('') : '<input type="text">'}</div>
+                    <button class="check-answer" data-explanation="${ex.explanation}">Ver Resposta</button>
+                    <div class="explanation"></div>
+                </div>
+            `).join('');
+            
+            contentHTML = flashcardsHTML + exercisesHTML;
+            updateActiveButton(practiceListEl, moduleId);
+        }
+
+        moduleDisplayAreaEl.innerHTML = contentHTML;
+
+        // Adiciona os listeners de evento aos botões de exercício SE for conteúdo prático
+        if (contentType === 'practice') {
+            addExerciseListeners();
+        }
     }
     
-    function displayPracticalContent(moduleId) {
-        const module = allModulesData[moduleId - 1].modules[0];
-        flashcardsContainerEl.innerHTML = `<h3>Flashcards: ${module.moduleTitle}</h3>` + module.flashcards.map(card => `
-            <div class="flashcard"><div class="front">${card.front}</div><div class="back">${card.back}</div></div>
-        `).join('');
-        
-        exercisesContainerEl.innerHTML = `<h3>Exercícios: ${module.moduleTitle}</h3>` + module.exercises.map((ex, index) => `
-            <div class="exercise">
-                <p class="prompt">${index + 1}. ${ex.prompt}</p>
-                <div class="options">${ex.options ? ex.options.map((opt, i) => `<label><input type="radio" name="ex${index}" value="${i}"> ${opt}</label>`).join('') : '<input type="text">'}</div>
-                <button class="check-answer" data-explanation="${ex.explanation}">Ver Resposta</button>
-                <div class="explanation"></div>
-            </div>
-        `).join('');
-        
+    // Função para adicionar listeners aos botões "Ver Resposta"
+    function addExerciseListeners() {
         document.querySelectorAll('.check-answer').forEach(button => {
             button.addEventListener('click', e => {
                 const explanationText = e.target.dataset.explanation;
@@ -112,19 +124,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 explanationDiv.style.display = explanationDiv.style.display === 'block' ? 'none' : 'block';
             });
         });
-
-        updateActiveButton(practiceListEl, moduleId);
     }
 
-    function updateActiveButton(list, moduleId) {
+    function updateActiveButton(activeList, moduleId) {
         // Remove 'active' de todos os botões em AMBAS as listas
         document.querySelectorAll('#nav-left button, #nav-right button').forEach(b => b.classList.remove('active'));
-        // Adiciona 'active' apenas ao botão clicado
-        const activeButton = list.querySelector(`button[data-module-id="${moduleId}"]`);
+        // Adiciona 'active' apenas ao botão clicado na lista correta
+        const activeButton = activeList.querySelector(`button[data-module-id="${moduleId}"]`);
         if (activeButton) activeButton.classList.add('active');
     }
 
-    // Lógica da Prova Personalizada
+    // Lógica da Prova Personalizada (sem alterações)
     openQuizBtn.onclick = () => { quizModal.style.display = 'block'; quizErrorMsgEl.textContent = ''; };
     closeQuizBtn.onclick = () => { quizModal.style.display = 'none'; };
     window.onclick = (event) => { if (event.target == quizModal) { quizModal.style.display = 'none'; } };
@@ -166,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (success) {
             populateCourseFramework();
             // Carrega o conteúdo teórico do primeiro módulo por padrão
-            displayTheoreticalContent(1);
+            displayModuleContent(1, 'theory');
         }
     }
 
