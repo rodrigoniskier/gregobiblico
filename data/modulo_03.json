@@ -1,0 +1,310 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M03",
+      "moduleTitle": "Verbos - Presente e Imperfeito do Indicativo (Vozes Ativa, Média e Passiva)",
+      "learningObjectives": [
+        "Identificar as cinco propriedades de um verbo grego: pessoa, número, tempo, modo e voz.",
+        "Aprender e conjugar o verbo modelo 'λύω' no Presente do Indicativo Ativo.",
+        "Aprender e conjugar o verbo modelo 'λύω' no Imperfeito do Indicativo Ativo, incluindo o conceito de aumento.",
+        "Distinguir entre as vozes Ativa, Média e Passiva.",
+        "Aprender e conjugar o verbo modelo 'λύω' no Presente do Indicativo Médio-Passivo.",
+        "Aprender e conjugar o verbo modelo 'λύω' no Imperfeito do Indicativo Médio-Passivo.",
+        "Analisar (fazer o 'parsing') de formas verbais no presente e imperfeito, identificando todas as suas propriedades."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 3: Verbos - Presente e Imperfeito do Indicativo</h1><p>Com o entendimento de substantivos e artigos, agora podemos dar vida às nossas frases com os verbos. O verbo é o coração da sentença, expressando ação ou estado. No grego, os verbos são complexos, mas seguem padrões lógicos.</p><h2>1. As Cinco Propriedades dos Verbos</h2><p>Todo verbo grego finito (conjugado) possui cinco características:</p><ul><li><b>Pessoa:</b> Primeira (eu, nós), Segunda (tu, vós) ou Terceira (ele/ela, eles/elas).</li><li><b>Número:</b> Singular ou Plural.</li><li><b>Tempo:</b> Indica o <b>tipo de ação</b> (contínua, pontual, completa) e, secundariamente, a <b>época da ação</b> (presente, passado, futuro).</li><li><b>Modo:</b> Mostra a relação da ação com a realidade (Indicativo - fato, Subjuntivo - possibilidade, etc.). Neste módulo, focaremos no <b>Modo Indicativo</b>, que descreve uma ação como real ou factual.</li><li><b>Voz:</b> Descreve a relação do sujeito com a ação do verbo.</li></ul><h2>2. O Tempo Presente</h2><p>O tempo presente descreve uma ação <b>contínua</b> ou <b>habitual</b> ocorrendo no tempo presente. Ex: 'eu desato', 'eu estou desatando'.</p><h3>Presente do Indicativo Ativo de λύω (eu desato)</h3><p>A voz <b>ativa</b> indica que o sujeito pratica a ação. O paradigma é formado pelo <b>radical</b> (λυ-) + <b>vogal temática</b> (ο/ε) + <b>desinência pessoal</b>.</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa/Número</th><th>Forma Grega</th><th>Análise</th><th>Tradução</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>λύω</td><td>Radical (λυ) + Desinência (ω)</td><td>eu desato</td></tr><tr><td>2ª Sing.</td><td>λύεις</td><td>λυ + ε + ις</td><td>tu desatas</td></tr><tr><td>3ª Sing.</td><td>λύει</td><td>λυ + ε + ι</td><td>ele/ela desata</td></tr><tr><td>1ª Pl.</td><td>λύομεν</td><td>λυ + ο + μεν</td><td>nós desatamos</td></tr><tr><td>2ª Pl.</td><td>λύετε</td><td>λυ + ε + τε</td><td>vós desatais</td></tr><tr><td>3ª Pl.</td><td>λύουσι(ν)</td><td>λυ + ο + νσι > ουσι</td><td>eles/elas desatam</td></tr></tbody></table><p>O 'ν' final em λύουσι(ν), chamado de 'nu movível', é adicionado quando a palavra seguinte começa com vogal ou no final de uma frase.</p><h2>3. O Tempo Imperfeito</h2><p>O tempo imperfeito descreve uma ação <b>contínua</b> que estava ocorrendo no <b>passado</b>. Ex: 'eu estava desatando', 'eu costumava desatar'.</p><h3>Imperfeito do Indicativo Ativo de λύω</h3><p>O imperfeito é formado por: <b>aumento</b> + <b>radical</b> (λυ-) + <b>vogal temática</b> (ο/ε) + <b>desinências secundárias</b>.</p><p>O <b>aumento</b> é um prefixo (geralmente ἐ-) que marca os tempos passados do modo indicativo.</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa/Número</th><th>Forma Grega</th><th>Análise</th><th>Tradução</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>ἔλυον</td><td>Aumento (ἐ) + λυ + ο + ν</td><td>eu estava desatando</td></tr><tr><td>2ª Sing.</td><td>ἔλυες</td><td>ἐ + λυ + ε + ς</td><td>tu estavas desatando</td></tr><tr><td>3ª Sing.</td><td>ἔλυε(ν)</td><td>ἐ + λυ + ε + -</td><td>ele/ela estava desatando</td></tr><tr><td>1ª Pl.</td><td>ἐλύομεν</td><td>ἐ + λυ + ο + μεν</td><td>nós estávamos desatando</td></tr><tr><td>2ª Pl.</td><td>ἐλύετε</td><td>ἐ + λυ + ε + τε</td><td>vós estáveis desatando</td></tr><tr><td>3ª Pl.</td><td>ἔλυον</td><td>ἐ + λυ + ο + ν</td><td>eles/elas estavam desatando</td></tr></tbody></table><h2>4. Vozes Média e Passiva</h2><ul><li><b>Voz Ativa:</b> O sujeito pratica a ação. (Ex: O homem desata o cavalo).</li><li><b>Voz Média:</b> O sujeito pratica a ação <b>em si mesmo</b> ou <b>para seu próprio benefício</b>. (Ex: O homem se desata / O homem desata o cavalo para si mesmo).</li><li><b>Voz Passiva:</b> O sujeito <b>recebe</b> a ação. (Ex: O homem é desatado por outro).</li></ul><p>No presente e imperfeito, as formas da voz média e passiva são idênticas. O contexto determina a tradução.</p><h3>Presente do Indicativo Médio-Passivo de λύομαι</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa/Número</th><th>Forma Grega</th><th>Tradução Média / Passiva</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>λύομαι</td><td>eu me desato / eu sou desatado</td></tr><tr><td>2ª Sing.</td><td>λύῃ (de λύεσαι)</td><td>tu te desatas / tu és desatado</td></tr><tr><td>3ª Sing.</td><td>λύεται</td><td>ele se desata / ele é desatado</td></tr><tr><td>1ª Pl.</td><td>λυόμεθα</td><td>nós nos desatamos / nós somos desatados</td></tr><tr><td>2ª Pl.</td><td>λύεσθε</td><td>vós vos desatais / vós sois desatados</td></tr><tr><td>3ª Pl.</td><td>λύονται</td><td>eles se desatam / eles são desatados</td></tr></tbody></table><h3>Imperfeito do Indicativo Médio-Passivo de ἐλυόμην</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa/Número</th><th>Forma Grega</th><th>Tradução Média / Passiva</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>ἐλυόμην</td><td>eu me estava desatando / eu estava sendo desatado</td></tr><tr><td>2ª Sing.</td><td>ἐλύου (de ἐλύεσο)</td><td>tu te estavas desatando / tu estavas sendo desatado</td></tr><tr><td>3ª Sing.</td><td>ἐλύετο</td><td>ele se estava desatando / ele estava sendo desatado</td></tr><tr><td>1ª Pl.</td><td>ἐλυόμεθα</td><td>nós nos estávamos desatando / nós estávamos sendo desatados</td></tr><tr><td>2ª Pl.</td><td>ἐλύεσθε</td><td>vós vos estáveis desatando / vós estáveis sendo desatados</td></tr><tr><td>3ª Pl.</td><td>ἐλύοντο</td><td>eles se estavam desatando / eles estavam sendo desatados</td></tr></tbody></table></div>"
+      },
+      "flashcards": [
+        {"front": "λύω", "back": "Pres. Ind. Ativo, 1ª Sing. - 'eu desato'", "unsplashSearchTerm": "untying rope"},
+        {"front": "λύεις", "back": "Pres. Ind. Ativo, 2ª Sing. - 'tu desatas'", "unsplashSearchTerm": "hands untying"},
+        {"front": "λύει", "back": "Pres. Ind. Ativo, 3ª Sing. - 'ele desata'", "unsplashSearchTerm": "knot"},
+        {"front": "λύομεν", "back": "Pres. Ind. Ativo, 1ª Pl. - 'nós desatamos'", "unsplashSearchTerm": "teamwork"},
+        {"front": "λύετε", "back": "Pres. Ind. Ativo, 2ª Pl. - 'vós desatais'", "unsplashSearchTerm": "group working"},
+        {"front": "λύουσι(ν)", "back": "Pres. Ind. Ativo, 3ª Pl. - 'eles desatam'", "unsplashSearchTerm": "crowd"},
+        {"front": "ἔλυον", "back": "Imperf. Ind. Ativo, 1ª/3ª Pl. - 'eu estava desatando / eles estavam desatando'", "unsplashSearchTerm": "ancient history"},
+        {"front": "ἔλυες", "back": "Imperf. Ind. Ativo, 2ª Sing. - 'tu estavas desatando'", "unsplashSearchTerm": "parchment"},
+        {"front": "ἔλυε(ν)", "back": "Imperf. Ind. Ativo, 3ª Sing. - 'ele estava desatando'", "unsplashSearchTerm": "roman sculpture"},
+        {"front": "Aumento (ἐ-)", "back": "Prefixo que marca tempos passados no modo indicativo.", "unsplashSearchTerm": "plus sign"},
+        {"front": "Voz Ativa", "back": "O sujeito pratica a ação.", "unsplashSearchTerm": "runner"},
+        {"front": "Voz Passiva", "back": "O sujeito recebe a ação.", "unsplashSearchTerm": "person being helped"},
+        {"front": "Voz Média", "back": "O sujeito pratica a ação em ou para si mesmo.", "unsplashSearchTerm": "person stretching"},
+        {"front": "λύομαι", "back": "Pres. Ind. Médio-Passivo, 1ª Sing. - 'eu me desato / sou desatado'", "unsplashSearchTerm": "reflection"},
+        {"front": "λύῃ", "back": "Pres. Ind. Médio-Passivo, 2ª Sing. - 'tu te desatas / és desatado'", "unsplashSearchTerm": "self portrait"},
+        {"front": "λύεται", "back": "Pres. Ind. Médio-Passivo, 3ª Sing. - 'ele se desata / é desatado'", "unsplashSearchTerm": "gears turning"},
+        {"front": "ἐλυόμην", "back": "Imperf. Ind. Médio-Passivo, 1ª Sing. - 'eu me estava desatando'", "unsplashSearchTerm": "old diary"},
+        {"front": "ἐλύετο", "back": "Imperf. Ind. Médio-Passivo, 3ª Sing. - 'ele estava sendo desatado'", "unsplashSearchTerm": "chains breaking"},
+        {"front": "γράφω", "back": "Eu escrevo, estou escrevendo", "unsplashSearchTerm": "writing"},
+        {"front": "λέγω", "back": "Eu digo, estou dizendo", "unsplashSearchTerm": "speaking"},
+        {"front": "βλέπω", "back": "Eu vejo, estou vendo", "unsplashSearchTerm": "eye"},
+        {"front": "ἀκούω", "back": "Eu ouço, estou ouvindo", "unsplashSearchTerm": "ear"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M03E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a análise correta de 'λύομεν'?",
+          "options": [
+            "Presente, Indicativo, Ativo, 1ª Pessoa, Plural",
+            "Imperfeito, Indicativo, Ativo, 1ª Pessoa, Plural",
+            "Presente, Indicativo, Passivo, 1ª Pessoa, Plural",
+            "Presente, Subjuntivo, Ativo, 1ª Pessoa, Plural"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'λύομεν' é a forma da 1ª pessoa do plural ('nós') do presente do indicativo ativo do verbo λύω."
+        },
+        {
+          "exerciseId": "M03E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "O que o 'aumento' (ἐ-) indica em uma forma verbal como 'ἔλυον'?",
+          "options": ["Tempo futuro", "Voz passiva", "Um tempo passado no modo indicativo", "Modo subjuntivo"],
+          "correctAnswerIndex": 2,
+          "explanation": "O aumento silábico 'ἐ-' é a marca característica dos tempos passados do modo indicativo, como o Imperfeito e o Aoristo."
+        },
+        {
+          "exerciseId": "M03E03",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'λύει':",
+          "options": ["Eu desato", "Vós desatais", "Ele/Ela desata", "Eles desatam"],
+          "correctAnswerIndex": 2,
+          "explanation": "'λύει' é a forma da 3ª pessoa do singular do presente do indicativo ativo."
+        },
+        {
+          "exerciseId": "M03E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a análise correta de 'ἐλύετο'?",
+          "options": [
+            "Presente, Indicativo, Médio-Passivo, 3ª Pessoa, Singular",
+            "Imperfeito, Indicativo, Ativo, 3ª Pessoa, Singular",
+            "Imperfeito, Indicativo, Médio-Passivo, 3ª Pessoa, Singular",
+            "Imperfeito, Indicativo, Médio-Passivo, 2ª Pessoa, Singular"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "'ἐλύετο' tem o aumento (ἐ-), indicando passado, e a desinência -ετο, que é da 3ª pessoa do singular do imperfeito médio-passivo."
+        },
+        {
+          "exerciseId": "M03E05",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A voz que indica que o sujeito recebe a ação do verbo é a...",
+          "options": ["Ativa", "Média", "Passiva", "Indicativa"],
+          "correctAnswerIndex": 2,
+          "explanation": "Na voz passiva, o sujeito é o paciente da ação verbal."
+        },
+        {
+          "exerciseId": "M03E06",
+          "difficulty": "easy",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma da 2ª pessoa do plural do Presente Indicativo Ativo de λύω é ______.",
+          "correctAnswer": "λύετε",
+          "explanation": "A desinência para a 2ª pessoa do plural ativa é -τε, resultando em λύετε (vós desatais)."
+        },
+        {
+          "exerciseId": "M03E07",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'ἐλυόμεθα'.",
+          "options": [
+            "Nós desatamos",
+            "Nós estávamos desatando",
+            "Nós nos estávamos desatando / Nós estávamos sendo desatados",
+            "Nós nos desatamos / Nós somos desatados"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "'ἐλυόμεθα' é a forma da 1ª pessoa do plural do Imperfeito Indicativo Médio-Passivo."
+        },
+        {
+          "exerciseId": "M03E08",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma da 2ª pessoa do singular do Presente Indicativo Médio-Passivo de λύω?",
+          "options": ["λύεσαι", "λύει", "λύου", "λύῃ"],
+          "correctAnswerIndex": 3,
+          "explanation": "A forma original é λύεσαι, mas o sigma (σ) cai entre as vogais e elas se contraem para formar λύῃ."
+        },
+        {
+          "exerciseId": "M03E09",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A forma 'ἔλυον' pode ser analisada de duas maneiras. Quais são elas?",
+          "options": [
+            "1ª Sing. Ativa e 3ª Pl. Ativa",
+            "1ª Sing. Ativa e 3ª Sing. Ativa",
+            "3ª Pl. Ativa e 3ª Pl. Passiva",
+            "1ª Sing. Ativa e 1ª Sing. Passiva"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "No Imperfeito Indicativo Ativo, a forma 'ἔλυον' é usada tanto para a 1ª pessoa do singular ('eu estava desatando') quanto para a 3ª do plural ('eles estavam desatando')."
+        },
+        {
+          "exerciseId": "M03E10",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise o verbo 'βλέπομεν':",
+          "options": [
+            "Presente, Indicativo, Ativo, 1ª Pessoa, Plural de 'ver'",
+            "Imperfeito, Indicativo, Ativo, 1ª Pessoa, Plural de 'ver'",
+            "Presente, Indicativo, Passivo, 1ª Pessoa, Plural de 'ver'",
+            "Presente, Indicativo, Ativo, 3ª Pessoa, Plural de 'ver'"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "A forma segue o paradigma de λύω: radical (βλεπ-) + vogal temática (ο) + desinência (μεν). Significa 'nós vemos' ou 'nós estamos vendo'."
+        },
+        {
+          "exerciseId": "M03E11",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Como se diz 'eles estavam sendo desatados' em grego?",
+          "options": ["ἔλυον", "λύονται", "ἐλύοντο", "ἐλύετο"],
+          "correctAnswerIndex": 2,
+          "explanation": "Esta é a tradução passiva da 3ª pessoa do plural do Imperfeito Indicativo Médio-Passivo, que é 'ἐλύοντο'."
+        },
+        {
+          "exerciseId": "M03E12",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma da 1ª pessoa do singular do Imperfeito Indicativo Ativo de λύω?",
+          "options": ["λύω", "ἔλυον", "ἐλυόμην", "ἔλυσα"],
+          "correctAnswerIndex": 1,
+          "explanation": "A 1ª pessoa do singular do Imperfeito Ativo é 'ἔλυον' (eu estava desatando)."
+        },
+        {
+          "exerciseId": "M03E13",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma 'λύονται' é a 3ª pessoa do plural do tempo _______ do indicativo médio-passivo.",
+          "correctAnswer": "Presente",
+          "explanation": "A ausência do aumento (ἐ-) indica que não é um tempo passado. 'λύονται' significa 'eles se desatam' ou 'eles são desatados'."
+        },
+        {
+          "exerciseId": "M03E14",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise 'ἔλεγεν' (de λέγω, eu digo):",
+          "options": [
+            "Presente, Indicativo, Ativo, 3ª Singular",
+            "Imperfeito, Indicativo, Ativo, 2ª Singular",
+            "Imperfeito, Indicativo, Ativo, 3ª Singular",
+            "Presente, Indicativo, Ativo, 2ª Singular"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "O aumento 'ε' marca o passado, e a terminação '-εν' é da 3ª pessoa do singular do imperfeito ativo. Significa 'ele/ela estava dizendo'."
+        },
+        {
+          "exerciseId": "M03E15",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma da 2ª pessoa do singular do Imperfeito Médio-Passivo de λύω?",
+          "options": ["ἐλύου", "ἐλύεσο", "ἐλύσω", "λύῃ"],
+          "correctAnswerIndex": 0,
+          "explanation": "A forma original é ἐλύεσο, mas, assim como no presente, o sigma cai e as vogais se contraem, resultando em ἐλύου (tu te estavas desatando / estavas sendo desatado)."
+        },
+        {
+          "exerciseId": "M03E16",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'γράφουσιν':",
+          "options": ["Eles escrevem", "Vós escreveis", "Nós escrevemos", "Ele escreve"],
+          "correctAnswerIndex": 0,
+          "explanation": "'γράφουσιν' é a 3ª pessoa do plural do Presente Indicativo Ativo de γράφω (eu escrevo)."
+        },
+        {
+          "exerciseId": "M03E17",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a diferença fundamental entre 'λύω' e 'ἔλυον'?",
+          "options": [
+            "Pessoa (1ª vs 2ª)",
+            "Voz (Ativa vs Passiva)",
+            "Tempo (Presente vs Imperfeito)",
+            "Número (Singular vs Plural)"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "'λύω' está no tempo Presente (ação contínua no presente), enquanto 'ἔλυον' está no tempo Imperfeito (ação contínua no passado), marcado pelo aumento."
+        },
+        {
+          "exerciseId": "M03E18",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise 'λύεται':",
+          "options": [
+            "Presente, Indicativo, Médio-Passivo, 3ª Singular",
+            "Presente, Indicativo, Ativo, 2ª Plural",
+            "Imperfeito, Indicativo, Médio-Passivo, 3ª Singular",
+            "Presente, Indicativo, Ativo, 3ª Singular"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'λύεται' é a forma da 3ª pessoa do singular do Presente Indicativo Médio-Passivo."
+        },
+        {
+          "exerciseId": "M03E19",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma 'ἠκούετε' (de ἀκούω, eu ouço) está no tempo _______.",
+          "correctAnswer": "Imperfeito",
+          "explanation": "O verbo começa com uma vogal (α), então o aumento não é ἐ-, mas o alongamento da vogal inicial para η. Isso marca o tempo imperfeito. A tradução é 'vós estáveis ouvindo'."
+        },
+        {
+          "exerciseId": "M03E20",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Como se diz 'tu és ouvido' em grego?",
+          "options": ["ἀκούεις", "ἀκούῃ", "ἤκουες", "ἤκουον"],
+          "correctAnswerIndex": 1,
+          "explanation": "A tradução passiva ('tu és ouvido') corresponde à forma da 2ª pessoa do singular do Presente Indicativo Médio-Passivo, que é 'ἀκούῃ'."
+        },
+        {
+          "exerciseId": "M03E21",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'λύομαι'.",
+          "options": ["Ele é desatado", "Eu me desato / Eu sou desatado", "Tu te desatas", "Nós somos desatados"],
+          "correctAnswerIndex": 1,
+          "explanation": "É a primeira pessoa do singular do presente médio-passivo."
+        },
+        {
+          "exerciseId": "M03E22",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual destas formas está no tempo imperfeito?",
+          "options": ["λέγει", "λέγομεν", "ἔλεγον", "λέγονται"],
+          "correctAnswerIndex": 2,
+          "explanation": "A presença do aumento 'ἔ-' no início de 'ἔλεγον' indica que é um tempo passado, o imperfeito."
+        },
+        {
+          "exerciseId": "M03E23",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a tradução de 'λύεσθε'?",
+          "options": ["Vós desatais", "Vós estais sendo desatados", "Eles desatam", "Eles são desatados"],
+          "correctAnswerIndex": 1,
+          "explanation": "'λύεσθε' é a 2ª pessoa do plural do presente médio-passivo, podendo ser traduzida como 'vós vos desatais' ou 'vós sois desatados'."
+        },
+        {
+          "exerciseId": "M03E24",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "A frase 'o mestre ensinava' contém um verbo no tempo:",
+          "options": ["Presente", "Aoristo", "Perfeito", "Imperfeito"],
+          "correctAnswerIndex": 3,
+          "explanation": "A ação de 'ensinava' é descrita como contínua ou habitual no passado, que é a função primária do tempo imperfeito."
+        },
+        {
+          "exerciseId": "M03E25",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do imperfeito ativo, 2ª pessoa do plural, de γράφω (eu escrevo)?",
+          "options": ["γράφετε", "ἐγράφομεν", "ἐγράφετε", "ἐγράφοντο"],
+          "correctAnswerIndex": 2,
+          "explanation": "A forma é composta pelo aumento (ἐ), radical (γραφ), vogal temática (ε) e desinência (-τε)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M15",
+      "moduleTitle": "Introdução à Análise Sintática e Exegese",
+      "learningObjectives": [
+        "Definir sintaxe como o estudo da relação entre as palavras em uma oração.",
+        "Compreender como a ordem das palavras em grego é usada para dar ênfase.",
+        "Aprender um método sistemático para analisar (fazer o 'parsing') e traduzir uma frase grega.",
+        "Definir exegese como a disciplina de extrair o significado de um texto com base em evidências gramaticais.",
+        "Começar a fazer perguntas exegéticas básicas sobre o texto (ex: 'Por que o autor escolheu este tempo verbal?').",
+        "Aplicar todo o conhecimento adquirido para analisar e interpretar versículos completos do Novo Testamento."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 15: Introdução à Análise Sintática e Exegese</h1><p>Parabéns por chegar ao módulo final! Você aprendeu a morfologia, as 'peças do quebra-cabeça'. Agora, vamos aprender a juntá-las (<b>sintaxe</b>) para ver a imagem completa e entender o que ela significa (<b>exegese</b>). Este é o objetivo de todo o seu trabalho até agora.</p><h2>1. Sintaxe: A Lógica da Frase Grega</h2><p>Diferente do português, onde a ordem das palavras é relativamente fixa (Sujeito-Verbo-Objeto), o grego, por ser uma língua flexionada, tem uma ordem de palavras muito mais flexível. A função de uma palavra é determinada pelo seu <b>caso</b>, não por sua posição.</p><p>Então, por que a ordem das palavras importa? Para <b>ênfase</b>. A primeira e a última posição em uma oração são os locais de maior destaque. O que um autor coloca no início é frequentemente o que ele quer que você note primeiro.</p><p>Ex: <b>ὁ θεὸς</b> ἀγαπᾷ τὸν κόσμον. (Deus ama o mundo - foco normal em Deus como sujeito).</p><p>Ex: <b>τὸν κόσμον</b> ἀγαπᾷ ὁ θεὸς. (O mundo Deus ama - foco enfático no 'mundo').</p><h2>2. Um Método de Análise e Tradução</h2><p>Enfrentar um versículo em grego pode ser intimidador. Use um método passo a passo:</p><ol><li><b>Encontre o Verbo:</b> Localize o verbo principal (finito). Faça o parsing completo (pessoa, número, tempo, voz, modo). Ele é o coração da oração.</li><li><b>Encontre o Sujeito:</b> Procure um substantivo/pronome no caso <b>Nominativo</b> que concorde com o verbo em número.</li><li><b>Encontre os Complementos:</b> Procure por objetos diretos (<b>Acusativo</b>) ou indiretos (<b>Dativo</b>).</li><li><b>Analise os Modificadores:</b> Identifique todas as outras partes: adjetivos, sintagmas preposicionais, genitivos, particípios e infinitivos. Pergunte o que cada um está modificando.</li><li><b>Monte a Tradução:</b> Comece com o esqueleto (Sujeito-Verbo-Objeto) e adicione os modificadores de forma que faça sentido em português, respeitando a ênfase da ordem das palavras no grego.</li></ol><h2>3. Exegese: Da Gramática ao Significado</h2><p>Exegese é a arte de interpretar um texto. A boa exegese começa com uma boa gramática. Agora você pode fazer perguntas ao texto que antes eram impossíveis:</p><ul><li><b>Por que este Tempo Verbal?</b> O autor usou um aoristo (ação simples, 'ele disse') ou um imperfeito (ação contínua, 'ele estava dizendo')? A escolha revela como o autor queria apresentar a ação.</li><li><b>Por que esta Voz?</b> A voz ativa foca no agente. A voz passiva foca no receptor da ação, frequentemente para ressaltar que Deus é o agente último (ex: 'ele foi justificado [por Deus]').</li><li><b>Por que este Particípio?</b> A ação do particípio é simultânea (presente) ou anterior (aoristo)? Qual a relação lógica com o verbo principal (causa, tempo, modo)?</li></ul><h3>Estudo de Caso: João 1:1c</h3><p>Analisemos a famosa frase: <b>...καὶ θεὸς ἦν ὁ λόγος.</b></p><ul><li><b>ἦν:</b> 3ª sing. imperfeito de εἰμί. 'era' ou 'estava sendo'. O aspecto contínuo é crucial.</li><li><b>ὁ λόγος:</b> Nominativo com artigo. É o sujeito. 'A Palavra'.</li><li><b>θεὸς:</b> Nominativo sem artigo. É o predicado nominativo. 'Deus'.</li></ul><p><b>Perguntas Exegéticas:</b></p><ol><li><em>Por que 'θεὸς' vem antes do verbo?</em> Para ênfase na sua qualidade. A frase destaca a natureza divina da Palavra.</li><li><em>Por que 'ὁ λόγος' tem artigo e 'θεὸς' não?</em> Se ambos tivessem artigo, significaria que 'A Palavra' e 'Deus' são a mesma pessoa (identidade total), o que contradiria outras partes da Escritura. Sem o artigo, 'θεὸς' descreve a <b>natureza</b> ou <b>qualidade</b> da Palavra. A gramática aqui nos impede de cometer um erro teológico. A tradução correta reflete isso: '...e a Palavra <b>era Deus</b>' (tinha a mesma natureza de Deus).</li></ol><p>Sua jornada pela gramática o equipou para começar a desvendar essas ricas camadas de significado por conta própria. A gramática não é um fim em si mesma, mas uma janela para a mente do autor e para a mensagem do texto.</p></div>"
+      },
+      "flashcards": [
+        {"front": "Sintaxe", "back": "O estudo de como as palavras se combinam para formar frases; a estrutura da oração.", "unsplashSearchTerm": "structure"},
+        {"front": "Exegese", "back": "A interpretação crítica e a extração de significado de um texto.", "unsplashSearchTerm": "interpretation"},
+        {"front": "Parsing", "back": "O processo de analisar cada palavra em uma frase para identificar suas características gramaticais.", "unsplashSearchTerm": "analysis"},
+        {"front": "Ordem das Palavras", "back": "Em grego, é usada primariamente para dar ÊNFASE.", "unsplashSearchTerm": "emphasis"},
+        {"front": "Posição Enfática", "back": "O início e o fim de uma oração.", "unsplashSearchTerm": "spotlight"},
+        {"front": "Predicado Nominativo", "back": "Um substantivo no caso nominativo que se segue a um verbo de ligação (como 'ser') e descreve o sujeito.", "unsplashSearchTerm": "predicate"},
+        {"front": "Pergunta Exegética 1", "back": "Por que o autor escolheu este TEMPO/ASPECTO verbal?", "unsplashSearchTerm": "question time"},
+        {"front": "Pergunta Exegética 2", "back": "Qual a relação lógica deste PARTICÍPIO com o verbo principal?", "unsplashSearchTerm": "question connection"},
+        {"front": "Pergunta Exegética 3", "back": "O que a ORDEM DAS PALAVRAS está enfatizando?", "unsplashSearchTerm": "question order"},
+        {"front": "João 1:1c", "back": "καὶ θεὸς ἦν ὁ λόγος (E a Palavra era Deus).", "unsplashSearchTerm": "John 1:1"},
+        {"front": "Método de Análise", "back": "1.Verbo 2.Sujeito 3.Complementos 4.Modificadores 5.Tradução", "unsplashSearchTerm": "step by step"},
+        {"front": "Gramática > Significado", "back": "A gramática é a ferramenta fundamental para uma exegese fiel.", "unsplashSearchTerm": "tool for meaning"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M15E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Em grego, a função de uma palavra em uma frase é determinada principalmente pelo(a):",
+          "options": ["Sua posição", "Seu caso", "Seu tamanho", "Sua primeira letra"],
+          "correctAnswerIndex": 1,
+          "explanation": "Por ser uma língua flexionada, o caso de um substantivo (nominativo, genitivo, etc.) determina sua função, não sua posição na frase."
+        },
+        {
+          "exerciseId": "M15E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A ordem das palavras em grego é usada principalmente para:",
+          "options": ["Determinar o sujeito", "Indicar o tempo verbal", "Dar ênfase", "Formar perguntas"],
+          "correctAnswerIndex": 2,
+          "explanation": "A flexibilidade da ordem das palavras permite ao autor colocar termos importantes no início (ou fim) de uma cláusula para enfatizá-los."
+        },
+        {
+          "exerciseId": "M15E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual deve ser o primeiro passo ao analisar uma frase em grego?",
+          "options": [
+            "Procurar o sujeito no nominativo",
+            "Identificar e analisar o verbo finito principal",
+            "Traduzir as preposições",
+            "Contar o número de palavras"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Identificar o verbo principal fornece o núcleo da oração (a ação e quem a pratica em termos de pessoa e número), em torno do qual todo o resto é construído."
+        },
+        {
+          "exerciseId": "M15E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A disciplina de extrair o significado de um texto com base em sua gramática e contexto é chamada de:",
+          "options": ["Morfologia", "Sintaxe", "Exegese", "Fonologia"],
+          "correctAnswerIndex": 2,
+          "explanation": "Exegese é o processo de interpretação, e a exegese gramatical usa as ferramentas da gramática para chegar ao significado."
+        },
+        {
+          "exerciseId": "M15E05",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Em João 1:1, a escolha do tempo imperfeito em 'ἦν' ('era/estava sendo') para descrever a Palavra sugere:",
+          "options": [
+            "Que a Palavra começou a existir no princípio.",
+            "Que a Palavra teve uma existência contínua e não foi criada no princípio.",
+            "Que a Palavra existiu por um breve momento.",
+            "Que a Palavra existirá no futuro."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O aspecto contínuo do imperfeito indica que, quando o 'princípio' começou, a Palavra já 'estava sendo'. É uma forte declaração gramatical sobre a eternidade da Palavra."
+        },
+        {
+          "exerciseId": "M15E06",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Se um autor usa um particípio do aoristo em vez de um particípio do presente, o que isso implica sobre a ação do particípio?",
+          "options": [
+            "Que a ação é mais importante.",
+            "Que a ação ocorreu antes da ação do verbo principal.",
+            "Que a ação ocorreu ao mesmo tempo que a do verbo principal.",
+            "Que a ação é hipotética."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Esta é uma das distinções aspectuais mais importantes. O particípio do aoristo descreve uma ação antecedente à do verbo principal."
+        },
+        {
+          "exerciseId": "M15E07",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Em 'καὶ θεὸς ἦν ὁ λόγος', o fato de 'θεὸς' não ter artigo indica que:",
+          "options": [
+            "Ele é um deus menor.",
+            "A frase está gramaticalmente incorreta.",
+            "A Palavra tem a qualidade e a natureza de Deus, mas não é idêntica à pessoa do Pai.",
+            "O autor esqueceu o artigo."
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A gramática aqui é teologicamente precisa. A ausência do artigo em um predicado nominativo pre-verbal como este descreve a qualidade ou natureza, não a identidade. A Palavra é divina, mas não é a totalidade da Divindade."
+        }
+      ]
+    }
+  ]
+}

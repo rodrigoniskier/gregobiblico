@@ -1,0 +1,166 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M12",
+      "moduleTitle": "Particípios",
+      "learningObjectives": [
+        "Definir o particípio como um adjetivo verbal, que concorda com um substantivo em gênero, número e caso.",
+        "Aprender a formar os particípios nos tempos Presente e Aoristo para todas as vozes.",
+        "Compreender a importância do aspecto no particípio: Presente (ação simultânea) e Aoristo (ação anterior).",
+        "Distinguir e traduzir os dois principais usos do particípio: Adjetival e Adverbial (Circunstancial).",
+        "Reconhecer quando um particípio com artigo funciona como um substantivo (uso substantival).",
+        "Identificar a construção do Genitivo Absoluto."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 12: Particípios</h1><p>Bem-vindo ao módulo mais importante para a leitura fluente do grego do Novo Testamento. O particípio é um <b>adjetivo verbal</b>. Ele é parte verbo (tem tempo e voz) e parte adjetivo (tem gênero, número e caso). Dominá-lo desbloqueia a estrutura da maioria das frases em grego.</p><h2>1. Formação dos Particípios</h2><p>Particípios são declinados como adjetivos. Suas terminações variam de acordo com o tempo e a voz. <b>Lembre-se: particípios nunca têm aumento.</b></p><h3>A. Particípios Presentes</h3><p><b>- Ativo:</b> Radical + <b>-ων, -ουσα, -ον</b> (declinado como um adjetivo da 3ª/1ª declinação). Ex: <b>λύων</b> (desatando).</p><p><b>- Médio/Passivo:</b> Radical + <b>-όμενος, -ομένη, -όμενον</b> (declinado como um adjetivo 2-1-2). Ex: <b>λυόμενος</b> (sendo desatado).</p><h3>B. Particípios do Aoristo</h3><p><b>- Ativo:</b> Radical do Aoristo + <b>-ας, -ασα, -αν</b>. Ex: <b>λύσας</b> (tendo desatado).</p><p><b>- Médio:</b> Radical do Aoristo + <b>-άμενος, -αμένη, -άμενον</b>. Ex: <b>λυσάμενος</b> (tendo desatado para si).</p><p><b>- Passivo:</b> Radical do Aoristo Passivo + <b>-είς, -εῖσα, -έν</b>. Ex: <b>λυθείς</b> (tendo sido desatado).</p><h2>2. O Aspecto e o Tempo do Particípio</h2><p>O tempo de um particípio não indica tempo absoluto, mas sim a sua relação temporal com o verbo principal da oração.</p><ul><li><b>Particípio Presente (Ação Simultânea):</b> A ação do particípio ocorre <b>ao mesmo tempo</b> que a ação do verbo principal. Traduz-se frequentemente com o gerúndio ('-ando', '-endo', '-indo') ou com 'enquanto...'.<li>Ex: ἦλθεν <b>λέγων</b>... - Ele veio, <b>dizendo</b>...</li></li><li><b>Particípio do Aoristo (Ação Anterior):</b> A ação do particípio ocorre <b>antes</b> da ação do verbo principal. Traduz-se frequentemente com 'tendo...' ou 'depois de...'.<li>Ex: <b>πιστεύσας</b> ἐβαπτίσθη. - <b>Tendo crido</b>, ele foi batizado. (Ou: Depois de crer, ele foi batizado).</li></li></ul><h2>3. Usos do Particípio</h2><h3>a) Uso Adjetival (Atributivo)</h3><p>O particípio funciona como um adjetivo, geralmente precedido por um artigo, modificando um substantivo.</p><p>Ex: ὁ θεὸς <b>ὁ ἀγαπῶν</b> τὸν κόσμον... - O Deus <b>que ama</b> o mundo...</p><h3>b) Uso Substantival</h3><p>Um particípio com um artigo, sem um substantivo para modificar, funciona ele mesmo como um substantivo.</p><p>Ex: <b>ὁ πιστεύων</b> ἔχει ζωὴν αἰώνιον. - <b>Aquele que crê</b> tem a vida eterna.</p><h3>c) Uso Adverbial (Circunstancial)</h3><p>Este é o uso mais comum. O particípio (sem artigo) modifica o verbo principal, descrevendo as circunstâncias da ação. A tradução exata depende do contexto.</p><p>Ex: <b>ἰδόντες</b> δὲ τὸν ἀστέρα, ἐχάρησαν. - <b>Vendo</b> a estrela, eles se alegraram. (Temporal)<br>Poderia também ser causal: <b>Porque viram</b> a estrela, eles se alegraram.</p><h2>4. O Genitivo Absoluto</h2><p>É uma construção adverbial especial. Quando o sujeito do particípio é <b>diferente</b> do sujeito do verbo principal, tanto o particípio quanto seu sujeito são colocados no caso <b>Genitivo</b>.</p><p>Ex: <b>ταῦτα αὐτοῦ λαλοῦντος</b>, πολλοὶ ἐπίστευσαν εἰς αὐτόν. (João 8:30)<br>Lit.: <b>Destas coisas ele falando</b>, muitos creram nele.<br>Tradução: <b>Enquanto ele falava estas coisas</b>, muitos creram nele.</p></div>"
+      },
+      "flashcards": [
+        {"front": "Particípio", "back": "Um adjetivo verbal: tem tempo e voz (verbo) e gênero, número e caso (adjetivo).", "unsplashSearchTerm": "hybrid"},
+        {"front": "Particípio Presente", "back": "Indica AÇÃO SIMULTÂNEA com o verbo principal. Tradução: '-ndo', 'enquanto...'", "unsplashSearchTerm": "at the same time"},
+        {"front": "Particípio do Aoristo", "back": "Indica AÇÃO ANTERIOR ao verbo principal. Tradução: 'tendo...', 'depois de...'", "unsplashSearchTerm": "before"},
+        {"front": "Uso Adverbial", "back": "O particípio descreve as circunstâncias da ação do verbo principal (tempo, causa, modo, etc.).", "unsplashSearchTerm": "circumstance"},
+        {"front": "Uso Substantival", "back": "O particípio com artigo funciona como um substantivo. Ex: ὁ λέγων (aquele que fala).", "unsplashSearchTerm": "noun"},
+        {"front": "λέγων, -ουσα, -ον", "back": "Particípio Presente Ativo de λέγω (dizendo).", "unsplashSearchTerm": "speaking"},
+        {"front": "πιστεύσας, -ασα, -αν", "back": "Particípio Aoristo Ativo de πιστεύω (tendo crido).", "unsplashSearchTerm": "believed"},
+        {"front": "λυθείς, -εῖσα, -έν", "back": "Particípio Aoristo Passivo de λύω (tendo sido desatado).", "unsplashSearchTerm": "freed"},
+        {"front": "Genitivo Absoluto", "back": "Construção adverbial onde o sujeito do particípio (diferente do sujeito principal) vai para o genitivo.", "unsplashSearchTerm": "absolute"},
+        {"front": "ἀποκριθείς", "back": "Part. Aoristo Passivo de ἀποκρίνομαι (tendo respondido).", "unsplashSearchTerm": "answering"},
+        {"front": "εἰσελθών", "back": "Part. Aoristo Ativo de εἰσέρχομαι (tendo entrado).", "unsplashSearchTerm": "entering"},
+        {"front": "Particípios...", "back": "...nunca têm aumento.", "unsplashSearchTerm": "no augment participle"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M12E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a principal função de um particípio?",
+          "options": [
+            "Dar um comando direto",
+            "Funcionar como um substantivo verbal",
+            "Funcionar como um adjetivo verbal",
+            "Expressar um desejo"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "O particípio é um adjetivo verbal, ou seja, uma forma de verbo que modifica um substantivo ou funciona como um adjetivo."
+        },
+        {
+          "exerciseId": "M12E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A ação de um particípio do aoristo ocorre...",
+          "options": [
+            "Ao mesmo tempo que o verbo principal",
+            "Depois do verbo principal",
+            "Antes do verbo principal",
+            "Apenas no futuro"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A regra fundamental é que o particípio do aoristo denota uma ação anterior à do verbo principal."
+        },
+        {
+          "exerciseId": "M12E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Na frase 'ὁ λέγων τὴν ἀλήθειαν', como o particípio 'λέγων' está sendo usado?",
+          "options": [
+            "Adverbial de tempo",
+            "Adjetival (Atributivo)",
+            "Adverbial de causa",
+            "Genitivo Absoluto"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O particípio 'λέγων' está com o artigo 'ὁ' e modifica 'a verdade' (objeto direto), mas implicitamente modifica uma pessoa. A frase significa 'aquele que fala a verdade'. É um uso substantival, que é uma subcategoria do uso adjetival."
+        },
+        {
+          "exerciseId": "M12E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz melhor o particípio em 'ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν αὐτοῖς...'?",
+          "options": [
+            "Enquanto respondia, Jesus disse...",
+            "Tendo respondido, Jesus disse...",
+            "Jesus que responde disse...",
+            "Jesus responderá e dirá..."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'ἀποκριθείς' é um particípio do aoristo. Sua ação (responder) ocorre antes da ação do verbo principal (disse). Portanto, 'Tendo respondido...' é a melhor tradução."
+        },
+        {
+          "exerciseId": "M12E05",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'λύων'.",
+          "options": [
+            "Particípio Presente Ativo, Nominativo Masculino Singular",
+            "Particípio Aoristo Ativo, Nominativo Masculino Singular",
+            "Infinitivo Presente Ativo",
+            "Presente Indicativo, 1ª Singular"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'λύων' é a forma nominativa masculina singular do particípio presente ativo, significando 'desatando' ou 'aquele que desata'."
+        },
+        {
+          "exerciseId": "M12E06",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "A construção do Genitivo Absoluto é usada quando...",
+          "options": [
+            "O particípio está no genitivo por causa de uma preposição.",
+            "O particípio indica posse.",
+            "O sujeito do particípio é o mesmo do verbo principal.",
+            "O sujeito do particípio é diferente do sujeito do verbo principal."
+          ],
+          "correctAnswerIndex": 3,
+          "explanation": "O Genitivo Absoluto 'isola' uma frase participial adverbial cujo sujeito não é o mesmo da oração principal, colocando ambos no genitivo."
+        },
+        {
+          "exerciseId": "M12E07",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma do particípio aoristo passivo, nominativo masculino singular, de βαπτίζω é _________.",
+          "correctAnswer": "βαπτισθείς",
+          "explanation": "O radical do aoristo passivo (βαπτισθ-) é combinado com a terminação do particípio aoristo passivo (-είς)."
+        },
+        {
+          "exerciseId": "M12E08",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A ação de um particípio presente ocorre...",
+          "options": [
+            "Antes do verbo principal",
+            "Depois do verbo principal",
+            "Ao mesmo tempo que o verbo principal",
+            "Apenas no passado"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "O particípio presente denota uma ação contemporânea ou simultânea à do verbo principal."
+        },
+        {
+          "exerciseId": "M12E09",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Traduza a frase 'ἐγὼ εἰμι ὁ ἄρτος ὁ ζῶν'. (ἄρτος=pão, ζάω=viver)",
+          "options": [
+            "Eu sou o pão e a vida.",
+            "Eu sou o pão que vive (o pão vivo).",
+            "Eu sou o pão, enquanto vivo.",
+            "Eu, o pão, viverei."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Aqui, 'ὁ ζῶν' (o que vive) é um particípio presente em uso adjetival, com artigo, modificando 'ὁ ἄρτος' (o pão). A tradução é 'o pão vivo'."
+        },
+        {
+          "exerciseId": "M12E10",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma nominativa feminina singular do particípio 'λύσας'?",
+          "options": ["λύσασα", "λύσασαν", "λυσάσης", "λύουσα"],
+          "correctAnswerIndex": 0,
+          "explanation": "O particípio do aoristo ativo segue o padrão de declinação -ας, -ασα, -αν. A forma feminina nominativa singular é λύσασα."
+        }
+      ]
+    }
+  ]
+}

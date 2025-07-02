@@ -1,0 +1,156 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M14",
+      "moduleTitle": "Verbos em -μι",
+      "learningObjectives": [
+        "Definir 'verbos em -μι' como uma classe de verbos atemáticos (sem vogal temática).",
+        "Contrastar a conjugação dos verbos em -μι com a dos verbos temáticos em -ω.",
+        "Reconhecer as características principais dos verbos em -μι: terminação em -μι, reduplicação no presente e alternância de vogal no radical.",
+        "Memorizar a conjugação completa do verbo 'εἰμί' (ser/estar) no presente e no imperfeito do indicativo.",
+        "Aprender o padrão de conjugação de 'δίδωμι' (dar) como um exemplo representativo dos verbos em -μι.",
+        "Entender que, fora do sistema presente, a maioria dos verbos em -μι se comporta como verbos em -ω."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 14: Verbos em -μι</h1><p>Chegamos à última grande categoria de morfologia verbal. Os verbos em -μι são um grupo relativamente pequeno de verbos irregulares, mas que inclui alguns dos verbos mais frequentes do Novo Testamento, como o verbo 'ser'. Eles recebem este nome porque a 1ª pessoa do singular do presente do indicativo ativo termina em <b>-μι</b> em vez de -ω.</p><h2>1. Características dos Verbos em -μι</h2><p>A principal diferença em relação aos verbos em -ω (que são temáticos) é que os verbos em -μι são <b>atemáticos</b>. Isso significa que eles ligam as desinências pessoais diretamente ao radical, sem uma vogal temática (ο/ε) de conexão. Isso resulta em algumas características únicas:</p><ol><li><b>Reduplicação no Presente:</b> Muitos usam uma forma de reduplicação no radical do presente para indicar o aspecto contínuo (ex: <b>δί</b>-δωμι, <b>τί</b>-θημι).</li><li><b>Vogal Alternante:</b> No singular do presente e imperfeito ativo, o radical frequentemente tem uma vogal longa (ω, η, α), enquanto no plural a vogal é curta (ο, ε, α).</li><li><b>Desinências Diferentes:</b> Usam um conjunto de desinências ativas ligeiramente diferente no presente.</li></ol><h2>2. O Verbo Mais Importante: εἰμί (Ser/Estar)</h2><p>O verbo 'εἰμί' é o verbo mais comum no Novo Testamento. É um verbo em -μι e é altamente irregular. Sua memorização é indispensável.</p><h3>Presente do Indicativo de εἰμί</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Forma Grega</th><th>Tradução</th></tr></thead><tbody><tr><td>1ª Sing.</td><td><b>εἰμί</b></td><td>eu sou/estou</td></tr><tr><td>2ª Sing.</td><td><b>εἶ</b></td><td>tu és/estás</td></tr><tr><td>3ª Sing.</td><td><b>ἐστίν</b></td><td>ele/ela é/está</td></tr><tr><td>1ª Pl.</td><td><b>ἐσμέν</b></td><td>nós somos/estamos</td></tr><tr><td>2ª Pl.</td><td><b>ἐστέ</b></td><td>vós sois/estais</td></tr><tr><td>3ª Pl.</td><td><b>εἰσίν</b></td><td>eles/elas são/estão</td></tr></tbody></table><h3>Imperfeito do Indicativo de εἰμί</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Forma Grega</th><th>Tradução</th></tr></thead><tbody><tr><td>1ª Sing.</td><td><b>ἤμην</b></td><td>eu era/estava</td></tr><tr><td>2ª Sing.</td><td><b>ἦς</b></td><td>tu eras/estavas</td></tr><tr><td>3ª Sing.</td><td><b>ἦν</b></td><td>ele/ela era/estava</td></tr><tr><td>1ª Pl.</td><td><b>ἦμεν</b></td><td>nós éramos/estávamos</td></tr><tr><td>2ª Pl.</td><td><b>ἦτε</b></td><td>vós éreis/estáveis</td></tr><tr><td>3ª Pl.</td><td><b>ἦσαν</b></td><td>eles/elas eram/estavam</td></tr></tbody></table><h2>3. Verbo Representativo: δίδωμι (Dar)</h2><p>δίδωμι ilustra perfeitamente a alternância da vogal do radical (longa no singular, curta no plural).</p><h3>Presente Ativo Indicativo de δίδωμι</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Forma Grega</th><th>Tradução</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>δίδ<b>ω</b>μι</td><td>eu dou</td></tr><tr><td>2ª Sing.</td><td>δίδ<b>ω</b>ς</td><td>tu dás</td></tr><tr><td>3ª Sing.</td><td>δίδ<b>ω</b>σιν</td><td>ele/ela dá</td></tr><tr><td>1ª Pl.</td><td>δίδ<b>ο</b>μεν</td><td>nós damos</td></tr><tr><td>2ª Pl.</td><td>δίδ<b>ο</b>τε</td><td>vós dais</td></tr><tr><td>3ª Pl.</td><td>διδ<b>ό</b>ᾱσιν</td><td>eles/elas dão</td></tr></tbody></table><p><b>Importante:</b> Fora do sistema de tempo presente (ou seja, no futuro, aoristo e perfeito), a maioria destes verbos se regulariza e se conjuga como os verbos em -ω que você já aprendeu. Por exemplo, o futuro de δίδωμι é <b>δώσω</b>, e seu aoristo é <b>ἔδωκα</b>.</p></div>"
+      },
+      "flashcards": [
+        {"front": "Verbos em -μι", "back": "Classe de verbos atemáticos (sem vogal temática), frequentemente irregulares.", "unsplashSearchTerm": "irregular"},
+        {"front": "Atemático", "back": "A desinência se conecta diretamente ao radical, sem a vogal de ligação ο/ε.", "unsplashSearchTerm": "direct connection"},
+        {"front": "εἰμί", "back": "Eu sou/estou (Verbo mais comum do NT)", "unsplashSearchTerm": "to be"},
+        {"front": "ἐστίν", "back": "Ele/ela/isto é/está (3ª Sing. de εἰμί)", "unsplashSearchTerm": "is"},
+        {"front": "ἦν", "back": "Ele/ela/isto era/estava (3ª Sing. Imperfeito de εἰμί)", "unsplashSearchTerm": "was"},
+        {"front": "ἦσαν", "back": "Eles/elas eram/estavam (3ª Plural Imperfeito de εἰμί)", "unsplashSearchTerm": "they were"},
+        {"front": "δίδωμι", "back": "Eu dou", "unsplashSearchTerm": "giving"},
+        {"front": "τίθημι", "back": "Eu coloco, ponho", "unsplashSearchTerm": "placing"},
+        {"front": "ἵστημι", "back": "Eu coloco de pé (ativo); Eu estou de pé (médio)", "unsplashSearchTerm": "standing"},
+        {"front": "Vogal Alternante", "back": "Característica dos verbos em -μι onde a vogal do radical é longa no singular e curta no plural.", "unsplashSearchTerm": "alternating"},
+        {"front": "δίδωμι / δίδομεν", "back": "Eu dou / Nós damos (Exemplo de vogal alternante ω/ο).", "unsplashSearchTerm": "vowel shift"},
+        {"front": "δώσω / ἔδωκα", "back": "Futuro ('darei') e Aoristo ('dei') de δίδωμι. Comportam-se como verbos em -ω.", "unsplashSearchTerm": "future past"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M14E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a principal característica que define os 'verbos em -μι'?",
+          "options": [
+            "Eles sempre têm a vogal -ω-",
+            "Eles são atemáticos (não têm vogal temática)",
+            "Eles só existem no tempo presente",
+            "Eles nunca são irregulares"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Ser atemático é a característica gramatical fundamental dos verbos em -μι, significando que as desinências se ligam diretamente ao radical."
+        },
+        {
+          "exerciseId": "M14E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a tradução de 'ἐσμέν'?",
+          "options": ["Vós sois", "Eles são", "Nós somos", "Eu sou"],
+          "correctAnswerIndex": 2,
+          "explanation": "'ἐσμέν' é a 1ª pessoa do plural do presente do indicativo do verbo εἰμί."
+        },
+        {
+          "exerciseId": "M14E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual fenômeno gramatical é ilustrado pela diferença entre 'δίδωμι' (1ª sing.) e 'δίδομεν' (1ª pl.)?",
+          "options": [
+            "Aumento",
+            "Reduplicação",
+            "Vogal Alternante",
+            "Particípio"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A alternância entre a vogal longa (ω) no singular e a vogal curta (ο) no plural é uma característica chave dos verbos em -μι."
+        },
+        {
+          "exerciseId": "M14E04",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'ἦν'.",
+          "options": [
+            "Presente, Indicativo, 3ª Singular de εἰμί",
+            "Imperfeito, Indicativo, 3ª Singular de εἰμί",
+            "Aoristo, Indicativo, 3ª Singular de εἰμί",
+            "Presente, Subjuntivo, 3ª Singular de εἰμί"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'ἦν' é a 3ª pessoa do singular do tempo Imperfeito de εἰμί, significando 'ele/ela/isto era' ou 'estava'."
+        },
+        {
+          "exerciseId": "M14E05",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Fora do sistema presente (presente e imperfeito), como a maioria dos verbos em -μι se comporta?",
+          "options": [
+            "Eles desaparecem",
+            "Eles se tornam ainda mais irregulares",
+            "Eles geralmente se conjugam como os verbos regulares em -ω",
+            "Eles usam apenas a voz passiva"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Felizmente, a irregularidade dos verbos em -μι está concentrada no sistema presente. No futuro, aoristo e perfeito, eles adotam as terminações temáticas e se comportam de forma muito mais previsível."
+        },
+        {
+          "exerciseId": "M14E06",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma da 2ª pessoa do plural do imperfeito de εἰμί ('vós éreis/estáveis') é _________.",
+          "correctAnswer": "ἦτε",
+          "explanation": "A conjugação do imperfeito de εἰμί é ἤμην, ἦς, ἦν, ἦμεν, ἦτε, ἦσαν."
+        },
+        {
+          "exerciseId": "M14E07",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "O verbo 'ἵστημι' tem um significado duplo. Na voz ativa, significa 'eu coloco', mas na voz média significa...",
+          "options": ["Eu sou colocado", "Eu coloco para mim mesmo", "Eu estou de pé/permaneço", "Eu estava colocando"],
+          "correctAnswerIndex": 2,
+          "explanation": "'ἵστημι' é transitivo na voz ativa ('eu coloco algo de pé') mas intransitivo na voz média e no perfeito ('eu estou de pé')."
+        },
+        {
+          "exerciseId": "M14E08",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma da 3ª pessoa do plural do presente de εἰμί ('eles são')?",
+          "options": ["ἐστέ", "εἰσίν", "ἦσαν", "ἐστίν"],
+          "correctAnswerIndex": 1,
+          "explanation": "'εἰσίν' é a 3ª pessoa do plural do presente de εἰμί."
+        },
+        {
+          "exerciseId": "M14E09",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a tradução de 'δίδοτε'?",
+          "options": [
+            "Pode ser 'vós dais' (Indicativo) ou 'dai!' (Imperativo)",
+            "Apenas 'vós destes' (Aoristo)",
+            "Apenas 'vós dareis' (Futuro)",
+            "Apenas 'nós damos' (Indicativo)"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Assim como nos verbos em -ω, a forma da 2ª pessoa do plural do presente do indicativo ('δίδοτε') é idêntica à do presente do imperativo ('δίδοτε')."
+        },
+        {
+          "exerciseId": "M14E10",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "A reduplicação em 'δίδωμι' serve para...",
+          "options": [
+            "Marcar o tempo aoristo",
+            "Marcar o aspecto contínuo do sistema presente",
+            "Marcar a voz passiva",
+            "Marcar o modo subjuntivo"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Nos verbos em -μι, a reduplicação no radical do presente (como o 'δι-' em δίδωμι) é a maneira de indicar o aspecto contínuo, assim como a vogal temática faz nos verbos em -ω."
+        }
+      ]
+    }
+  ]
+}

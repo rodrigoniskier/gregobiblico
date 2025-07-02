@@ -1,0 +1,157 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M08",
+      "moduleTitle": "Verbos - Perfeito e Mais-que-perfeito do Indicativo",
+      "learningObjectives": [
+        "Compreender o aspecto do tempo perfeito: uma ação completada no passado com resultados que continuam no presente.",
+        "Identificar e formar a reduplicação, a marca característica do sistema de tempo perfeito.",
+        "Aprender a formar e conjugar o Perfeito do Indicativo nas vozes ativa, média e passiva.",
+        "Compreender o aspecto do tempo mais-que-perfeito: o 'passado do passado'.",
+        "Aprender a formar e conjugar o Mais-que-perfeito do Indicativo nas vozes ativa, média e passiva.",
+        "Reconhecer formas comuns e importantes do perfeito, como 'γέγραπται' e 'οἶδα'.",
+        "Analisar e traduzir corretamente frases com verbos no perfeito e mais-que-perfeito."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 8: Verbos - Perfeito e Mais-que-perfeito do Indicativo</h1><p>Neste módulo, abordaremos o sistema de tempo perfeito, que adiciona uma camada de nuance à sua compreensão do grego. Diferente do aoristo (ação simples no passado), o perfeito conecta o passado ao presente.</p><h2>1. O Aspecto do Tempo Perfeito</h2><p>O tempo perfeito descreve uma ação que foi <b>completada no passado, mas cujos resultados ou estado resultante continuam no presente</b>. É a combinação de um evento e um estado.</p><ul><li><b>Aoristo (ἔλυσα):</b> 'Eu desatei'. (O evento aconteceu no passado. Ponto final.)</li><li><b>Perfeito (λέλυκα):</b> 'Eu tenho desatado'. (O evento de desatar aconteceu, e o estado de 'estar desatado' continua até o presente.)</li></ul><p>A melhor forma de pensar no perfeito é como 'tem...' ou 'está...'. Por exemplo, a forma <b>γέγραπται</b> (perfeito passivo de γράφω) significa não apenas 'foi escrito', mas 'está escrito', implicando que o que foi escrito permanece válido e com autoridade agora.</p><h2>2. A Marca do Perfeito: Reduplicação</h2><p>A marca visual do sistema perfeito é a <b>reduplicação</b>, um prefixo formado pela repetição da primeira consoante do radical com uma vogal 'ε'.</p><ul><li><b>λ</b>ύω → <b>λε</b>-λύω</li><li><b>π</b>ιστεύω → <b>πε</b>-πιστεύω</li><li><b>γ</b>ράφω → <b>γέ</b>-γραφω</li><li>Se o verbo começa com vogal, a reduplicação é o alongamento da vogal (como o aumento): <b>ἀ</b>κούω → <b>ἀκ</b>ήκοα.</li></ul><h2>3. O Perfeito do Indicativo</h2><p>Descreve um estado presente resultante de uma ação passada.</p><p><b>Perfeito Ativo de λύω:</b> Reduplicação (λε) + Radical (λυ) + Morfema de Tempo (<b>κα</b>) + Desinências do Aoristo Ativo</p><p><b>Perfeito Médio/Passivo de λύω:</b> Reduplicação (λε) + Radical (λυ) + Desinências Primárias Secundárias</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Perfeito Ativo ('tenho desatado')</th><th>Perfeito Médio/Passivo ('tenho me desatado / estou desatado')</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>λέλυ<b>κα</b></td><td>λέλυμαι</td></tr><tr><td>2ª Sing.</td><td>λέλυ<b>κα</b>ς</td><td>λέλυσαι</td></tr><tr><td>3ª Sing.</td><td>λέλυ<b>κε</b>(ν)</td><td>λέλυται</td></tr><tr><td>1ª Pl.</td><td>λελύ<b>κα</b>μεν</td><td>λελύμεθα</td></tr><tr><td>2ª Pl.</td><td>λελύ<b>κα</b>τε</td><td>λέλυσθε</td></tr><tr><td>3ª Pl.</td><td>λελύ<b>κα</b>σι(ν)</td><td>λέλυνται</td></tr></tbody></table><h2>4. O Mais-que-perfeito do Indicativo</h2><p>O Mais-que-perfeito é o 'passado do perfeito'. Descreve um estado que já estava completo em um ponto no passado. Se o perfeito é 'eu tenho desatado', o mais-que-perfeito é 'eu <b>tinha</b> desatado'.</p><p>Sua formação é simples: é o tempo perfeito com um <b>aumento (ἐ-)</b> adicionado ao início, antes da reduplicação.</p><p><b>Mais-que-perfeito Ativo de λύω:</b> Aumento (<b>ἐ</b>) + Reduplicação (λε) + Radical (λυ) + Morfema (<b>κει</b>) + Desinências Secundárias</p><p><b>Mais-que-perfeito Médio/Passivo de λύω:</b> Aumento (<b>ἐ</b>) + Reduplicação (λε) + Radical (λυ) + Desinências Secundárias</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>MQP Ativo ('tinha desatado')</th><th>MQP Médio/Passivo ('tinha me desatado / estava desatado')</th></tr></thead><tbody><tr><td>1ª Sing.</td><td><b>ἐ</b>λελύ<b>κει</b>ν</td><td><b>ἐ</b>λελύμην</td></tr><tr><td>2ª Sing.</td><td><b>ἐ</b>λελύ<b>κει</b>ς</td><td><b>ἐ</b>λέλυσο</td></tr><tr><td>3ª Sing.</td><td><b>ἐ</b>λελύ<b>κει</b></td><td><b>ἐ</b>λέλυτο</td></tr><tr><td>1ª Pl.</td><td><b>ἐ</b>λελύ<b>κει</b>μεν</td><td><b>ἐ</b>λελύμεθα</td></tr><tr><td>2ª Pl.</td><td><b>ἐ</b>λελύ<b>κει</b>τε</td><td><b>ἐ</b>λέλυσθε</td></tr><tr><td>3ª Pl.</td><td><b>ἐ</b>λελύ<b>κεσα</b>ν</td><td><b>ἐ</b>λέλυντο</td></tr></tbody></table><h2>5. Formas Notáveis</h2><p><b>οἶδα:</b> Esta é uma forma do perfeito, mas seu significado é presente: 'Eu sei' (porque eu vi no passado e o resultado é meu conhecimento atual). É um dos verbos mais comuns do NT.</p></div>"
+      },
+      "flashcards": [
+        {"front": "Reduplicação", "back": "A marca do sistema perfeito (ex: λύω -> λέλυκα).", "unsplashSearchTerm": "repeat"},
+        {"front": "Aspecto do Perfeito", "back": "Ação passada com resultados/estado contínuo no presente.", "unsplashSearchTerm": "bridge past present"},
+        {"front": "λέλυκα", "back": "Eu tenho desatado (Perfeito Ativo Ind. 1S)", "unsplashSearchTerm": "unlocked"},
+        {"front": "λέλυται", "back": "Ele/ela está desatado(a) (Perfeito Passivo Ind. 3S)", "unsplashSearchTerm": "freedom"},
+        {"front": "γέγραπται", "back": "Está escrito (Perf. Pass. Ind. 3S de γράφω)", "unsplashSearchTerm": "scripture"},
+        {"front": "πεπίστευκα", "back": "Eu tenho crido (e continuo crendo) (Perf. At. Ind. 1S de πιστεύω)", "unsplashSearchTerm": "steadfast"},
+        {"front": "οἶδα", "back": "Eu sei (Forma de perfeito com sentido de presente)", "unsplashSearchTerm": "knowledge"},
+        {"front": "Mais-que-perfeito", "back": "O 'passado do passado' (ação completada antes de outra ação passada).", "unsplashSearchTerm": "past history"},
+        {"front": "ἐλελύκειν", "back": "Eu tinha desatado (Mais-que-perfeito Ativo Ind. 1S)", "unsplashSearchTerm": "had been"},
+        {"front": "ἐλέλυτο", "back": "Ele/ela estava desatado(a) (Mais-que-perfeito Passivo Ind. 3S)", "unsplashSearchTerm": "was free"},
+        {"front": "ἀκήκοα", "back": "Eu tenho ouvido (e sei) (Perf. At. Ind. 1S de ἀκούω)", "unsplashSearchTerm": "heard"},
+        {"front": "ἑώρακα", "back": "Eu tenho visto (Perf. At. Ind. 1S de ὁράω)", "unsplashSearchTerm": "have seen"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M08E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a principal característica do aspecto do tempo perfeito?",
+          "options": [
+            "Ação contínua no presente",
+            "Ação simples e pontual no passado",
+            "Ação completada no passado com resultados contínuos no presente",
+            "Ação que ocorrerá no futuro"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "O perfeito descreve uma ação passada cujo estado ou resultado perdura até o momento presente."
+        },
+        {
+          "exerciseId": "M08E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a marca visual que identifica o sistema de tempo perfeito?",
+          "options": ["O aumento (ἐ-)", "O morfema -σα-", "A reduplicação", "O morfema -σ-"],
+          "correctAnswerIndex": 2,
+          "explanation": "A reduplicação (ex: λέλυκα) é a marca formal do sistema de tempo perfeito (perfeito e mais-que-perfeito)."
+        },
+        {
+          "exerciseId": "M08E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma verbal 'γέγραπται'.",
+          "options": [
+            "Aoristo, Indicativo, Passivo, 3ª Pessoa, Singular",
+            "Perfeito, Indicativo, Médio, 3ª Pessoa, Singular",
+            "Perfeito, Indicativo, Passivo, 3ª Pessoa, Singular",
+            "Presente, Indicativo, Passivo, 3ª Pessoa, Singular"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Temos a reduplicação (γε-), o radical (γραφ-) e a desinência (-ται) do perfeito médio-passivo. Frequentemente traduzido como 'está escrito'."
+        },
+        {
+          "exerciseId": "M08E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se forma o Mais-que-perfeito?",
+          "options": [
+            "Adicionando um -ν ao final do perfeito",
+            "Adicionando um aumento (ἐ-) antes da reduplicação do perfeito",
+            "Usando as desinências do futuro",
+            "Trocando a reduplicação por um aumento"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O Mais-que-perfeito é o perfeito 'no passado', e ele marca isso gramaticalmente adicionando o aumento (marca de tempo passado) ao tempo perfeito."
+        },
+        {
+          "exerciseId": "M08E05",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'λέλυμαι'.",
+          "options": [
+            "Eu desatarei",
+            "Eu desatei",
+            "Eu estava desatando",
+            "Eu estou desatado / tenho me desatado"
+          ],
+          "correctAnswerIndex": 3,
+          "explanation": "É a 1ª pessoa do singular do perfeito médio/passivo, indicando um estado presente ('estou desatado') resultante de uma ação passada."
+        },
+        {
+          "exerciseId": "M08E06",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma do perfeito ativo, 1ª pessoa do singular de 'πιστεύω' é _________.",
+          "correctAnswer": "πεπίστευκα",
+          "explanation": "O verbo πιστεύω forma sua reduplicação com πε- e segue o padrão do perfeito ativo, resultando em πεπίστευκα ('eu tenho crido')."
+        },
+        {
+          "exerciseId": "M08E07",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a análise correta de 'ἐλελύμην'?",
+          "options": [
+            "Perfeito, Indicativo, Médio/Passivo, 1ª Pessoa, Singular",
+            "Aoristo, Indicativo, Médio, 1ª Pessoa, Singular",
+            "Mais-que-perfeito, Indicativo, Médio/Passivo, 1ª Pessoa, Singular",
+            "Imperfeito, Indicativo, Médio/Passivo, 1ª Pessoa, Singular"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "O aumento (ἐ-) mais a reduplicação (λε-) identifica o mais-que-perfeito. A desinência (-μην) é da 1ª pessoa do singular médio/passivo. Significa 'eu estava desatado' ou 'eu tinha me desatado'."
+        },
+        {
+          "exerciseId": "M08E08",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "O verbo 'οἶδα' (eu sei) é uma forma de perfeito que tem um significado de...",
+          "options": ["Passado", "Futuro", "Presente", "Condicional"],
+          "correctAnswerIndex": 2,
+          "explanation": "'οἶδα' é um dos exemplos mais importantes de um tempo perfeito cujo estado resultante é tão proeminente que sua tradução é no tempo presente ('eu sei')."
+        },
+        {
+          "exerciseId": "M08E09",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual a melhor tradução para 'ἐληλύθει' (Mais-que-perfeito de ἔρχομαι, 'eu vou/venho')?",
+          "options": ["Ele virá", "Ele veio", "Ele tinha vindo/chegado", "Ele está vindo"],
+          "correctAnswerIndex": 2,
+          "explanation": "É o mais-que-perfeito, indicando um estado ('estar lá') que já era verdade em um ponto no passado, resultante de uma ação anterior ('ter vindo'). A tradução é 'ele tinha vindo'."
+        },
+        {
+          "exerciseId": "M08E10",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual a diferença de sentido entre 'ἐβαπτίσθη' (Aoristo) e 'βεβάπτισται' (Perfeito)?",
+          "options": [
+            "Não há diferença",
+            "'Ele foi batizado' (evento) vs. 'Ele está batizado' (estado)",
+            "Singular vs. Plural",
+            "Ativo vs. Passivo"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O aoristo (ἐβαπτίσθη) foca no evento do batismo no passado. O perfeito (βεβάπτισται) foca no estado resultante de ser batizado que continua no presente."
+        }
+      ]
+    }
+  ]
+}

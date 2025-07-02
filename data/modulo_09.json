@@ -1,0 +1,152 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M09",
+      "moduleTitle": "O Modo Subjuntivo",
+      "learningObjectives": [
+        "Definir o Modo Subjuntivo como o modo da potencialidade, probabilidade ou hipótese.",
+        "Identificar a marca morfológica chave do subjuntivo: a vogal temática alongada (ω/η).",
+        "Aprender a formar o Presente e o Aoristo do Subjuntivo em todas as vozes.",
+        "Compreender que o Aoristo do Subjuntivo nunca tem aumento.",
+        "Distinguir a diferença de aspecto entre o Presente Subjuntivo (ação potencial contínua) e o Aoristo Subjuntivo (ação potencial pontual).",
+        "Reconhecer e traduzir os usos independentes do subjuntivo: Hortatório e Deliberativo.",
+        "Reconhecer e traduzir o uso mais comum do subjuntivo em orações de propósito com a conjunção 'ἵνα'."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 9: O Modo Subjuntivo</h1><p>Até agora, trabalhamos com o Modo Indicativo, o modo da realidade e dos fatos. Agora, exploraremos o <b>Modo Subjuntivo</b>, que expressa ações potenciais, prováveis ou hipotéticas. Se o indicativo afirma 'ele desata', o subjuntivo sugere 'ele talvez desate' ou 'para que ele desate'.</p><h2>1. A Marca do Subjuntivo: Vogal Temática Alongada</h2><p>A formação do subjuntivo é visualmente distinta. A vogal temática que conecta o radical à desinência é sempre alongada:</p><ul><li><b>ο</b> torna-se <b>ω</b></li><li><b>ε</b> torna-se <b>η</b></li></ul><p>As desinências usadas são as primárias (as mesmas do presente do indicativo). Além disso, o <b>Aoristo do Subjuntivo nunca usa o aumento</b>, pois o aumento marca um fato passado (realidade), e o subjuntivo lida com potencialidade.</p><h2>2. Formação do Subjuntivo (Presente e Aoristo)</h2><h3>Presente do Subjuntivo de λύω</h3><p><b>Aspecto:</b> Ação potencial contínua. ('para que eu continue desatando')</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Ativo</th><th>Médio/Passivo</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>λύ<b>ω</b></td><td>λύ<b>ω</b>μαι</td></tr><tr><td>2ª Sing.</td><td>λύ<b>ῃ</b>ς</td><td>λύ<b>ῃ</b></td></tr><tr><td>3ª Sing.</td><td>λύ<b>ῃ</b></td><td>λύ<b>η</b>ται</td></tr><tr><td>1ª Pl.</td><td>λύ<b>ω</b>μεν</td><td>λυ<b>ώ</b>μεθα</td></tr><tr><td>2ª Pl.</td><td>λύ<b>η</b>τε</td><td>λύ<b>η</b>σθε</td></tr><tr><td>3ª Pl.</td><td>λύ<b>ω</b>σι(ν)</td><td>λύ<b>ω</b>νται</td></tr></tbody></table><h3>Aoristo do Subjuntivo de λύω</h3><p><b>Aspecto:</b> Ação potencial pontual/completa. ('para que eu desate')</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Ativo</th><th>Médio</th><th>Passivo</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>λύ<b>σω</b></td><td>λύ<b>σω</b>μαι</td><td>λυθ<b>ῶ</b></td></tr><tr><td>2ª Sing.</td><td>λύ<b>σῃ</b>ς</td><td>λύ<b>σῃ</b></td><td>λυθ<b>ῇ</b>ς</td></tr><tr><td>3ª Sing.</td><td>λύ<b>σῃ</b></td><td>λύ<b>ση</b>ται</td><td>λυθ<b>ῇ</b></td></tr><tr><td>1ª Pl.</td><td>λύ<b>σω</b>μεν</td><td>λυ<b>σώ</b>μεθα</td><td>λυθ<b>ῶ</b>μεν</td></tr><tr><td>2ª Pl.</td><td>λύ<b>ση</b>τε</td><td>λύ<b>ση</b>σθε</td><td>λυθ<b>ῆ</b>τε</td></tr><tr><td>3ª Pl.</td><td>λύ<b>σω</b>σι(ν)</td><td>λύ<b>σω</b>νται</td><td>λυθ<b>ῶ</b>σι(ν)</td></tr></tbody></table><h2>3. Usos do Subjuntivo</h2><h3>a) Subjuntivo Hortatório</h3><p>Usado na 1ª pessoa do plural para expressar uma auto-exortação. Geralmente traduzido como 'Vamos...' ou 'Que nós...'.</p><p>Ex: <b>ἀγαπῶμεν</b> ἀλλήλους. (1 João 4:7) - <b>Amemos</b> uns aos outros.</p><h3>b) Subjuntivo Deliberativo</h3><p>Usado em uma pergunta na 1ª pessoa (singular ou plural) para deliberar sobre uma ação. 'O que devo fazer?' ou 'O que faremos?'.</p><p>Ex: τί <b>ποιήσωμεν</b>; (Atos 2:37) - Que <b>faremos</b>?</p><h3>c) Em Orações de Propósito com ἵνα</h3><p>Este é o uso mais comum. A conjunção <b>ἵνα</b> ('para que', 'a fim de que') é seguida por um verbo no subjuntivo para expressar o propósito ou o resultado de uma ação.</p><p>Ex: ἔρχομαι <b>ἵνα</b> ζωὴν <b>ἔχωσιν</b>. (João 10:10) - Eu vim <b>para que</b> tenham vida.</p><h3>d) Em Proibições</h3><p>A partícula negativa <b>μή</b> seguida pelo <b>aoristo do subjuntivo</b> é uma forma comum de expressar uma proibição.</p><p>Ex: <b>μὴ φοβηθῇς</b>. (Mateus 1:20) - <b>Não temas</b>.</p></div>"
+      },
+      "flashcards": [
+        {"front": "Modo Subjuntivo", "back": "O modo da potencialidade, probabilidade ou hipótese ('que eu possa...').", "unsplashSearchTerm": "possibility"},
+        {"front": "Vogal Alongada (ω/η)", "back": "A marca principal do modo subjuntivo.", "unsplashSearchTerm": "long vowel"},
+        {"front": "ἵνα", "back": "Conjunção que significa 'para que', 'a fim de que'. Requer o subjuntivo.", "unsplashSearchTerm": "purpose"},
+        {"front": "Subjuntivo Hortatório", "back": "Exortação na 1ª pessoa do plural. 'Vamos...'", "unsplashSearchTerm": "encouragement"},
+        {"front": "Subjuntivo Deliberativo", "back": "Pergunta na 1ª pessoa. 'O que faremos?'", "unsplashSearchTerm": "deliberation"},
+        {"front": "μὴ + Aoristo Subjuntivo", "back": "Uma forma comum de expressar uma proibição. 'Não faça...'", "unsplashSearchTerm": "prohibition"},
+        {"front": "λύωμεν", "back": "Vamos desatar (Presente/Aoristo Ativo Subjuntivo, 1ª Plural)", "unsplashSearchTerm": "let's go"},
+        {"front": "λύσητε", "back": "Para que vós desateis (Aoristo Ativo Subjuntivo, 2ª Plural)", "unsplashSearchTerm": "you might"},
+        {"front": "πιστεύσῃ", "back": "Para que ele/ela creia (Aoristo Ativo Subjuntivo, 3ª Singular)", "unsplashSearchTerm": "believe"},
+        {"front": "λυθῶ", "back": "Para que eu seja desatado (Aoristo Passivo Subjuntivo, 1ª Singular)", "unsplashSearchTerm": "to be freed"},
+        {"front": "Aspecto no Subjuntivo", "back": "Presente = ação potencial contínua; Aoristo = ação potencial pontual.", "unsplashSearchTerm": "aspect"},
+        {"front": "O Aoristo Subjuntivo...", "back": "...nunca tem aumento.", "unsplashSearchTerm": "no augment"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M09E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a principal característica morfológica do modo subjuntivo?",
+          "options": [
+            "A presença do aumento (ἐ-)",
+            "O uso de desinências secundárias",
+            "A vogal temática alongada (ω/η)",
+            "A ausência de desinências"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A marca visual do subjuntivo é a vogal temática alongada (ο -> ω, ε -> η) antes da desinência pessoal."
+        },
+        {
+          "exerciseId": "M09E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A conjunção 'ἵνα' ('para que') é geralmente seguida por qual modo verbal?",
+          "options": ["Indicativo", "Subjuntivo", "Imperativo", "Optativo"],
+          "correctAnswerIndex": 1,
+          "explanation": "Orações de propósito ou resultado introduzidas por 'ἵνα' são o contexto mais comum para o uso do modo subjuntivo."
+        },
+        {
+          "exerciseId": "M09E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma verbal 'ποιήσωμεν'.",
+          "options": [
+            "Aoristo, Indicativo, Ativo, 1ª Pessoa, Plural",
+            "Futuro, Indicativo, Ativo, 1ª Pessoa, Plural",
+            "Presente, Subjuntivo, Ativo, 1ª Pessoa, Plural",
+            "Aoristo, Subjuntivo, Ativo, 1ª Pessoa, Plural"
+          ],
+          "correctAnswerIndex": 3,
+          "explanation": "O radical do aoristo (ποιησ-) é combinado com a vogal temática alongada (ω) e a desinência (-μεν), formando o aoristo subjuntivo. Não há aumento."
+        },
+        {
+          "exerciseId": "M09E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz a frase 'ἀγαπῶμεν ἀλλήλους'?",
+          "options": [
+            "Nós amamos uns aos outros",
+            "Nós amaremos uns aos outros",
+            "Amemos uns aos outros",
+            "Nós fomos amados"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Esta é uma forma da 1ª pessoa do plural do subjuntivo usada independentemente. É um subjuntivo hortatório, uma exortação: 'Vamos amar...' ou 'Amemos...'."
+        },
+        {
+          "exerciseId": "M09E05",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "O Aoristo do Subjuntivo tem aumento?",
+          "options": ["Sempre", "Nunca", "Apenas na voz passiva", "Apenas na voz ativa"],
+          "correctAnswerIndex": 1,
+          "explanation": "Nunca. O aumento é uma marca de um fato passado (indicativo), enquanto o subjuntivo trata de potencialidade, não de fatos consumados."
+        },
+        {
+          "exerciseId": "M09E06",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A frase 'μὴ κρίνητε' (Mt 7:1) é uma proibição. A tradução é 'Não ______'.",
+          "correctAnswer": "julgueis",
+          "explanation": "A forma é μή + Presente do Imperativo ou Aoristo do Subjuntivo. Aqui, κρίνητε é a 2ª pessoa do plural do subjuntivo aoristo de κρίνω, formando uma proibição."
+        },
+        {
+          "exerciseId": "M09E07",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a diferença de aspecto entre 'ἵνα μένητε' (Presente Subj.) e 'ἵνα μείνητε' (Aoristo Subj.)?",
+          "options": [
+            "Não há diferença de significado",
+            "Presente é 'para que vós permaneçais' (ação contínua); Aoristo é 'para que vós permaneçais' (ação única)",
+            "Presente é singular; Aoristo é plural",
+            "Presente é ativo; Aoristo é passivo"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O aspecto é mantido no subjuntivo. O presente ('ἵνα μένητε') sugere o propósito de 'continuar permanecendo', enquanto o aoristo ('ἵνα μείνητε') sugere o propósito de 'permanecer' como um ato único."
+        },
+        {
+          "exerciseId": "M09E08",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do Aoristo Passivo Subjuntivo, 3ª pessoa do singular, de λύω?",
+          "options": ["λυθῇ", "λύθηται", "ἐλύθη", "λύσει"],
+          "correctAnswerIndex": 0,
+          "explanation": "O radical do aoristo passivo (λυθ-) é combinado com a vogal temática alongada e a desinência. O resultado é λυθῇ."
+        },
+        {
+          "exerciseId": "M09E09",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A pergunta 'εἴπωμέν τι;' ('devemos dizer algo?') é um exemplo de qual uso do subjuntivo?",
+          "options": ["Hortatório", "Propósito", "Proibição", "Deliberativo"],
+          "correctAnswerIndex": 3,
+          "explanation": "Uma pergunta na 1ª pessoa que delibera sobre uma ação futura é um subjuntivo deliberativo."
+        },
+        {
+          "exerciseId": "M09E10",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'λύῃ'.",
+          "options": [
+            "Pode ser Pres. Subj. Ativo 3ªS ou 2ªS",
+            "Pode ser Pres. Subj. Méd/Pass 3ªS ou 2ªS",
+            "Pode ser Pres. Subj. Ativo 3ªS ou Pres. Subj. Méd/Pass 2ªS",
+            "É apenas Pres. Subj. Ativo 3ªS"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A forma 'λύῃ' é a mesma para a 3ª pessoa do singular ativa ('para que ele desate') e para a 2ª pessoa do singular médio-passiva ('para que tu te desates/sejas desatado')."
+        }
+      ]
+    }
+  ]
+}

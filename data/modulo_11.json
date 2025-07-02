@@ -1,0 +1,146 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M11",
+      "moduleTitle": "Infinitivos",
+      "learningObjectives": [
+        "Definir o infinitivo como um substantivo verbal, que possui características de verbo e de substantivo.",
+        "Identificar o aspecto (contínuo, pontual, completo) que o tempo do infinitivo comunica.",
+        "Aprender a formar os infinitivos nos tempos Presente, Aoristo, Futuro e Perfeito, em todas as vozes.",
+        "Reconhecer as terminações características dos infinitivos (-ειν, -εσθαι, -σαι, -σασθαι, -θηναι, etc.).",
+        "Compreender o uso do infinitivo complementar, que completa o sentido de outro verbo.",
+        "Dominar o conceito do infinitivo articular (com o artigo neutro), que permite ao infinitivo funcionar como um substantivo em diferentes casos."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 11: Infinitivos</h1><p>Deixamos os modos finitos (Indicativo, Subjuntivo, etc.) para entrar no mundo das formas verbais não-finitas. O infinitivo é a primeira delas. Pense nele como um <b>substantivo verbal</b>: ele tem características de verbo (tempo, voz, pode ter um objeto) e de substantivo (pode ser o sujeito ou objeto de uma frase).</p><h2>1. Aspecto e Formação dos Infinitivos</h2><p>O tempo em um infinitivo <b>não indica quando a ação ocorre</b>, mas sim o seu <b>aspecto</b> (tipo de ação). O tempo é herdado do verbo principal da oração.</p><ul><li><b>Infinitivo Presente (Aspecto Contínuo):</b> 'continuar a...'</li><li><b>Infinitivo Aoristo (Aspecto Pontual):</b> 'fazer...' (como um ato único)</li><li><b>Infinitivo Futuro (Aspecto Potencial):</b> 'estar prestes a...'</li><li><b>Infinitivo Perfeito (Aspecto Completo):</b> 'ter feito...' (e estar no estado de...)</li></ul><p><b>Regra de Ouro:</b> Nenhum infinitivo jamais usa o aumento.</p><h3>Tabela de Formação dos Infinitivos de λύω</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Tempo</th><th>Voz Ativa</th><th>Voz Média</th><th>Voz Passiva</th></tr></thead><tbody><tr><td><b>Presente</b></td><td>λύ<b>ειν</b></td><td colspan='2'>λύ<b>εσθαι</b></td></tr><tr><td><b>Aoristo</b></td><td>λῦ<b>σαι</b></td><td>λύ<b>σασθαι</b></td><td>λυ<b>θῆναι</b></td></tr><tr><td><b>Futuro</b></td><td>λύ<b>σειν</b></td><td>λύ<b>σεσθαι</b></td><td>λυθή<b>σεσθαι</b></td></tr><tr><td><b>Perfeito</b></td><td>λελυ<b>κέναι</b></td><td colspan='2'>λελύ<b>σθαι</b></td></tr></tbody></table><h2>2. Usos do Infinitivo</h2><h3>a) Infinitivo Complementar</h3><p>É o uso mais simples, onde o infinitivo 'completa' o significado de outro verbo. Verbos como 'querer', 'poder', 'começar', 'dever' frequentemente pedem um infinitivo complementar.</p><p>Ex: <b>θέλω πιστεύειν</b>. - Eu quero <b>crer</b>.</p><p>Ex: οὐ <b>δύναται</b> θεῷ δουλεύειν. - Ele não <b>pode</b> servir a Deus.</p><h3>b) O Infinitivo Articular</h3><p>Este é um recurso poderoso do grego. Ao colocar o artigo definido neutro singular (<b>τὸ, τοῦ, τῷ</b>) na frente de um infinitivo, ele pode ser usado como um substantivo em qualquer função de caso, permitindo uma enorme flexibilidade.</p><ul><li><b>Nominativo/Acusativo (τὸ):</b> Transforma o infinitivo em sujeito ou objeto direto.<li><b>τὸ λαλεῖν</b> ἀγαθόν ἐστιν. - <b>Falar</b> é bom.</li><li>λέγει <b>τὸ δεῖν</b> ἡμᾶs προσεύχεσθαι. - Ele diz <b>que é necessário</b> nós orarmos.</li></li><li><b>Genitivo (τοῦ):</b> Frequentemente indica propósito. Pode ser traduzido como 'do ato de...' ou 'com o propósito de...'.<li>ἐλήλυθεν ἡ ὥρα <b>τοῦ δοξασθῆναι</b> τὸν υἱόν. (João 12:23) - Chegou a hora <b>de ser glorificado</b> o Filho.</li></li><li><b>Dativo (τῷ):</b> Frequentemente indica causa ou meio. 'Por...' ou 'no ato de...'.<li><b>ἐν τῷ σπείρειν</b> αὐτὸν... (Mateus 13:4) - <b>Enquanto semeava</b>... (lit. 'no semear dele').</li></li></ul><p>Preposições também podem ser usadas com o infinitivo articular para criar significados ainda mais específicos, como <b>εἰς τὸ...</b> (com o propósito de...) ou <b>πρὸς τὸ...</b> (para...).</p></div>"
+      },
+      "flashcards": [
+        {"front": "Infinitivo", "back": "Um substantivo verbal; possui tempo e voz, mas não pessoa ou número.", "unsplashSearchTerm": "verbal noun"},
+        {"front": "-ειν", "back": "Terminação do Infinitivo Presente/Futuro Ativo.", "unsplashSearchTerm": "ending"},
+        {"front": "-σαι", "back": "Terminação do Infinitivo Aoristo Ativo.", "unsplashSearchTerm": "suffix"},
+        {"front": "-θηναι", "back": "Terminação do Infinitivo Aoristo Passivo.", "unsplashSearchTerm": "passive form"},
+        {"front": "-εσθαι", "back": "Terminação do Infinitivo Presente Médio/Passivo.", "unsplashSearchTerm": "middle voice"},
+        {"front": "Infinitivo Complementar", "back": "Completa o significado de outro verbo (ex: θέλω γράφειν - quero escrever).", "unsplashSearchTerm": "complement"},
+        {"front": "Infinitivo Articular", "back": "O infinitivo com um artigo (τὸ, τοῦ, τῷ), permitindo que funcione como um substantivo em qualquer caso.", "unsplashSearchTerm": "article"},
+        {"front": "τὸ γράφειν", "back": "O ato de escrever (Nom./Acus.).", "unsplashSearchTerm": "the writing"},
+        {"front": "τοῦ γράφειν", "back": "Do ato de escrever; com o propósito de escrever (Gen.).", "unsplashSearchTerm": "for writing"},
+        {"front": "τῷ γράφειν", "back": "Ao/pelo ato de escrever (Dat.).", "unsplashSearchTerm": "by writing"},
+        {"front": "πιστεῦσαι", "back": "Crer (Infinitivo Aoristo Ativo de πιστεύω).", "unsplashSearchTerm": "to believe"},
+        {"front": "εἶναι", "back": "Ser, estar (Infinitivo Presente de εἰμί, 'eu sou').", "unsplashSearchTerm": "to be"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M11E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "O que o 'tempo' de um infinitivo (ex: Presente vs. Aoristo) indica principalmente?",
+          "options": ["Quando a ação ocorreu", "O aspecto (tipo de ação)", "O modo do verbo", "A pessoa do verbo"],
+          "correctAnswerIndex": 1,
+          "explanation": "No infinitivo, o tempo expressa o aspecto (contínuo, pontual, etc.), não o tempo cronológico, que é determinado pelo verbo principal."
+        },
+        {
+          "exerciseId": "M11E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a terminação do Infinitivo Aoristo Passivo?",
+          "options": ["-σαι", "-σασθαι", "-θηναι", "-ειν"],
+          "correctAnswerIndex": 2,
+          "explanation": "A terminação -θηναι (ex: λυθῆναι) é a marca do infinitivo aoristo passivo."
+        },
+        {
+          "exerciseId": "M11E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Na frase 'δύναμαι πάντα' (Eu posso todas as coisas), o verbo 'δύναμαι' (eu posso) provavelmente seria seguido por qual tipo de infinitivo?",
+          "options": ["Um infinitivo complementar", "Um infinitivo articular", "Um infinitivo no genitivo", "Nenhum infinitivo"],
+          "correctAnswerIndex": 0,
+          "explanation": "Verbos de capacidade como 'poder' (δύναμαι) são frequentemente completados por um infinitivo que expressa o que se pode fazer."
+        },
+        {
+          "exerciseId": "M11E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "O que a construção 'τοῦ' + infinitivo (genitivo articular) frequentemente expressa?",
+          "options": ["Causa ou meio", "Propósito ou resultado", "Um comando", "Uma ação contínua"],
+          "correctAnswerIndex": 1,
+          "explanation": "O infinitivo no genitivo com o artigo (τοῦ) é um meio comum de expressar o propósito de uma ação."
+        },
+        {
+          "exerciseId": "M11E05",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'λῦσαι'.",
+          "options": [
+            "Infinitivo Presente Ativo",
+            "Infinitivo Aoristo Ativo",
+            "Infinitivo Aoristo Médio",
+            "Aoristo Imperativo Ativo, 2ª Plural"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'λῦσαι' (radical λυσ- + terminação -αι) é a forma do infinitivo aoristo ativo."
+        },
+        {
+          "exerciseId": "M11E06",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "Para dizer 'pelo ato de crer', usaríamos a preposição 'ἐν' e o infinitivo articular no caso _______: ἐν τῷ πιστεύειν.",
+          "correctAnswer": "Dativo",
+          "explanation": "Preposições como 'ἐν' regem casos específicos. 'ἐν' rege o dativo, então o infinitivo articular deve estar no dativo (τῷ)."
+        },
+        {
+          "exerciseId": "M11E07",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a diferença de aspecto entre 'θέλω γράφειν' e 'θέλω γράψαι'?",
+          "options": [
+            "Não há diferença.",
+            "A primeira é 'quero escrever' (continuamente); a segunda é 'quero escrever' (um ato específico).",
+            "A primeira é 'quero que escrevam'; a segunda é 'quero escrever'.",
+            "A primeira é 'quero ter escrito'; a segunda é 'quero escrever'."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O infinitivo presente (γράφειν) sugere o desejo de estar no processo de escrita. O infinitivo aoristo (γράψαι) sugere o desejo de realizar o ato de escrever."
+        },
+        {
+          "exerciseId": "M11E08",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é o infinitivo presente do verbo εἰμί (ser)?",
+          "options": ["ἐστί", "εἶναι", "ὤν", "ἦν"],
+          "correctAnswerIndex": 1,
+          "explanation": "'εἶναι' é a forma infinitiva do verbo 'ser' e é extremamente comum no Novo Testamento."
+        },
+        {
+          "exerciseId": "M11E09",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz a frase 'ἦλθεν εἰς τὸ σῶσαι τοὺς ἁμαρτωλούς' (σώζω = salvar; ἁμαρτωλός = pecador)?",
+          "options": [
+            "Ele veio e salvou os pecadores.",
+            "Ele virá para salvar os pecadores.",
+            "Ele veio com o propósito de salvar os pecadores.",
+            "Ele veio pelo ato de salvar os pecadores."
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A construção 'εἰς τὸ' + infinitivo é uma forma enfática de expressar propósito: 'com o propósito de', 'a fim de'."
+        },
+        {
+          "exerciseId": "M11E10",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a principal função de se colocar um artigo na frente de um infinitivo?",
+          "options": [
+            "Torná-lo negativo.",
+            "Torná-lo plural.",
+            "Permitir que ele funcione como um substantivo em qualquer caso.",
+            "Mudar seu tempo para o futuro."
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "O artigo neutro singular (τὸ, τοῦ, τῷ) declina o infinitivo, permitindo que a ação verbal funcione gramaticalmente como um substantivo em diferentes partes da frase."
+        }
+      ]
+    }
+  ]
+}

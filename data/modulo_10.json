@@ -1,0 +1,141 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M10",
+      "moduleTitle": "O Modo Imperativo e o Optativo",
+      "learningObjectives": [
+        "Definir o Modo Imperativo como o modo do comando, exortação ou súplica.",
+        "Aprender a formar o Presente e o Aoristo do Imperativo em todas as vozes.",
+        "Distinguir a diferença de aspecto entre o Presente Imperativo (comando para uma ação contínua) e o Aoristo Imperativo (comando para uma ação pontual).",
+        "Utilizar a partícula negativa 'μή' para formar proibições com o Imperativo.",
+        "Definir o Modo Optativo como o modo do desejo ou da possibilidade remota.",
+        "Reconhecer a função e a raridade do Optativo no Novo Testamento, identificando a expressão comum 'μὴ γένοιτο'."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 10: O Modo Imperativo e o Optativo</h1><p>Continuamos nossa exploração dos modos verbais, passando da potencialidade (Subjuntivo) para o comando direto (Imperativo) e o desejo (Optativo).</p><h2>1. O Modo Imperativo</h2><p>O Imperativo é o modo do comando, da ordem ou da súplica. É usado apenas na 2ª e 3ª pessoa (não se pode dar uma ordem a si mesmo na 1ª pessoa). Assim como no subjuntivo, a diferença entre o presente e o aoristo é de <b>aspecto</b>, não de tempo.</p><ul><li><b>Imperativo Presente:</b> Comando para iniciar ou continuar uma ação. Tem um aspecto <b>contínuo</b>. Ex: 'Continue amando' ou 'Ame' (como um estilo de vida).</li><li><b>Imperativo Aoristo:</b> Comando para realizar uma ação específica, vista como um todo. Tem um aspecto <b>pontual</b>. Ex: 'Ame agora' (nesta situação específica).</li></ul><h3>Formação do Imperativo (Verbo modelo: λύω)</h3><p>O Aoristo do Imperativo, assim como o do Subjuntivo, <b>não tem aumento</b>.</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Pres. Ativo</th><th>Pres. M/P</th><th>Aor. Ativo</th><th>Aor. Médio</th><th>Aor. Passivo</th></tr></thead><tbody><tr><td><b>2ª Sing.</b></td><td>λῦ<b>ε</b></td><td>λύ<b>ου</b></td><td>λῦ<b>σον</b></td><td>λῦ<b>σαι</b></td><td>λύ<b>θητι</b></td></tr><tr><td><b>3ª Sing.</b></td><td>λυ<b>έτω</b></td><td>λυ<b>έσθω</b></td><td>λυ<b>σάτω</b></td><td>λυ<b>σάσθω</b></td><td>λυ<b>θήτω</b></td></tr><tr><td><b>2ª Pl.</b></td><td>λύ<b>ετε</b></td><td>λύ<b>εσθε</b></td><td>λύ<b>σατε</b></td><td>λύ<b>σασθε</b></td><td>λύ<b>θητε</b></td></tr><tr><td><b>3ª Pl.</b></td><td>λυ<b>έτωσαν</b></td><td>λυ<b>έσθωσαν</b></td><td>λυ<b>σάτωσαν</b></td><td>λυ<b>σάσθωσαν</b></td><td>λυ<b>θήτωσαν</b></td></tr></tbody></table><h3>Proibições com μή</h3><p>A partícula negativa <b>μή</b> é usada para proibições. A construção mais comum é <b>μή + Presente do Imperativo</b>, que significa 'Pare de fazer X' ou 'Não faça X' (habitualmente).</p><p>Ex: <b>μὴ κρίνετε</b>... (Mateus 7:1) - <b>Não julgueis</b> (habitualmente)...</p><h2>2. O Modo Optativo</h2><p>O Optativo é o modo do <b>desejo</b> ou da <b>possibilidade remota</b>. Se o Subjuntivo é 'pode ser', o Optativo é 'tomara que fosse' ou 'talvez pudesse ser'. É o modo menos frequente no Novo Testamento (cerca de 68 ocorrências), muitas vezes encontrado em bênçãos, maldições ou expressando um desejo.</p><h3>Função e Reconhecimento</h3><p>Não é necessário memorizar toda a sua conjugação para a leitura do NT, mas é vital reconhecer sua função. Ele é frequentemente marcado pela presença de ditongos como <b>-οι-</b> ou <b>-αι-</b> nas terminações.</p><p>A expressão optativa mais famosa e teologicamente significativa no NT é:</p><p><b>μὴ γένοιτο</b> (Aoristo Optativo de γίνομαι) - 'Que isto nunca aconteça!', 'De modo nenhum!', 'Longe de nós!' (Romanos 6:2).</p><p>Muitas bênçãos, como 'Graça e paz a vós', são elípticas, com um verbo no optativo ('sejam') subentendido.</p></div>"
+      },
+      "flashcards": [
+        {"front": "Modo Imperativo", "back": "O modo do comando, ordem ou súplica.", "unsplashSearchTerm": "command"},
+        {"front": "Imperativo Presente", "back": "Comando para uma ação contínua ou habitual. 'Continue fazendo...'", "unsplashSearchTerm": "continuous"},
+        {"front": "Imperativo Aoristo", "back": "Comando para uma ação específica, pontual. 'Faça isto (agora)!'", "unsplashSearchTerm": "specific point"},
+        {"front": "λῦε", "back": "Desata! (Pres. Ativo Imperativo, 2ª Sing.)", "unsplashSearchTerm": "untie"},
+        {"front": "λύσατε", "back": "Desatai! (Aor. Ativo Imperativo, 2ª Plural)", "unsplashSearchTerm": "group action"},
+        {"front": "λυθήτω", "back": "Seja ele desatado! (Aor. Passivo Imperativo, 3ª Sing.)", "unsplashSearchTerm": "let it be done"},
+        {"front": "μὴ + Presente Imperativo", "back": "Proibição de uma ação contínua. 'Pare de fazer...'", "unsplashSearchTerm": "stop sign"},
+        {"front": "Modo Optativo", "back": "O modo do desejo ou da possibilidade remota. 'Queira Deus que...'", "unsplashSearchTerm": "wish"},
+        {"front": "μὴ γένοιτο", "back": "Que isto nunca aconteça! / De modo nenhum! (Expressão com Optativo)", "unsplashSearchTerm": "by no means"},
+        {"front": "ἀγαπᾶτε", "back": "Amai! (Presente Ativo Imperativo, 2ª Plural de ἀγαπάω)", "unsplashSearchTerm": "love"},
+        {"front": "δότε", "back": "Dai! (Aoristo Ativo Imperativo, 2ª Plural de δίδωμι)", "unsplashSearchTerm": "give"},
+        {"front": "O Aoristo Imperativo...", "back": "...nunca tem aumento.", "unsplashSearchTerm": "no augment imperative"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M10E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual modo verbal é usado para dar um comando direto?",
+          "options": ["Indicativo", "Subjuntivo", "Optativo", "Imperativo"],
+          "correctAnswerIndex": 3,
+          "explanation": "O Modo Imperativo é o modo do comando, da ordem e da súplica."
+        },
+        {
+          "exerciseId": "M10E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A expressão 'μὴ γένοιτο' ('De modo nenhum!') é um raro exemplo de qual modo no Novo Testamento?",
+          "options": ["Subjuntivo", "Optativo", "Imperativo", "Indicativo"],
+          "correctAnswerIndex": 1,
+          "explanation": "'μὴ γένοιτο' é a expressão mais comum que usa o Modo Optativo no NT, expressando um forte desejo negativo."
+        },
+        {
+          "exerciseId": "M10E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a diferença de aspecto entre 'ἀγάπα' (Pres. Imp.) e 'ἀγάπησον' (Aor. Imp.)?",
+          "options": [
+            "Não há diferença",
+            "O primeiro é um comando para continuar amando, o segundo é para um ato específico de amor.",
+            "O primeiro é singular, o segundo é plural.",
+            "O primeiro é ativo, o segundo é passivo."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O Imperativo Presente ('ἀγάπα') comanda uma ação contínua. O Imperativo Aoristo ('ἀγάπησον') comanda uma ação pontual, um ato específico."
+        },
+        {
+          "exerciseId": "M10E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma verbal 'πιστεύετε'.",
+          "options": [
+            "Apenas Presente Indicativo Ativo, 2ª Plural ('vós credes').",
+            "Apenas Presente Imperativo Ativo, 2ª Plural ('crede!').",
+            "Pode ser Indicativo ou Imperativo.",
+            "É Aoristo Indicativo Ativo, 2ª Plural."
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A forma 'πιστεύετε' é idêntica para o Presente do Indicativo ('vós credes') e para o Presente do Imperativo ('crede!'). O contexto da frase determina qual é o correto."
+        },
+        {
+          "exerciseId": "M10E05",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "O Imperativo Aoristo tem aumento?",
+          "options": ["Sempre", "Apenas na 3ª pessoa", "Nunca", "Apenas na voz ativa"],
+          "correctAnswerIndex": 2,
+          "explanation": "Assim como no subjuntivo, o aoristo nos modos não-indicativos (Imperativo, Subjuntivo, etc.) nunca leva o aumento, pois ele não descreve um fato passado."
+        },
+        {
+          "exerciseId": "M10E06",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma do Aoristo Passivo Imperativo, 3ª pessoa do singular, de 'γράφω' ('seja escrito!') é _________.",
+          "correctAnswer": "γραφήτω",
+          "explanation": "O radical do aoristo passivo (γραφ-) + a marca do aoristo passivo (-η) + a desinência da 3ª pessoa do singular (-τω) resulta em γραφήτω."
+        },
+        {
+          "exerciseId": "M10E07",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Um comandante quer ordenar a seus soldados: 'Lancem as lanças!' (um único ato). Qual tempo do imperativo ele usaria?",
+          "options": ["Presente", "Aoristo", "Perfeito", "Futuro"],
+          "correctAnswerIndex": 1,
+          "explanation": "Para um comando que se refere a uma ação específica e pontual, o Aoristo do Imperativo é o tempo apropriado."
+        },
+        {
+          "exerciseId": "M10E08",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'λῦσαι'.",
+          "options": [
+            "Aoristo Ativo Infinitivo",
+            "Aoristo Médio Imperativo, 2ª Singular",
+            "Presente Médio/Passivo Imperativo, 2ª Singular",
+            "Aoristo Ativo Indicativo, 1ª Singular"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'λῦσαι' é a forma da 2ª pessoa do singular do Aoristo Médio Imperativo, significando 'desata para ti mesmo!'."
+        },
+        {
+          "exerciseId": "M10E09",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual partícula negativa é usada com o Imperativo para expressar uma proibição?",
+          "options": ["οὐ (οὐκ, οὐχ)", "μή", "ἵνα", "μέν"],
+          "correctAnswerIndex": 1,
+          "explanation": "'μή' é a partícula negativa para os modos não-indicativos (Subjuntivo, Imperativo, etc.), enquanto 'οὐ' é usada com o Indicativo."
+        },
+        {
+          "exerciseId": "M10E10",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Um professor diz a um aluno: 'μὴ γράφε' (Presente Imperativo). O que ele provavelmente quer dizer?",
+          "options": ["'Não escreva!' (neste momento)", "'Pare de escrever!' (uma ação em andamento)", "'Nunca escreva!'", "'Você não escreveu'"],
+          "correctAnswerIndex": 1,
+          "explanation": "A proibição com o presente do imperativo geralmente se aplica a uma ação que já está em andamento, daí a tradução 'Pare de...'. Também pode significar 'Não tenha o hábito de...'."
+        }
+      ]
+    }
+  ]
+}

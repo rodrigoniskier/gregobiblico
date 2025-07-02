@@ -1,0 +1,215 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M05",
+      "moduleTitle": "Preposições e Seus Casos",
+      "learningObjectives": [
+        "Definir o que é uma preposição e qual sua função na frase.",
+        "Entender que preposições em grego regem substantivos nos casos Genitivo, Dativo ou Acusativo.",
+        "Memorizar as preposições mais comuns que regem um único caso.",
+        "Memorizar as preposições que podem reger dois casos e seus diferentes significados.",
+        "Memorizar as preposições que podem reger três casos e seus diferentes significados.",
+        "Traduzir corretamente frases simples que contêm preposições e seus objetos.",
+        "Analisar um sintagma preposicional, identificando a preposição, o objeto e seu caso."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 5: Preposições e Seus Casos</h1><p>As preposições são palavras pequenas, mas poderosas, que estabelecem a relação entre um substantivo (ou pronome) e o resto da sentença. Elas indicam relações de lugar, tempo, causa, meio, etc. A grande diferença em grego é que o significado de uma preposição pode mudar dependendo do caso do substantivo que a segue.</p><h2>1. A Função das Preposições</h2><p>Uma preposição nunca está sozinha; ela sempre governa um substantivo ou pronome, formando um 'sintagma preposicional'. Ex: '<u>em</u> casa', '<u>com</u> o servo', '<u>para</u> Deus'. A palavra que segue a preposição é chamada de 'objeto da preposição'.</p><p>Em grego, o caso do objeto da preposição (Genitivo, Dativo ou Acusativo) é determinado pela própria preposição e é crucial para o significado.</p><h2>2. Preposições com Um Caso</h2><table style='width:100%; border-collapse: collapse; text-align: left;'><thead><tr><th>Preposição</th><th>Caso</th><th>Significado Principal</th><th>Exemplo</th></tr></thead><tbody><tr><td><b>ἀντί</b></td><td>Genitivo</td><td>em vez de, por</td><td>ἀντὶ τοῦ δούλου (em vez do servo)</td></tr><tr><td><b>ἀπό</b></td><td>Genitivo</td><td>de, desde (separação)</td><td>ἀπὸ τῆς ἀγάπης (a partir do amor)</td></tr><tr><td><b>ἐκ (ἐξ)</b></td><td>Genitivo</td><td>de, de dentro de</td><td>ἐκ τοῦ οἴκου (de dentro da casa)</td></tr><tr><td><b>πρό</b></td><td>Genitivo</td><td>antes de</td><td>πρὸ τοῦ θανάτου (antes da morte)</td></tr><tr><td><b>ἐν</b></td><td>Dativo</td><td>em, dentro de, com</td><td>ἐν τῇ καρδίᾳ (no coração)</td></tr><tr><td><b>σύν</b></td><td>Dativo</td><td>com (em companhia de)</td><td>σὺν τῷ κυρίῳ (juntamente com o Senhor)</td></tr><tr><td><b>εἰς</b></td><td>Acusativo</td><td>para, para dentro de</td><td>εἰς τὸν οἶκον (para dentro da casa)</td></tr></tbody></table><h2>3. Preposições com Dois Casos (Genitivo, Acusativo)</h2><table style='width:100%; border-collapse: collapse; text-align: left;'><thead><tr><th>Preposição</th><th>Caso</th><th>Significado</th></tr></thead><tbody><tr><td rowspan='2'><b>διά</b></td><td>Genitivo</td><td>através de</td></tr><tr><td>Acusativo</td><td>por causa de</td></tr><tr><td rowspan='2'><b>κατά</b></td><td>Genitivo</td><td>contra, para baixo de</td></tr><tr><td>Acusativo</td><td>segundo, de acordo com</td></tr><tr><td rowspan='2'><b>μετά</b></td><td>Genitivo</td><td>com (junto com)</td></tr><tr><td>Acusativo</td><td>depois de</td></tr><tr><td rowspan='2'><b>ὑπέρ</b></td><td>Genitivo</td><td>em favor de, por</td></tr><tr><td>Acusativo</td><td>acima de, além de</td></tr></tbody></table><h2>4. Preposições com Três Casos (Genitivo, Dativo, Acusativo)</h2><table style='width:100%; border-collapse: collapse; text-align: left;'><thead><tr><th>Preposição</th><th>Caso</th><th>Significado</th></tr></thead><tbody><tr><td rowspan='3'><b>ἐπί</b></td><td>Genitivo</td><td>sobre, em cima de (com contato)</td></tr><tr><td>Dativo</td><td>sobre, em (baseado em)</td></tr><tr><td>Acusativo</td><td>sobre, para, contra (movimento para)</td></tr><tr><td rowspan='3'><b>παρά</b></td><td>Genitivo</td><td>de (vindo de ao lado de)</td></tr><tr><td>Dativo</td><td>ao lado de, na presença de</td></tr><tr><td>Acusativo</td><td>ao lado de, para além de, contra</td></tr><tr><td rowspan='3'><b>πρός</b></td><td>Genitivo</td><td>diante de (raro)</td></tr><tr><td>Dativo</td><td>em, junto a (localização)</td></tr><tr><td>Acusativo</td><td>para, em direção a, com (relação pessoal)</td></tr></tbody></table><p><b>Dica de memorização:</b> Geralmente, o Genitivo indica separação ('de'), o Dativo indica localização ('em'), e o Acusativo indica movimento ou direção ('para').</p></div>"
+      },
+      "flashcards": [
+        {"front": "ἐν + Dativo", "back": "em, dentro de, com", "unsplashSearchTerm": "inside a box"},
+        {"front": "εἰς + Acusativo", "back": "para, para dentro de (movimento)", "unsplashSearchTerm": "arrow pointing into"},
+        {"front": "ἐκ + Genitivo", "back": "de, de dentro de (origem)", "unsplashSearchTerm": "arrow pointing out"},
+        {"front": "ἀπό + Genitivo", "back": "de, desde (separação)", "unsplashSearchTerm": "leaving"},
+        {"front": "σύν + Dativo", "back": "com (juntamente com)", "unsplashSearchTerm": "friends together"},
+        {"front": "διά + Genitivo", "back": "através de", "unsplashSearchTerm": "through"},
+        {"front": "διά + Acusativo", "back": "por causa de", "unsplashSearchTerm": "because"},
+        {"front": "μετά + Genitivo", "back": "com", "unsplashSearchTerm": "group hug"},
+        {"front": "μετά + Acusativo", "back": "depois de", "unsplashSearchTerm": "after"},
+        {"front": "κατά + Genitivo", "back": "contra, para baixo", "unsplashSearchTerm": "down arrow"},
+        {"front": "κατά + Acusativo", "back": "segundo, de acordo com", "unsplashSearchTerm": "checklist"},
+        {"front": "ὑπέρ + Genitivo", "back": "em favor de, por", "unsplashSearchTerm": "advocate"},
+        {"front": "ὑπέρ + Acusativo", "back": "acima de, além de", "unsplashSearchTerm": "above"},
+        {"front": "ἐπί + Genitivo", "back": "sobre, em cima de", "unsplashSearchTerm": "on top"},
+        {"front": "ἐπί + Dativo", "back": "sobre, com base em", "unsplashSearchTerm": "foundation"},
+        {"front": "ἐπί + Acusativo", "back": "sobre, para (movimento)", "unsplashSearchTerm": "jumping onto"},
+        {"front": "παρά + Dativo", "back": "ao lado de, na presença de", "unsplashSearchTerm": "side by side"},
+        {"front": "πρός + Acusativo", "back": "para, em direção a", "unsplashSearchTerm": "towards"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M05E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A preposição 'ἐν' (em) rege qual caso?",
+          "options": ["Genitivo", "Dativo", "Acusativo", "Nominativo"],
+          "correctAnswerIndex": 1,
+          "explanation": "'ἐν' é uma das preposições mais comuns que sempre rege o caso Dativo, indicando localização."
+        },
+        {
+          "exerciseId": "M05E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual preposição significa 'para dentro de' e rege o Acusativo?",
+          "options": ["ἐκ", "ἐν", "εἰς", "ἀπό"],
+          "correctAnswerIndex": 2,
+          "explanation": "'εἰς' indica movimento em direção a ou para dentro de um local e sempre rege o caso Acusativo."
+        },
+        {
+          "exerciseId": "M05E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz 'διὰ τοῦ νόμου' (νόμος, -ου, ὁ = lei)?",
+          "options": ["Por causa da lei", "Depois da lei", "Através da lei", "Contra a lei"],
+          "correctAnswerIndex": 2,
+          "explanation": "A preposição 'διά' com o caso Genitivo (τοῦ νόμου) significa 'através de'."
+        },
+        {
+          "exerciseId": "M05E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz 'διὰ τὸν νόμον'?",
+          "options": ["Por causa da lei", "Através da lei", "Com a lei", "Antes da lei"],
+          "correctAnswerIndex": 0,
+          "explanation": "A preposição 'διά' com o caso Acusativo (τὸν νόμον) significa 'por causa de'."
+        },
+        {
+          "exerciseId": "M05E05",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A preposição 'ἀπό' (de, desde) rege qual caso?",
+          "options": ["Dativo", "Genitivo", "Acusativo", "Vocativo"],
+          "correctAnswerIndex": 1,
+          "explanation": "'ἀπό' rege o Genitivo para indicar separação ou origem."
+        },
+        {
+          "exerciseId": "M05E06",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual preposição significa 'com' no sentido de 'em companhia de' e rege o Dativo?",
+          "options": ["μετά", "διά", "σύν", "κατά"],
+          "correctAnswerIndex": 2,
+          "explanation": "'σύν' rege o Dativo e significa 'com, juntamente com'. 'μετά' com o Genitivo também significa 'com'."
+        },
+        {
+          "exerciseId": "M05E07",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz 'μετὰ τοῦ διδασκάλου' (διδάσκαλος, -ου, ὁ = mestre)?",
+          "options": ["Depois do mestre", "Contra o mestre", "Em favor do mestre", "Com o mestre"],
+          "correctAnswerIndex": 3,
+          "explanation": "A preposição 'μετά' com o caso Genitivo (τοῦ διδασκάλου) significa 'com, na companhia de'."
+        },
+        {
+          "exerciseId": "M05E08",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz 'μετὰ ταῦτα' (ταῦτα = estas coisas)?",
+          "options": ["Com estas coisas", "Por causa destas coisas", "Depois destas coisas", "Através destas coisas"],
+          "correctAnswerIndex": 2,
+          "explanation": "A preposição 'μετά' com o caso Acusativo (ταῦτα) significa 'depois de'."
+        },
+        {
+          "exerciseId": "M05E09",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "A frase 'sobre a terra' (γῆ, γῆς, ἡ), indicando localização (estar em cima), usaria 'ἐπί' com qual caso?",
+          "options": ["Genitivo", "Dativo", "Acusativo", "Qualquer um dos três"],
+          "correctAnswerIndex": 0,
+          "explanation": "'ἐπί' com o Genitivo (ἐπὶ τῆς γῆς) é comumente usado para indicar localização em cima de algo."
+        },
+        {
+          "exerciseId": "M05E10",
+          "difficulty": "easy",
+          "type": "fill-in-the-blank",
+          "prompt": "A preposição 'ἐκ' (ou ἐξ antes de vogal) significa 'de dentro de' e rege o caso ______.",
+          "correctAnswer": "Genitivo",
+          "explanation": "'ἐκ' sempre rege o Genitivo para mostrar origem de dentro de algo."
+        },
+        {
+          "exerciseId": "M05E11",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual frase significa 'em favor dos santos' (ἅγιος, -ου, ὁ = santo)?",
+          "options": ["κατὰ τῶν ἁγίων", "μετὰ τῶν ἁγίων", "ὑπὲρ τῶν ἁγίων", "παρὰ τῶν ἁγίων"],
+          "correctAnswerIndex": 2,
+          "explanation": "'ὑπέρ' com o Genitivo (τῶν ἁγίων) significa 'em favor de, em nome de, por'."
+        },
+        {
+          "exerciseId": "M05E12",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A preposição 'πρός' é mais frequentemente encontrada com qual caso, significando 'para, em direção a'?",
+          "options": ["Genitivo", "Dativo", "Acusativo", "Nominativo"],
+          "correctAnswerIndex": 2,
+          "explanation": "No Novo Testamento, 'πρός' aparece majoritariamente com o Acusativo, indicando direção ou relação pessoal."
+        },
+        {
+          "exerciseId": "M05E13",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'κατὰ σάρκα' (σάρξ, σαρκός, ἡ = carne).",
+          "options": ["Contra a carne", "Através da carne", "Com a carne", "Segundo a carne"],
+          "correctAnswerIndex": 3,
+          "explanation": "'κατά' com o Acusativo (σάρκα é acusativo singular) significa 'segundo, de acordo com'."
+        },
+        {
+          "exerciseId": "M05E14",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual preposição significa 'antes de' e rege o Genitivo?",
+          "options": ["ἀντί", "πρό", "διά", "μετά"],
+          "correctAnswerIndex": 1,
+          "explanation": "'πρό' rege o Genitivo e tem um significado temporal ou espacial de 'antes'."
+        },
+        {
+          "exerciseId": "M05E15",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Na frase 'a Palavra estava com Deus' (John 1:1, ὁ λόγος ἦν πρὸς τὸν θεόν), qual é a melhor explicação para o uso de 'πρός' com o Acusativo?",
+          "options": [
+            "Indica movimento em direção a Deus.",
+            "Indica uma relação face a face, de comunhão íntima.",
+            "Significa 'contra Deus'.",
+            "É um erro de tradução."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Neste contexto teológico, 'πρός' com o Acusativo vai além da mera direção e denota uma relação profunda e íntima, de estar 'face a face com'."
+        },
+        {
+          "exerciseId": "M05E16",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "A expressão 'vindo de ao lado do rei' usaria a preposição 'παρά' com qual caso?",
+          "options": ["Genitivo", "Dativo", "Acusativo", "Nominativo"],
+          "correctAnswerIndex": 0,
+          "explanation": "'παρά' com o Genitivo significa 'de (da parte de alguém)', com a ideia de vir do lado de uma pessoa."
+        },
+        {
+          "exerciseId": "M05E17",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'ἐν τῷ κόσμῳ' (κόσμος, -ου, ὁ = mundo).",
+          "options": ["Para o mundo", "Do mundo", "No mundo", "Através do mundo"],
+          "correctAnswerIndex": 2,
+          "explanation": "'ἐν' com o Dativo (τῷ κόσμῳ) significa 'em, dentro de'."
+        },
+        {
+          "exerciseId": "M05E18",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual a diferença de significado entre 'ἐκ τοῦ οἴκου' e 'εἰς τὸν οἶκον'?",
+          "options": [
+            "Ambas significam 'na casa'",
+            "'De dentro da casa' vs. 'Para dentro da casa'",
+            "'Através da casa' vs. 'Sobre a casa'",
+            "'Por causa da casa' vs. 'Com a casa'"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'ἐκ' com Genitivo indica movimento para fora (origem), enquanto 'εἰς' com Acusativo indica movimento para dentro (destino)."
+        }
+      ]
+    }
+  ]
+}

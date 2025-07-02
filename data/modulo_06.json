@@ -1,0 +1,186 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M06",
+      "moduleTitle": "Pronomes",
+      "learningObjectives": [
+        "Identificar e declinar os pronomes pessoais (ἐγώ, σύ, αὐτός).",
+        "Distinguir os três usos do pronome αὐτός (pessoal, intensivo e idêntico).",
+        "Aprender a declinar e usar os pronomes demonstrativos οὗτος e ἐκεῖνος.",
+        "Aprender a declinar e usar o pronome relativo ὅς, ἥ, ὅ.",
+        "Distinguir entre o pronome interrogativo (τίς, τί) e o indefinido (τις, τι).",
+        "Analisar e traduzir frases contendo diferentes tipos de pronomes."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 6: Pronomes</h1><p>Pronomes são palavras que substituem substantivos para evitar repetição. O grego tem um sistema rico de pronomes, cada um com uma função específica. Dominá-los tornará sua leitura muito mais fluida.</p><h2>1. Pronomes Pessoais (ἐγώ, σύ) e o Pronome de 3ª Pessoa (αὐτός)</h2><p>Os pronomes de 1ª (eu) e 2ª (tu) pessoa são irregulares. O de 3ª pessoa (ele, ela, isso) é o pronome <b>αὐτός, -ή, -ό</b>.</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>1ª Sing. (eu)</th><th>2ª Sing. (tu)</th><th>3ª Masc. Sing.</th><th>3ª Fem. Sing.</th><th>3ª Neut. Sing.</th></tr></thead><tbody><tr><td><b>Nom.</b></td><td>ἐγώ</td><td>σύ</td><td>αὐτός</td><td>αὐτή</td><td>αὐτό</td></tr><tr><td><b>Gen.</b></td><td>μου</td><td>σου</td><td>αὐτοῦ</td><td>αὐτῆς</td><td>αὐτοῦ</td></tr><tr><td><b>Dat.</b></td><td>μοι</td><td>σοι</td><td>αὐτῷ</td><td>αὐτῇ</td><td>αὐτῷ</td></tr><tr><td><b>Acus.</b></td><td>με</td><td>σε</td><td>αὐτόν</td><td>αὐτήν</td><td>αὐτό</td></tr></tbody></table><p>(As formas plurais seguem um padrão similar: ἡμεῖς - nós, ὑμεῖς - vós).</p><h3>Os Três Usos de αὐτός</h3><ol><li><b>Pronome Pessoal de 3ª Pessoa:</b> Quando usado sozinho (sem um substantivo) nos casos Genitivo, Dativo ou Acusativo. Traduz-se como 'dele', 'para ele', 'o', etc. Ex: ὁρῶ <b>αὐτόν</b> (Eu vejo <b>ele</b>).</li><li><b>Adjetivo Intensivo ('mesmo'):</b> Na posição predicativa (sem artigo antes de αὐτός). Traduz-se como 'o próprio' ou 'mesmo'. Ex: <b>αὐτὸς</b> ὁ δοῦλος (o <b>próprio</b> servo).</li><li><b>Adjetivo Idêntico ('o mesmo'):</b> Na posição atributiva (com artigo antes de αὐτός). Traduz-se como 'o mesmo'. Ex: <b>ὁ αὐτὸς</b> δοῦλος (<b>o mesmo</b> servo).</li></ol><h2>2. Pronomes Demonstrativos (οὗτος, ἐκεῖνος)</h2><p>Apontam para algo ou alguém.</p><ul><li><b>οὗτος, αὕτη, τοῦτο:</b> este, esta, isto (aponta para algo próximo).</li><li><b>ἐκεῖνος, ἐκείνη, ἐκεῖνο:</b> aquele, aquela, aquilo (aponta para algo distante).</li></ul><p>Eles são declinados como adjetivos, mas suas formas neutras do nominativo/acusativo singular terminam em -ο. Eles sempre aparecem na posição predicativa em relação ao substantivo que modificam. Ex: <b>οὗτος</b> ὁ ἄνθρωπος (<b>este</b> homem) ou ὁ ἄνθρωπος <b>οὗτος</b> (<b>este</b> homem).</p><h2>3. Pronome Relativo (ὅς, ἥ, ὅ)</h2><p>Introduz uma oração subordinada, relacionando-a a um substantivo (o antecedente) na oração principal. Traduz-se como 'que', 'o qual', 'a qual'. O pronome relativo concorda com seu antecedente em <b>gênero e número</b>, mas seu <b>caso</b> é determinado por sua função dentro de sua própria oração.</p><p>Ex: ὁ δοῦλος <b>ὃν</b> εἶδον... (O servo <b>que</b> eu vi...). 'ὃν' é masculino e singular para concordar com 'servo', mas está no acusativo porque é o objeto direto de 'eu vi'.</p><h2>4. Pronomes Interrogativo (τίς;) e Indefinido (τις)</h2><p>A única diferença na escrita é o acento!</p><ul><li><b>τίς, τί (com acento agudo):</b> Pronome Interrogativo. Significa 'Quem?', 'O quê?', 'Qual?'. Ex: <b>τίς</b> εἶ; (<b>Quem</b> és tu?).</li><li><b>τις, τι (enclítico, sem acento ou com acento grave):</b> Pronome Indefinido. Significa 'alguém', 'algo', 'um certo'. Ex: ἄνθρωπός <b>τις</b> (<b>um certo</b> homem).</li></ul><p>Ambos seguem a declinação da 3ª declinação.</p></div>"
+      },
+      "flashcards": [
+        {"front": "ἐγώ", "back": "eu (pronome pessoal, 1ª sing. nom.)", "unsplashSearchTerm": "I"},
+        {"front": "μου", "back": "de mim, meu (genitivo de ἐγώ)", "unsplashSearchTerm": "my"},
+        {"front": "σύ", "back": "tu, você (pronome pessoal, 2ª sing. nom.)", "unsplashSearchTerm": "you"},
+        {"front": "σοι", "back": "a ti, para ti (dativo de σύ)", "unsplashSearchTerm": "to you"},
+        {"front": "αὐτός", "back": "ele (pessoal); o próprio (intensivo)", "unsplashSearchTerm": "himself"},
+        {"front": "ὁ αὐτὸς", "back": "o mesmo (idêntico)", "unsplashSearchTerm": "same"},
+        {"front": "αὐτῆς", "back": "dela (genitivo de αὐτή)", "unsplashSearchTerm": "her"},
+        {"front": "οὗτος", "back": "este (pronome demonstrativo)", "unsplashSearchTerm": "this"},
+        {"front": "ἐκεῖνος", "back": "aquele (pronome demonstrativo)", "unsplashSearchTerm": "that"},
+        {"front": "τοῦτο", "back": "isto (demonstrativo, nom./acus. neutro sing.)", "unsplashSearchTerm": "it"},
+        {"front": "ἐκείνῳ", "back": "àquele (demonstrativo, dativo masc./neutro sing.)", "unsplashSearchTerm": "to that one"},
+        {"front": "ὅς, ἥ, ὅ", "back": "que, o qual, a qual (pronome relativo)", "unsplashSearchTerm": "relative"},
+        {"front": "οὗ", "back": "de quem, do qual (relativo, genitivo masc./neutro sing.)", "unsplashSearchTerm": "whose"},
+        {"front": "αἷς", "back": "às quais, para as quais (relativo, dativo fem. pl.)", "unsplashSearchTerm": "to whom"},
+        {"front": "τίς;", "back": "Quem? O quê? (pronome interrogativo)", "unsplashSearchTerm": "question mark"},
+        {"front": "τις", "back": "alguém, um certo (pronome indefinido)", "unsplashSearchTerm": "someone"},
+        {"front": "τίνος;", "back": "De quem? (interrogativo, genitivo sing.)", "unsplashSearchTerm": "of whom"},
+        {"front": "τινί", "back": "a alguém, para algo (indefinido, dativo sing.)", "unsplashSearchTerm": "to someone"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M06E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual pronome é usado para 'eu' no caso nominativo?",
+          "options": ["μου", "μοι", "με", "ἐγώ"],
+          "correctAnswerIndex": 3,
+          "explanation": "'ἐγώ' é o pronome pessoal da primeira pessoa do singular no caso nominativo (sujeito)."
+        },
+        {
+          "exerciseId": "M06E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a principal diferença visual entre o pronome interrogativo 'quem?' e o indefinido 'alguém'?",
+          "options": ["O espírito", "O gênero", "O acento", "A primeira letra"],
+          "correctAnswerIndex": 2,
+          "explanation": "O pronome interrogativo 'τίς' sempre tem um acento agudo na primeira sílaba, enquanto o indefinido 'τις' não tem ou é enclítico."
+        },
+        {
+          "exerciseId": "M06E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz a frase 'ὁ αὐτὸς λόγος'?",
+          "options": ["A própria palavra", "A palavra é a mesma", "A mesma palavra", "Aquela palavra"],
+          "correctAnswerIndex": 2,
+          "explanation": "Quando 'αὐτός' está na posição atributiva (precedido pelo artigo), ele funciona como o adjetivo idêntico, significando 'o mesmo'."
+        },
+        {
+          "exerciseId": "M06E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz a frase 'αὐτὸς ὁ κύριος'?",
+          "options": ["O mesmo senhor", "O próprio Senhor", "O Senhor dele", "Aquele senhor"],
+          "correctAnswerIndex": 1,
+          "explanation": "Quando 'αὐτός' está na posição predicativa (sem artigo antes dele), ele funciona como um adjetivo intensivo, significando 'o próprio'."
+        },
+        {
+          "exerciseId": "M06E05",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual pronome demonstrativo aponta para algo distante do falante?",
+          "options": ["οὗτος", "αὐτός", "ἐκεῖνος", "ὅς"],
+          "correctAnswerIndex": 2,
+          "explanation": "'ἐκεῖνος' é usado para indicar 'aquele, aquela, aquilo', apontando para algo distante."
+        },
+        {
+          "exerciseId": "M06E06",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Na frase 'a mulher que eu vi' (ἡ γυνὴ ἣν εἶδον), o caso do pronome relativo 'ἣν' (que) é...",
+          "options": ["Nominativo, porque concorda com 'mulher'", "Acusativo, porque é o objeto de 'eu vi'", "Genitivo, porque indica posse", "Dativo, porque é o objeto indireto"],
+          "correctAnswerIndex": 1,
+          "explanation": "O caso do pronome relativo é determinado pela sua função em sua própria oração. Aqui, 'ἣν' é o objeto direto do verbo 'εἶδον' (eu vi)."
+        },
+        {
+          "exerciseId": "M06E07",
+          "difficulty": "easy",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma do genitivo singular de 'σύ' (tu) é ______.",
+          "correctAnswer": "σου",
+          "explanation": "A forma 'σου' significa 'de ti' ou 'teu'."
+        },
+        {
+          "exerciseId": "M06E08",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a análise correta de 'αὐτῷ' na frase 'λέγω αὐτῷ' (eu digo a ele)?",
+          "options": [
+            "Adjetivo Intensivo, Dativo, Singular, Masculino",
+            "Pronome Pessoal, Dativo, Singular, Masculino",
+            "Pronome Pessoal, Genitivo, Singular, Masculino",
+            "Adjetivo Idêntico, Dativo, Singular, Masculino"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Quando 'αὐτός' está sozinho (sem um substantivo) nos casos oblíquos (Gen, Dat, Acus), ele funciona como um pronome pessoal de 3ª pessoa."
+        },
+        {
+          "exerciseId": "M06E09",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma nominativa feminina singular do pronome demonstrativo 'este'?",
+          "options": ["οὗτος", "τοῦτο", "αὕτη", "αὐτή"],
+          "correctAnswerIndex": 2,
+          "explanation": "A forma nominativa feminina singular de 'este' é 'αὕτη'."
+        },
+        {
+          "exerciseId": "M06E10",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'τίς ἐστιν;'.",
+          "options": ["Alguém está aqui", "Quem é ele?", "Um certo homem", "O que é isto?"],
+          "correctAnswerIndex": 1,
+          "explanation": "'τίς' com acento é o pronome interrogativo 'quem?'. 'ἐστιν' é 'ele/ela é'. A frase significa 'Quem é ele?'."
+        },
+        {
+          "exerciseId": "M06E11",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma correta para 'para estes homens' (ἄνθρωπος, ὁ)?",
+          "options": ["τοῖς τούτοις ἀνθρώποις", "τούτοις τοῖς ἀνθρώποις", "τούτους τοὺς ἀνθρώπους", "τοῦτοι οἱ ἄνθρωποι"],
+          "correctAnswerIndex": 1,
+          "explanation": "O demonstrativo 'οὗτος' sempre fica na posição predicativa. 'Para' indica o dativo. A forma dativa plural de ἄνθρωπος é 'τοῖς ἀνθρώποις' e a de οὗτος é 'τούτοις'."
+        },
+        {
+          "exerciseId": "M06E12",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "O pronome relativo concorda com seu antecedente em...",
+          "options": ["Apenas em Caso", "Apenas em Gênero", "Gênero e Número", "Gênero, Número e Caso"],
+          "correctAnswerIndex": 2,
+          "explanation": "O pronome relativo deve ter o mesmo gênero e número que seu antecedente, mas seu caso depende de sua função na oração relativa."
+        },
+        {
+          "exerciseId": "M06E13",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A tradução de 'ἄνθρωπός τις' é '______ homem'.",
+          "correctAnswer": "um certo",
+          "explanation": "O pronome indefinido 'τις' após um substantivo sem artigo geralmente significa 'um certo' ou 'algum'."
+        },
+        {
+          "exerciseId": "M06E14",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'ἡμεῖς'.",
+          "options": [
+            "1ª Pessoa Plural, Nominativo (nós)",
+            "2ª Pessoa Plural, Nominativo (vós)",
+            "1ª Pessoa Singular, Acusativo (me)",
+            "2ª Pessoa Singular, Dativo (a ti)"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'ἡμεῖς' é o pronome pessoal para 'nós', no caso nominativo."
+        },
+        {
+          "exerciseId": "M06E15",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do genitivo plural do pronome relativo ('de quem', 'dos quais') para todos os gêneros?",
+          "options": ["οὗ", "ὧν", "οὕς", "αἵ"],
+          "correctAnswerIndex": 1,
+          "explanation": "A forma 'ὧν' (com circunflexo e espírito brando) é o genitivo plural do pronome relativo para os três gêneros: masculino, feminino e neutro."
+        }
+      ]
+    }
+  ]
+}

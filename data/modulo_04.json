@@ -1,0 +1,224 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M04",
+      "moduleTitle": "Substantivos da 3ª Declinação e Adjetivos",
+      "learningObjectives": [
+        "Identificar as características dos substantivos da 3ª declinação.",
+        "Aprender a encontrar o radical de um substantivo da 3ª declinação a partir do seu genitivo singular.",
+        "Memorizar as desinências de caso para substantivos masculinos, femininos e neutros da 3ª declinação.",
+        "Declinar substantivos comuns da 3ª declinação.",
+        "Compreender a função dos adjetivos e a regra de concordância (gênero, número e caso).",
+        "Aprender a declinar adjetivos de 1ª e 2ª declinação (padrão 2-1-2).",
+        "Distinguir entre a posição atributiva e predicativa de um adjetivo e entender o impacto na tradução."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 4: Substantivos da 3ª Declinação e Adjetivos</h1><p>Até agora, lidamos com padrões de declinação relativamente regulares. Agora, entramos na 3ª declinação, a mais variada e uma das mais comuns no Novo Testamento. Também aprenderemos a qualificar esses substantivos com adjetivos.</p><h2>1. Substantivos da 3ª Declinação</h2><p>A principal característica da 3ª declinação é que seu radical nem sempre é óbvio a partir da forma do nominativo singular. Por isso, <b>é essencial memorizar o nominativo e o genitivo singular de cada substantivo</b>. O radical é encontrado removendo a terminação <b>-ος</b> do genitivo singular.</p><p><b>Exemplo:</b></p><ul><li>Nominativo: <b>σάρξ</b> (carne)</li><li>Genitivo: <b>σαρκός</b></li><li>Removendo -ος: <b>σαρκ-</b> (Este é o radical usado para todos os outros casos)</li></ul><h3>Desinências da 3ª Declinação</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>Masc./Fem.</th><th>Neutro</th></tr></thead><tbody><tr><td><b>Nominativo Sing.</b></td><td>(Variável)</td><td>(Variável)</td></tr><tr><td><b>Genitivo Sing.</b></td><td>-ος</td><td>-ος</td></tr><tr><td><b>Dativo Sing.</b></td><td>-ι</td><td>-ι</td></tr><tr><td><b>Acusativo Sing.</b></td><td>-α ou -ν</td><td>(Igual ao Nom.)</td></tr><tr><td><b>Vocativo Sing.</b></td><td>(Variável, muitas vezes o radical)</td><td>(Igual ao Nom.)</td></tr><tr><td><b>Nominativo Pl.</b></td><td>-ες</td><td>-α</td></tr><tr><td><b>Genitivo Pl.</b></td><td>-ων</td><td>-ων</td></tr><tr><td><b>Dativo Pl.</b></td><td>-σι(ν)</td><td>-σι(ν)</td></tr><tr><td><b>Acusativo Pl.</b></td><td>-ας</td><td>-α</td></tr><tr><td><b>Vocativo Pl.</b></td><td>-ες</td><td>-α</td></tr></tbody></table><h3>Exemplo de Declinação: σάρξ, σαρκός, ἡ (carne) e ὄνομα, ὀνόματος, τό (nome)</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>Feminino Singular</th><th>Neutro Singular</th><th>Feminino Plural</th><th>Neutro Plural</th></tr></thead><tbody><tr><td><b>Nom./Voc.</b></td><td>σάρξ</td><td>ὄνομα</td><td>σάρκες</td><td>ὀνόματα</td></tr><tr><td><b>Genitivo</b></td><td>σαρκός</td><td>ὀνόματος</td><td>σαρκῶν</td><td>ὀνομάτων</td></tr><tr><td><b>Dativo</b></td><td>σαρκί</td><td>ὀνόματι</td><td>σαρξί(ν)</td><td>ὀνόμασι(ν)</td></tr><tr><td><b>Acusativo</b></td><td>σάρκα</td><td>ὄνομα</td><td>σάρκας</td><td>ὀνόματα</td></tr></tbody></table><h2>2. Adjetivos</h2><p>Adjetivos são palavras que modificam substantivos, atribuindo-lhes uma qualidade. Em grego, o adjetivo deve <b>concordar com o substantivo que modifica em gênero, número e caso</b>.</p><h3>Adjetivos de 1ª/2ª Declinação (Padrão 2-1-2)</h3><p>Estes são os adjetivos mais comuns. Eles usam as desinências da 2ª declinação para as formas masculinas e neutras, e as da 1ª declinação para as formas femininas.</p><p><b>Exemplo: ἀγαθός, -ή, -όν (bom, boa)</b></p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>Masc. Sing.</th><th>Fem. Sing.</th><th>Neut. Sing.</th><th>Masc. Pl.</th><th>Fem. Pl.</th><th>Neut. Pl.</th></tr></thead><tbody><tr><td><b>Nom.</b></td><td>ἀγαθός</td><td>ἀγαθή</td><td>ἀγαθόν</td><td>ἀγαθοί</td><td>ἀγαθαί</td><td>ἀγαθά</td></tr><tr><td><b>Gen.</b></td><td>ἀγαθοῦ</td><td>ἀγαθῆς</td><td>ἀγαθοῦ</td><td>ἀγαθῶν</td><td>ἀγαθῶν</td><td>ἀγαθῶν</td></tr><tr><td><b>Dat.</b></td><td>ἀγαθῷ</td><td>ἀγαθῇ</td><td>ἀγαθῷ</td><td>ἀγαθοῖς</td><td>ἀγαθαῖς</td><td>ἀγαθοῖς</td></tr><tr><td><b>Acus.</b></td><td>ἀγαθόν</td><td>ἀγαθήν</td><td>ἀγαθόν</td><td>ἀγαθούς</td><td>ἀγαθάς</td><td>ἀγαθά</td></tr></tbody></table><h2>3. Posições do Adjetivo</h2><p>A posição do adjetivo em relação ao artigo e ao substantivo muda seu significado.</p><h3>a) Posição Atributiva (Qualidade)</h3><p>O adjetivo atribui uma qualidade ao substantivo. É identificado pela presença do artigo <b>imediatamente antes do adjetivo</b>. Traduz-se como 'o [adjetivo] [substantivo]'.</p><ul><li><b>ὁ ἀγαθὸς</b> δοῦλος (o bom servo)</li><li>ὁ δοῦλος <b>ὁ ἀγαθὸς</b> (o bom servo)</li></ul><h3>b) Posição Predicativa (Afirmação)</h3><p>O adjetivo faz uma afirmação sobre o substantivo. Ele <b>não tem um artigo</b> imediatamente antes dele e está separado do artigo que acompanha o substantivo. Traduz-se incluindo o verbo 'ser'.</p><ul><li>ὁ δοῦλος <b>ἀγαθός</b> (o servo é bom)</li><li><b>ἀγαθὸς</b> ὁ δοῦλος (o servo é bom)</li></ul></div>"
+      },
+      "flashcards": [
+        {"front": "σάρξ, σαρκός, ἡ", "back": "carne", "unsplashSearchTerm": "raw meat"},
+        {"front": "πνεῦμα, πνεύματος, τό", "back": "espírito, vento", "unsplashSearchTerm": "wind"},
+        {"front": "ὄνομα, ὀνόματος, τό", "back": "nome", "unsplashSearchTerm": "name tag"},
+        {"front": "πίστις, πίστεως, ἡ", "back": "fé, confiança", "unsplashSearchTerm": "clasped hands"},
+        {"front": "χάρις, χάριτος, ἡ", "back": "graça, favor", "unsplashSearchTerm": "dove"},
+        {"front": "πατήρ, πατρός, ὁ", "back": "pai", "unsplashSearchTerm": "father and child"},
+        {"front": "ἀνήρ, ἀνδρός, ὁ", "back": "homem, marido", "unsplashSearchTerm": "man portrait"},
+        {"front": "γυνή, γυναικός, ἡ", "back": "mulher, esposa", "unsplashSearchTerm": "woman portrait"},
+        {"front": "φῶς, φωτός, τό", "back": "luz", "unsplashSearchTerm": "light beam"},
+        {"front": "ἀγαθός, -ή, -όν", "back": "bom", "unsplashSearchTerm": "sunrise"},
+        {"front": "δίκαιος, -α, -ον", "back": "justo, reto", "unsplashSearchTerm": "scales of justice"},
+        {"front": "πιστός, -ή, -όν", "back": "fiel", "unsplashSearchTerm": "loyal dog"},
+        {"front": "κακός, -ή, -όν", "back": "mau, maligno", "unsplashSearchTerm": "storm clouds"},
+        {"front": "νεκρός, -ά, -όν", "back": "morto", "unsplashSearchTerm": "dead tree"},
+        {"front": "πᾶς, πᾶσα, πᾶν", "back": "todo, cada", "unsplashSearchTerm": "all"},
+        {"front": "Posição Atributiva", "back": "Qualifica o substantivo (ex: o bom homem). O artigo precede o adjetivo.", "unsplashSearchTerm": "magnifying glass"},
+        {"front": "Posição Predicativa", "back": "Afirma algo sobre o substantivo (ex: o homem é bom). O adjetivo não tem artigo.", "unsplashSearchTerm": "equals sign"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M04E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Como se encontra o radical de um substantivo da 3ª declinação?",
+          "options": [
+            "É sempre igual ao nominativo singular",
+            "Remove-se a terminação -ος do genitivo singular",
+            "Remove-se a terminação -ι do dativo singular",
+            "É sempre igual ao vocativo singular"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A regra fundamental para a 3ª declinação é encontrar o radical a partir do genitivo singular, removendo a desinência -ος."
+        },
+        {
+          "exerciseId": "M04E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a desinência do Genitivo Plural para todos os gêneros na 3ª declinação?",
+          "options": ["-ων", "-ας", "-ες", "-α"],
+          "correctAnswerIndex": 0,
+          "explanation": "A desinência -ων é consistente para o genitivo plural em todas as declinações e gêneros."
+        },
+        {
+          "exerciseId": "M04E03",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Um adjetivo deve concordar com seu substantivo em:",
+          "options": [
+            "Apenas gênero e número",
+            "Apenas caso",
+            "Gênero, número e caso",
+            "Apenas gênero e caso"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A concordância em gênero, número e caso é a regra de ouro para os adjetivos em grego."
+        },
+        {
+          "exerciseId": "M04E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Como se traduz 'ὁ δοῦλος πιστός'?",
+          "options": ["O fiel servo", "O servo do fiel", "O servo é fiel", "Servo, sê fiel!"],
+          "correctAnswerIndex": 2,
+          "explanation": "O adjetivo 'πιστός' está na posição predicativa (não tem artigo antes dele), então faz uma afirmação sobre 'o servo'."
+        },
+        {
+          "exerciseId": "M04E05",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma correta para 'o bom servo' (posição atributiva)?",
+          "options": ["ὁ δοῦλος ἀγαθός", "ἀγαθὸς ὁ δοῦλος", "ὁ ἀγαθὸς δοῦλος", "δοῦλος ὁ ἀγαθός"],
+          "correctAnswerIndex": 2,
+          "explanation": "Na posição atributiva, o artigo deve vir imediatamente antes do adjetivo. 'ὁ ἀγαθὸς δοῦλος' e 'ὁ δοῦλος ὁ ἀγαθὸς' estão ambos corretos."
+        },
+        {
+          "exerciseId": "M04E06",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "Dado o substantivo 'πνεῦμα, πνεύματος', seu radical é _______.",
+          "correctAnswer": "πνευματ",
+          "explanation": "Removendo a terminação -ος do genitivo 'πνεύματος', obtemos o radical πνευματ-."
+        },
+        {
+          "exerciseId": "M04E07",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do Dativo Plural de 'σάρξ' (radical σαρκ-)?",
+          "options": ["σάρκες", "σαρξίν", "σάρκας", "σαρκῶν"],
+          "correctAnswerIndex": 1,
+          "explanation": "O radical (σαρκ-) combina com a desinência do dativo plural (-σι) para formar σαρξί(ν)."
+        },
+        {
+          "exerciseId": "M04E08",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do acusativo singular de 'πίστις, πίστεως'?",
+          "options": ["πίστις", "πίστει", "πίστιν", "πίστεως"],
+          "correctAnswerIndex": 2,
+          "explanation": "O radical é πιστε-. A desinência do acusativo singular para esta classe de substantivos é -ν, resultando em πίστιν."
+        },
+        {
+          "exerciseId": "M04E09",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a análise de 'ὀνόματι'?",
+          "options": [
+            "Nominativo Plural Neutro",
+            "Genitivo Singular Neutro",
+            "Dativo Singular Neutro",
+            "Acusativo Plural Neutro"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A terminação -ι em um radical da 3ª declinação (-ματ) indica o caso Dativo Singular."
+        },
+        {
+          "exerciseId": "M04E10",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "O adjetivo 'δίκαιος, -α, -ον' pertence a que padrão de declinação?",
+          "options": ["3ª declinação", "Padrão 2-1-2", "Padrão 3-3", "Não se declina"],
+          "correctAnswerIndex": 1,
+          "explanation": "As terminações -ος (masc.), -α (fem.), -ον (neut.) indicam que ele segue a 2ª, 1ª e 2ª declinações, respectivamente (padrão 2-1-2)."
+        },
+        {
+          "exerciseId": "M04E11",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual seria a forma correta do adjetivo 'ἀγαθός' para concordar com 'ὀνόματι' (Dat. Sing. Neutro)?",
+          "options": ["ἀγαθῷ", "ἀγαθόν", "ἀγαθῆς", "ἀγαθῇ"],
+          "correctAnswerIndex": 0,
+          "explanation": "O adjetivo precisa estar no Dativo Singular Neutro. Consultando a tabela de declinação de ἀγαθός, a forma correta é ἀγαθῷ."
+        },
+        {
+          "exerciseId": "M04E12",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'ἡ πίστις δικαία ἐστίν'. ('ἐστίν' = é)",
+          "options": ["A fé da justa", "A fé é justa", "A justa fé", "Justa, ó fé"],
+          "correctAnswerIndex": 1,
+          "explanation": "O adjetivo 'δικαία' está na posição predicativa, pois não há artigo antes dele. Portanto, ele faz uma afirmação sobre 'a fé'."
+        },
+        {
+          "exerciseId": "M04E13",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual a forma do Nominativo Plural de 'πατήρ, πατρός' (pai)?",
+          "options": ["πατέρες", "πατρός", "πατράσι", "πατέρας"],
+          "correctAnswerIndex": 0,
+          "explanation": "O radical é πατρ-. A desinência do nominativo plural masculino/feminino é -ες. A vogal do radical sofre uma mudança (ablaut), resultando em πατέρες."
+        },
+        {
+          "exerciseId": "M04E14",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A forma 'σαρκῶν' é...",
+          "options": ["Nominativo Plural", "Genitivo Plural", "Dativo Plural", "Acusativo Plural"],
+          "correctAnswerIndex": 1,
+          "explanation": "A terminação -ων é a marca do Genitivo Plural em praticamente todos os substantivos e adjetivos."
+        },
+        {
+          "exerciseId": "M04E15",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Como se diz 'com a graça fiel' (graça = χάρις, χάριτος, ἡ)? 'Com' indica o dativo.",
+          "options": ["τῇ χάριτι πιστήν", "τῇ χάριτος πιστῇ", "τῇ χάριτι πιστῇ", "τὴν χάριν πιστή"],
+          "correctAnswerIndex": 2,
+          "explanation": "'graça' (χάρις) é feminino. O dativo singular de χάρις é χάριτι. O adjetivo 'πιστός' deve concordar, ficando no dativo singular feminino, que é πιστῇ. O artigo também concorda: τῇ."
+        },
+        {
+          "exerciseId": "M04E16",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise 'τοῦ φωτός':",
+          "options": [
+            "Nominativo singular de 'luz'",
+            "Genitivo singular de 'luz'",
+            "Acusativo plural de 'luz'",
+            "Dativo singular de 'luz'"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "O substantivo é φῶς, φωτός (luz). A forma φωτός é o genitivo singular, e o artigo τοῦ confirma (genitivo, singular, neutro/masc.)."
+        },
+        {
+          "exerciseId": "M04E17",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Nos substantivos neutros da 3ª declinação, as formas do Nominativo e Acusativo são...",
+          "options": ["Sempre diferentes", "Sempre iguais", "Iguais apenas no singular", "Iguais apenas no plural"],
+          "correctAnswerIndex": 1,
+          "explanation": "Assim como na 2ª declinação, os substantivos neutros têm a mesma forma para os casos Nominativo e Acusativo, tanto no singular quanto no plural."
+        },
+        {
+          "exerciseId": "M04E18",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'τὰ πνεύματα τὰ κακά'.",
+          "options": ["Os espíritos são maus", "Do espírito mau", "Os maus espíritos", "Aos maus espíritos"],
+          "correctAnswerIndex": 2,
+          "explanation": "Esta é a segunda forma da posição atributiva (artigo-substantivo-artigo-adjetivo). A tradução é 'os maus espíritos'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M13",
+      "moduleTitle": "Advérbios, Conjunções e Partículas",
+      "learningObjectives": [
+        "Definir e identificar advérbios e aprender a principal forma de criá-los a partir de adjetivos.",
+        "Definir o papel das conjunções como conectores lógicos entre palavras, orações e sentenças.",
+        "Distinguir entre conjunções coordenativas (ex: καί, ἀλλά, δέ) e subordinativas (ex: ὅτι, ἵνα).",
+        "Compreender a função das partículas como palavras que adicionam nuance, ênfase ou transição.",
+        "Aprender o significado e o uso de palavras e construções comuns como 'γάρ', 'οὖν' e a estrutura 'μέν... δέ'.",
+        "Reconhecer palavras 'postpositivas', que nunca ocorrem como a primeira palavra de uma oração."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 13: Advérbios, Conjunções e Partículas</h1><p>Após a intensidade dos verbos e substantivos, este módulo foca nas 'palavras-cola' do grego. São palavras que não se declinam ou conjugam da mesma forma, mas que são absolutamente essenciais para dar lógica, fluidez e emoção ao texto.</p><h2>1. Advérbios</h2><p>Advérbios modificam verbos, adjetivos ou outros advérbios, geralmente respondendo a perguntas como 'como?', 'quando?', 'onde?' ou 'por quê?'.</p><h3>Formação de Advérbios</h3><p>A maneira mais comum de formar um advérbio é a partir de um adjetivo. A regra é: pegue o radical do genitivo plural do adjetivo e adicione a terminação <b>-ως</b>.</p><p>Ex: <b>δίκαιος</b> (justo) → Gen. Pl. δικαί<b>ων</b> → Radical δικαι- + ως → <b>δικαίως</b> (justamente).</p><p>Ex: <b>ἀληθής</b> (verdadeiro) → Gen. Pl. ἀληθ<b>ῶν</b> → Radical ἀληθ- + ως → <b>ἀληθῶς</b> (verdadeiramente).</p><p>Existem também advérbios que devem ser memorizados, como: <b>νῦν</b> (agora), <b>τότε</b> (então), <b>πάλιν</b> (novamente), <b>ὧδε</b> (aqui).</p><h2>2. Conjunções</h2><p>Conjunções conectam palavras, orações ou sentenças.</p><h3>a) Conjunções Coordenativas (conectam elementos de igual valor)</h3><ul><li><b>καί:</b> E, também. A conjunção mais comum.</li><li><b>ἀλλά:</b> Mas, porém. Indica um contraste forte.</li><li><b>δέ:</b> Mas, e. Um conector mais suave que 'ἀλλά', frequentemente usado para continuar uma narrativa. É <b>postpositiva</b>, ou seja, nunca é a primeira palavra da oração, vindo sempre em segundo lugar.</li><li><b>ἤ:</b> Ou.</li></ul><h3>b) Conjunções Subordinativas (introduzem uma oração dependente)</h3><ul><li><b>ὅτι:</b> Que (introduzindo uma citação ou fato); Porque (dando uma causa).</li><li><b>ἵνα:</b> Para que (introduzindo um propósito; requer o subjuntivo).</li><li><b>εἰ:</b> Se (introduzindo uma condição).</li><li><b>ὅτε:</b> Quando.</li></ul><h2>3. Partículas</h2><p>Partículas são pequenas palavras que ajustam o tom da oração, adicionando ênfase, contraste ou inferência. Muitas são postpositivas.</p><ul><li><b>μέν ... δέ:</b> Uma construção de contraste muito comum. 'μέν' marca a primeira parte da declaração e 'δέ' marca a segunda. Pode ser traduzida como 'por um lado... por outro lado', ou muitas vezes o 'μέν' não é traduzido e o 'δέ' é traduzido como 'mas'.<li>Ex: ἐγὼ <b>μὲν</b> ἐβάπτισα ὑμᾶς ὕδατι, αὐτὸς <b>δὲ</b> βαπτίσει ὑμᾶς πνεύματι ἁγίῳ. (Marcos 1:8) - Eu, <b>de fato</b>, vos batizei com água, <b>mas</b> ele vos batizará com o Espírito Santo.</li></li><li><b>γάρ:</b> (postpositiva) Pois, porque. Fornece a razão ou a explicação para a declaração anterior.</li><li><b>οὖν:</b> (postpositiva) Portanto, então. Indica uma inferência ou conclusão baseada no que foi dito antes.</li><li><b>ἄρα:</b> (postpositiva) Então, consequentemente. Similar a 'οὖν', mas frequentemente mais enfático.</li><li><b>ἰδού / ἴδε:</b> Eis! Vede! Uma partícula interjetiva usada para chamar a atenção para o que se segue.</li></ul></div>"
+      },
+      "flashcards": [
+        {"front": "Advérbio (-ως)", "back": "Modifica um verbo, adjetivo ou outro advérbio. A terminação -ως é a mais comum.", "unsplashSearchTerm": "adverb"},
+        {"front": "Conjunção", "back": "Palavra que conecta palavras, orações ou sentenças.", "unsplashSearchTerm": "connect"},
+        {"front": "Partícula", "back": "Palavra pequena que adiciona nuance, ênfase ou transição.", "unsplashSearchTerm": "nuance"},
+        {"front": "Postpositivo", "back": "Uma palavra que nunca aparece em primeiro lugar em sua oração (ex: δέ, γάρ, οὖν).", "unsplashSearchTerm": "second place"},
+        {"front": "καί", "back": "e, também", "unsplashSearchTerm": "and"},
+        {"front": "ἀλλά", "back": "mas, porém (contraste forte)", "unsplashSearchTerm": "but"},
+        {"front": "δέ", "back": "mas, e (contraste suave, continuativo; postpositivo)", "unsplashSearchTerm": "however"},
+        {"front": "γάρ", "back": "pois, porque (explicação; postpositivo)", "unsplashSearchTerm": "because"},
+        {"front": "οὖν", "back": "portanto, então (inferência; postpositivo)", "unsplashSearchTerm": "therefore"},
+        {"front": "ὅτι", "back": "que; porque", "unsplashSearchTerm": "that"},
+        {"front": "μέν ... δέ", "back": "Construção de contraste: 'por um lado ... por outro lado'.", "unsplashSearchTerm": "contrast"},
+        {"front": "ἰδού", "back": "Eis! Vede!", "unsplashSearchTerm": "behold"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M13E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a função principal de uma conjunção como 'καί'?",
+          "options": [
+            "Modificar um verbo",
+            "Conectar palavras ou orações",
+            "Dar um comando",
+            "Funcionar como um substantivo"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Conjunções são palavras conectoras. 'καί' (e) é a conjunção coordenativa mais básica."
+        },
+        {
+          "exerciseId": "M13E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Como se forma o advérbio a partir do adjetivo 'καλός' (bom, belo)?",
+          "options": ["καλόν", "καλοί", "καλῶς", "κάλλιον"],
+          "correctAnswerIndex": 2,
+          "explanation": "A partir do radical do genitivo plural (καλῶν), adicionamos -ως para formar καλῶς (bem, belamente)."
+        },
+        {
+          "exerciseId": "M13E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual palavra é 'postpositiva', ou seja, nunca é a primeira palavra de uma oração?",
+          "options": ["καί", "ἀλλά", "γάρ", "ὅτι"],
+          "correctAnswerIndex": 2,
+          "explanation": "'γάρ' (pois), 'δέ' (mas) e 'οὖν' (portanto) são partículas postpositivas comuns, aparecendo em segundo lugar na oração."
+        },
+        {
+          "exerciseId": "M13E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a função da partícula 'οὖν'?",
+          "options": [
+            "Introduzir um contraste forte",
+            "Fazer uma pergunta",
+            "Indicar uma inferência ou conclusão ('portanto')",
+            "Dar uma explicação ou causa ('pois')"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "'οὖν' sinaliza que o que se segue é uma conclusão lógica do que foi dito antes."
+        },
+        {
+          "exerciseId": "M13E05",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é a diferença principal entre 'ἀλλά' e 'δέ'?",
+          "options": [
+            "Não há diferença.",
+            "'ἀλλά' é um contraste forte; 'δέ' é um contraste mais suave ou apenas continua a narrativa.",
+            "'ἀλλά' é postpositivo; 'δέ' não é.",
+            "'ἀλλά' significa 'e'; 'δέ' significa 'ou'."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'ἀλλά' introduz uma oposição direta e forte. 'δέ' é muito mais comum e pode indicar um contraste leve ou simplesmente a próxima parte de uma história."
+        },
+        {
+          "exerciseId": "M13E06",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "Na construção '...μέν...δέ', a partícula 'μέν' marca a primeira parte de um _______.",
+          "correctAnswer": "contraste",
+          "explanation": "A estrutura 'μέν...δέ' é a maneira clássica do grego de estabelecer um contraste ('por um lado... por outro lado...')."
+        },
+        {
+          "exerciseId": "M13E07",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual palavra significa 'pois' ou 'porque' e é usada para dar uma explicação?",
+          "options": ["οὖν", "δέ", "καί", "γάρ"],
+          "correctAnswerIndex": 3,
+          "explanation": "'γάρ' é a partícula explicativa clássica, fornecendo a razão para a declaração anterior."
+        },
+        {
+          "exerciseId": "M13E08",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A conjunção 'ὅτι' pode significar 'que' ou...",
+          "options": ["mas", "se", "porque", "ou"],
+          "correctAnswerIndex": 2,
+          "explanation": "'ὅτι' tem duas funções principais: introduzir uma cláusula de conteúdo ('ele disse que...') ou uma cláusula causal ('ele chorou porque...')."
+        },
+        {
+          "exerciseId": "M13E09",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a tradução de 'νῦν'?",
+          "options": ["Então", "Novamente", "Agora", "Aqui"],
+          "correctAnswerIndex": 2,
+          "explanation": "'νῦν' é o advérbio de tempo que significa 'agora'."
+        },
+        {
+          "exerciseId": "M13E10",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Em '...καὶ οὐκ ἔστιν ἐν αὐτῷ σκοτία', a palavra 'οὐκ' é um:",
+          "options": [
+            "Advérbio de negação",
+            "Partícula de contraste",
+            "Conjunção de propósito",
+            "Advérbio de lugar"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'οὐ' (e suas formas 'οὐκ', 'οὐχ') é o advérbio de negação usado com o modo indicativo. A frase significa '...e não há nele treva alguma'."
+        }
+      ]
+    }
+  ]
+}

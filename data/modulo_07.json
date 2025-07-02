@@ -1,0 +1,173 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M07",
+      "moduleTitle": "Verbos - Futuro e Aoristo do Indicativo (Vozes Ativa, Média e Passiva)",
+      "learningObjectives": [
+        "Compreender o aspecto do tempo futuro (ação indefinida) e do aoristo (ação pontual ou completa).",
+        "Aprender a formar e conjugar o futuro ativo, médio e passivo do indicativo.",
+        "Aprender a formar e conjugar o aoristo (primeiro) ativo, médio e passivo do indicativo.",
+        "Identificar as marcas de tempo (morfemas) características: 'σ' para o futuro, 'σα' para o aoristo ativo/médio, 'θη' para o aoristo/futuro passivo.",
+        "Entender as regras de contração de consoantes com o sigma (σ) na formação do futuro e aoristo.",
+        "Reconhecer a existência e a forma do aoristo segundo (irregular).",
+        "Analisar e traduzir formas verbais no futuro e no aoristo."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 7: Verbos - Futuro e Aoristo do Indicativo</h1><p>Expandiremos nosso conhecimento dos verbos para além da ação contínua (presente e imperfeito). O Futuro e o Aoristo são essenciais para narrativas, pois expressam, respectivamente, o que acontecerá e o que aconteceu.</p><h2>1. Aspecto Verbal: A Chave para Entender os Tempos</h2><p>Mais do que apenas quando uma ação ocorre, o tempo verbal grego expressa o <b>tipo</b> de ação (aspecto):</p><ul><li><b>Aspecto Contínuo (Presente/Imperfeito):</b> Ação vista como um processo em andamento. 'Eu estou desatando', 'eu estava desatando'.</li><li><b>Aspecto Pontual/Completo (Aoristo):</b> Ação vista como um todo, um evento completo, sem referência à sua duração. 'Eu desatei'. É a espinha dorsal da narrativa no Novo Testamento.</li><li><b>Aspecto Indefinido (Futuro):</b> Ação que ocorrerá no futuro, sem especificação de ser contínua ou pontual. 'Eu desatarei'.</li></ul><h2>2. O Futuro do Indicativo</h2><p>É formado com a adição do morfema de tempo <b>-σ-</b> entre o radical e as desinências. Usa as desinências primárias (as mesmas do presente).</p><p><b>Futuro Ativo/Médio de λύω:</b> Radical (λυ) + <b>σ</b> + Desinência Primária</p><p><b>Futuro Passivo de λύω:</b> Radical Passivo (λυ<b>θη</b>) + <b>σ</b> + Desinência Médio-Passiva</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Futuro Ativo</th><th>Futuro Médio</th><th>Futuro Passivo</th></tr></thead><tbody><tr><td>1ª Sing.</td><td>λύ<b>σ</b>ω</td><td>λύ<b>σ</b>ομαι</td><td>λυ<b>θήσ</b>ομαι</td></tr><tr><td>2ª Sing.</td><td>λύ<b>σ</b>εις</td><td>λύ<b>σ</b>ῃ</td><td>λυ<b>θήσ</b>ῃ</td></tr><tr><td>3ª Sing.</td><td>λύ<b>σ</b>ει</td><td>λύ<b>σ</b>εται</td><td>λυ<b>θήσ</b>εται</td></tr><tr><td>1ª Pl.</td><td>λύ<b>σ</b>ομεν</td><td>λυ<b>σ</b>όμεθα</td><td>λυ<b>θησ</b>όμεθα</td></tr><tr><td>2ª Pl.</td><td>λύ<b>σ</b>ετε</td><td>λύ<b>σ</b>εσθε</td><td>λυ<b>θήσ</b>εσθε</td></tr><tr><td>3ª Pl.</td><td>λύ<b>σ</b>ουσι(ν)</td><td>λύ<b>σ</b>ονται</td><td>λυ<b>θήσ</b>ονται</td></tr></tbody></table><h2>3. Mudanças Consonantais com Sigma</h2><p>Quando o <b>σ</b> do futuro/aoristo encontra uma consoante no final do radical, ocorrem fusões:</p><ul><li><b>Labiais (π, β, φ) + σ = ψ</b> (ex: γράφω -> γρά<b>ψ</b>ω)</li><li><b>Velares (κ, γ, χ) + σ = ξ</b> (ex: ἄγω -> ἄ<b>ξ</b>ω)</li><li><b>Dentais (τ, δ, θ) + σ = σ</b> (a dental cai) (ex: πείθω -> πεί<b>σ</b>ω)</li></ul><h2>4. O Aoristo do Indicativo</h2><p>Marca uma ação no passado. Assim como o imperfeito, leva o <b>aumento</b> (ἐ-) no início. Usa desinências secundárias.</p><p><b>Aoristo (Primeiro) Ativo/Médio:</b> Aumento (ἐ) + Radical + <b>σα</b> + Desinência Secundária</p><p><b>Aoristo (Primeiro) Passivo:</b> Aumento (ἐ) + Radical + <b>θη</b> + Desinência Secundária Ativa</p><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Pessoa</th><th>Aoristo Ativo</th><th>Aoristo Médio</th><th>Aoristo Passivo</th></tr></thead><tbody><tr><td>1ª Sing.</td><td><b>ἔ</b>λυ<b>σα</b></td><td><b>ἐ</b>λυ<b>σά</b>μην</td><td><b>ἐ</b>λύ<b>θη</b>ν</td></tr><tr><td>2ª Sing.</td><td><b>ἔ</b>λυ<b>σα</b>ς</td><td><b>ἐ</b>λύ<b>σω</b></td><td><b>ἐ</b>λύ<b>θη</b>ς</td></tr><tr><td>3ª Sing.</td><td><b>ἔ</b>λυ<b>σε</b>(ν)</td><td><b>ἐ</b>λύ<b>σα</b>το</td><td><b>ἐ</b>λύ<b>θη</b></td></tr><tr><td>1ª Pl.</td><td><b>ἐ</b>λύ<b>σα</b>μεν</td><td><b>ἐ</b>λυ<b>σά</b>μεθα</td><td><b>ἐ</b>λύ<b>θη</b>μεν</td></tr><tr><td>2ª Pl.</td><td><b>ἐ</b>λύ<b>σα</b>τε</td><td><b>ἐ</b>λύ<b>σα</b>σθε</td><td><b>ἐ</b>λύ<b>θη</b>τε</td></tr><tr><td>3ª Pl.</td><td><b>ἔ</b>λυ<b>σα</b>ν</td><td><b>ἐ</b>λύ<b>σα</b>ντο</td><td><b>ἐ</b>λύ<b>θη</b>σαν</td></tr></tbody></table><h2>5. O Aoristo Segundo</h2><p>Alguns verbos formam seu aoristo de uma maneira mais antiga, sem o 'σα'. Ele é formado por: <b>aumento</b> + <b>radical do verbo</b> + <b>desinências do imperfeito ativo/médio</b>. Você precisa memorizar quais verbos têm aoristo segundo.</p><p>Exemplo: λαμβάνω (eu pego) -> Aoristo Segundo Ativo: <b>ἔλαβον</b> (eu peguei).</p></div>"
+      },
+      "flashcards": [
+        {"front": "λύσω", "back": "Eu desatarei (Futuro Ativo Ind. 1S)", "unsplashSearchTerm": "future"},
+        {"front": "ἔλυσα", "back": "Eu desatei (Aoristo Ativo Ind. 1S)", "unsplashSearchTerm": "past"},
+        {"front": "ἐλύθην", "back": "Eu fui desatado (Aoristo Passivo Ind. 1S)", "unsplashSearchTerm": "freed"},
+        {"front": "λυθήσομαι", "back": "Eu serei desatado (Futuro Passivo Ind. 1S)", "unsplashSearchTerm": "will be free"},
+        {"front": "γράψω", "back": "Eu escreverei (Futuro de γράφω)", "unsplashSearchTerm": "writing"},
+        {"front": "ἔγραψα", "back": "Eu escrevi (Aoristo de γράφω)", "unsplashSearchTerm": "written letter"},
+        {"front": "ἄξω", "back": "Eu conduzirei (Futuro de ἄγω)", "unsplashSearchTerm": "leading"},
+        {"front": "ἐλυσάμην", "back": "Eu desatei para mim mesmo (Aoristo Médio 1S)", "unsplashSearchTerm": "self help"},
+        {"front": "Aoristo Segundo", "back": "Aoristo irregular sem 'σα', com desinências do imperfeito (ex: ἔλαβον)", "unsplashSearchTerm": "alternative path"},
+        {"front": "ἔλαβον", "back": "Eu peguei, recebi (Aoristo II de λαμβάνω)", "unsplashSearchTerm": "receiving"},
+        {"front": "ἦλθον", "back": "Eu vim, fui (Aoristo II de ἔρχομαι)", "unsplashSearchTerm": "arrival"},
+        {"front": "εἶδον", "back": "Eu vi (Aoristo II de ὁράω)", "unsplashSearchTerm": "seeing"},
+        {"front": "εἶπον", "back": "Eu disse (Aoristo II de λέγω)", "unsplashSearchTerm": "speaking"},
+        {"front": "πιστεύσω", "back": "Eu crerei (Futuro de πιστεύω)", "unsplashSearchTerm": "faith"},
+        {"front": "ἐπίστευσα", "back": "Eu cri (Aoristo de πιστεύω)", "unsplashSearchTerm": "belief"},
+        {"front": "ἐκηρύχθη", "back": "Foi pregado (Aoristo Passivo 3S de κηρύσσω)", "unsplashSearchTerm": "preaching"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M07E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual tempo verbal grego descreve uma ação completa no passado, sem focar em sua duração?",
+          "options": ["Presente", "Imperfeito", "Aoristo", "Futuro"],
+          "correctAnswerIndex": 2,
+          "explanation": "O Aoristo tem um aspecto pontual, vendo a ação como um evento completo. É o tempo principal para narrativas no passado."
+        },
+        {
+          "exerciseId": "M07E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a marca (morfema) principal do tempo Futuro Ativo/Médio?",
+          "options": ["σα", "θη", "ο/ε", "σ"],
+          "correctAnswerIndex": 3,
+          "explanation": "O morfema de tempo -σ- é inserido entre o radical e a desinência para formar o futuro."
+        },
+        {
+          "exerciseId": "M07E03",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma verbal 'ἐλύσαμεν'.",
+          "options": [
+            "Aoristo, Indicativo, Ativo, 1ª Pessoa, Plural",
+            "Imperfeito, Indicativo, Ativo, 1ª Pessoa, Plural",
+            "Futuro, Indicativo, Ativo, 1ª Pessoa, Plural",
+            "Aoristo, Indicativo, Médio, 1ª Pessoa, Plural"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Temos o aumento (ἐ-), o radical (λυ), a marca do aoristo (σα) e a desinência secundária ativa (-μεν). Significa 'nós desatamos'."
+        },
+        {
+          "exerciseId": "M07E04",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é o futuro ativo, 1ª pessoa singular, de 'πέμπω' (eu envio)?",
+          "options": ["πέμσω", "πέμψω", "πέμξω", "πέμπω"],
+          "correctAnswerIndex": 1,
+          "explanation": "A consoante labial 'π' do radical combina com o 'σ' do futuro para formar 'ψ'. Portanto, πέμπ + σω = πέμψω."
+        },
+        {
+          "exerciseId": "M07E05",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma verbal 'λυθήσεται'.",
+          "options": [
+            "Aoristo, Indicativo, Passivo, 3ª Pessoa, Singular",
+            "Futuro, Indicativo, Passivo, 3ª Pessoa, Singular",
+            "Futuro, Indicativo, Médio, 3ª Pessoa, Singular",
+            "Presente, Indicativo, Médio-Passivo, 3ª Pessoa, Singular"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Temos o radical do aoristo passivo (λυθη-), a marca do futuro (σ) e a desinência médio-passiva (-εται). Significa 'ele/ela será desatado(a)'."
+        },
+        {
+          "exerciseId": "M07E06",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é o Aoristo Passivo, 3ª pessoa do plural, de 'κηρύσσω' (eu prego)?",
+          "options": ["ἐκήρυξαν", "ἐκηρύχθησαν", "κηρυχθήσονται", "ἐκηρύσσοντο"],
+          "correctAnswerIndex": 1,
+          "explanation": "O radical do aoristo passivo é κηρυχθ-. Adicionamos o aumento (ἐ-) e a desinência da 3ª plural do aoristo passivo (-ησαν)."
+        },
+        {
+          "exerciseId": "M07E07",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'πιστεύσομεν'.",
+          "options": ["Nós cremos", "Nós críamos", "Nós cremos (ato passado)", "Nós creremos"],
+          "correctAnswerIndex": 3,
+          "explanation": "A forma πιστεύσομεν é o Futuro, Indicativo, Ativo, 1ª Pessoa, Plural de πιστεύω. Significa 'nós creremos'."
+        },
+        {
+          "exerciseId": "M07E08",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A forma 'ἔλαβον' é um exemplo de...",
+          "options": ["Aoristo Primeiro Ativo", "Imperfeito Ativo", "Aoristo Segundo Ativo", "Futuro Ativo"],
+          "correctAnswerIndex": 2,
+          "explanation": "'ἔλαβον' é o Aoristo Segundo (irregular) de λαμβάνω. Note a ausência do 'σα'."
+        },
+        {
+          "exerciseId": "M07E09",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual é o futuro de 'ἄγω' (eu guio)?",
+          "options": ["ἄγωσω", "ἄψω", "ἄξω", "ἄσω"],
+          "correctAnswerIndex": 2,
+          "explanation": "O radical termina em uma velar (γ), que se funde com o sigma (σ) para formar xi (ξ). Portanto, ἄγ + σω = ἄξω."
+        },
+        {
+          "exerciseId": "M07E10",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "A forma do aoristo ativo, 3ª pessoa do singular de λύω é ________.",
+          "correctAnswer": "ἔλυσε",
+          "explanation": "A desinência da 3ª pessoa do singular no aoristo ativo é -σε(ν)."
+        },
+        {
+          "exerciseId": "M07E11",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Traduza 'ἐλήφθη' (Aoristo Passivo de λαμβάνω).",
+          "options": ["Ele pegou", "Ele foi pego/recebido", "Ele pegará", "Ele estava pegando"],
+          "correctAnswerIndex": 1,
+          "explanation": "É a 3ª pessoa do singular do aoristo passivo, significando que o sujeito recebeu a ação."
+        },
+        {
+          "exerciseId": "M07E12",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a função do aumento (ἐ-) nos verbos?",
+          "options": ["Indicar o tempo futuro", "Indicar a voz passiva", "Indicar um tempo passado no modo indicativo", "Indicar a primeira pessoa"],
+          "correctAnswerIndex": 2,
+          "explanation": "O aumento é um prefixo que marca os tempos passados do modo indicativo (Imperfeito e Aoristo)."
+        },
+        {
+          "exerciseId": "M07E13",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Qual a diferença de aspecto entre 'ἔγραφεν' e 'ἔγραψεν'?",
+          "options": [
+            "Não há diferença",
+            "'ἔγραφεν' é ação contínua no passado; 'ἔγραψεν' é ação completa no passado.",
+            "'ἔγραφεν' é singular; 'ἔγραψεν' é plural.",
+            "'ἔγραφεν' é ativo; 'ἔγραψεν' é passivo."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'ἔγραφεν' é o Imperfeito (ele estava escrevendo), indicando ação contínua. 'ἔγραψεν' é o Aoristo (ele escreveu), indicando ação completa, pontual."
+        }
+      ]
+    }
+  ]
+}

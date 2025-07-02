@@ -1,0 +1,370 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M02",
+      "moduleTitle": "Introdução aos Substantivos, Casos e o Artigo Definido",
+      "learningObjectives": [
+        "Definir o que é um substantivo e suas três propriedades: gênero, número e caso.",
+        "Identificar os três gêneros em grego: masculino, feminino e neutro.",
+        "Compreender os dois números: singular e plural.",
+        "Aprender os cinco casos gregos (Nominativo, Genitivo, Dativo, Acusativo, Vocativo) e a função básica de cada um.",
+        "Memorizar e declinar o artigo definido masculino, feminino e neutro, no singular e no plural.",
+        "Analisar (fazer o 'parsing') do artigo definido, identificando seu caso, número e gênero.",
+        "Compreender as três funções básicas do artigo: identificadora, pronominal e com substantivos abstratos."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 2: Introdução aos Substantivos, Casos e o Artigo Definido</h1><p>Se você dominou o alfabeto, está pronto para o próximo passo: entender como as palavras se relacionam em uma frase. Neste módulo, apresentaremos os substantivos e a ferramenta mais importante para entendê-los: o artigo definido.</p><h2>1. As Três Propriedades dos Substantivos</h2><p>No grego, todo substantivo (nome de pessoa, lugar, coisa ou ideia) possui três características ou propriedades que determinam sua forma e função:</p><ul><li><b>Gênero (γένος):</b> Masculino, Feminino ou Neutro. O gênero em grego é gramatical e nem sempre corresponde ao gênero natural. Por exemplo, <em>ὁ λόγος</em> (a palavra) é masculino, <em>ἡ καρδία</em> (o coração) é feminino, e <em>τὸ πνεῦμα</em> (o espírito) é neutro. Você aprenderá o gênero de um substantivo junto com seu vocabulário.</li><li><b>Número (ἀριθμός):</b> Singular (um) ou Plural (mais de um). Exatamente como no português.</li><li><b>Caso (πτῶσις):</b> Esta é a característica mais diferente do português. O caso refere-se à forma que um substantivo assume para mostrar sua função em uma frase (sujeito, objeto, etc.). O grego possui cinco casos.</li></ul><h2>2. Os Cinco Casos Gregos</h2><p>A terminação de um substantivo muda para indicar seu caso. Entender a função de cada caso é fundamental.</p><ol><li><b>Nominativo:</b> O caso do <b>sujeito</b>. Responde à pergunta 'Quem?' ou 'O quê?'. Ex: <b><u>ὁ θεὸς</u></b> ἀγαπᾷ τὸν κόσμον (<b><u>Deus</u></b> ama o mundo).</li><li><b>Genitivo:</b> O caso da <b>posse</b> ou <b>relação</b>. Geralmente traduzido com 'de', 'do', 'da'. Ex: ὁ λόγος <b><u>τοῦ θεοῦ</u></b> (a palavra <b><u>de Deus</u></b>).</li><li><b>Dativo:</b> O caso do <b>objeto indireto</b>. Geralmente traduzido com 'a', 'para', 'em', 'com'. Ex: δίδωμι χάριν <b><u>τῷ ἀνθρώπῳ</u></b> (dou graça <b><u>ao homem</u></b>).</li><li><b>Acusativo:</b> O caso do <b>objeto direto</b>. Recebe a ação do verbo. Responde à pergunta 'Quem?' ou 'O quê?' depois do verbo. Ex: ὁ θεὸς ἀγαπᾷ <b><u>τὸν κόσμον</u></b> (Deus ama <b><u>o mundo</u></b>).</li><li><b>Vocativo:</b> O caso do <b>endereçamento direto</b>. Usado para chamar ou invocar alguém. Ex: <b><u>Κύριε</u></b>, σῶσόν με (<b><u>Senhor</u></b>, salva-me!).</li></ol><h2>3. O Artigo Definido (ὁ, ἡ, τό)</h2><p>O artigo definido ('o', 'a', 'os', 'as') é a palavra mais frequente no Novo Testamento Grego. Ele é seu melhor amigo, pois concorda em gênero, número e caso com o substantivo que acompanha, tornando a identificação dessas propriedades muito mais fácil.</p><h3>Tabela de Declinação do Artigo Definido</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>Masculino Singular</th><th>Feminino Singular</th><th>Neutro Singular</th><th>Masculino Plural</th><th>Feminino Plural</th><th>Neutro Plural</th></tr></thead><tbody><tr><td><b>Nominativo</b></td><td>ὁ</td><td>ἡ</td><td>τό</td><td>οἱ</td><td>αἱ</td><td>τά</td></tr><tr><td><b>Genitivo</b></td><td>τοῦ</td><td>τῆς</td><td>τοῦ</td><td>τῶν</td><td>τῶν</td><td>τῶν</td></tr><tr><td><b>Dativo</b></td><td>τῷ</td><td>τῇ</td><td>τῷ</td><td>τοῖς</td><td>ταῖς</td><td>τοῖς</td></tr><tr><td><b>Acusativo</b></td><td>τόν</td><td>τήν</td><td>τό</td><td>τούς</td><td>τάς</td><td>τά</td></tr></tbody></table><p><b>Observações:</b></p><ul><li>O vocativo não possui uma forma para o artigo.</li><li>Note como as formas do masculino e neutro são idênticas no Genitivo e Dativo.</li><li>O Genitivo plural (τῶν) é idêntico para todos os gêneros.</li><li>No neutro, as formas do Nominativo e Acusativo são sempre iguais (τό, τά).</li></ul><h2>4. Análise (Parsing)</h2><p>Analisar ou fazer o 'parsing' de uma palavra é descrever suas propriedades gramaticais. Por exemplo, se você vir a palavra <b>τῆς</b>, sua análise seria: Artigo, Genitivo, Singular, Feminino.</p><p>Praticar a análise das formas do artigo até que seja instantânea é um dos melhores investimentos de tempo que você pode fazer agora. Isso será a chave para entender as estruturas das frases mais adiante.</p></div>"
+      },
+      "flashcards": [
+        {"front": "Nominativo", "back": "Caso do Sujeito da oração.", "unsplashSearchTerm": "greek statue"},
+        {"front": "Genitivo", "back": "Caso da Posse ('de', 'do', 'da').", "unsplashSearchTerm": "ancient ruins"},
+        {"front": "Dativo", "back": "Caso do Objeto Indireto ('a', 'para').", "unsplashSearchTerm": "amphora"},
+        {"front": "Acusativo", "back": "Caso do Objeto Direto.", "unsplashSearchTerm": "parthenon frieze"},
+        {"front": "Vocativo", "back": "Caso do Endereçamento Direto (invocação).", "unsplashSearchTerm": "agora of athens"},
+        {"front": "ὁ", "back": "Artigo, Nominativo, Singular, Masculino", "unsplashSearchTerm": "column capital"},
+        {"front": "τοῦ", "back": "Artigo, Genitivo, Singular, Masculino/Neutro", "unsplashSearchTerm": "scroll"},
+        {"front": "τῷ", "back": "Artigo, Dativo, Singular, Masculino/Neutro", "unsplashSearchTerm": "mosaic"},
+        {"front": "τόν", "back": "Artigo, Acusativo, Singular, Masculino", "unsplashSearchTerm": "hoplite"},
+        {"front": "ἡ", "back": "Artigo, Nominativo, Singular, Feminino", "unsplashSearchTerm": "goddess statue"},
+        {"front": "τῆς", "back": "Artigo, Genitivo, Singular, Feminino", "unsplashSearchTerm": "olive branch"},
+        {"front": "τῇ", "back": "Artigo, Dativo, Singular, Feminino", "unsplashSearchTerm": "lyre"},
+        {"front": "τήν", "back": "Artigo, Acusativo, Singular, Feminino", "unsplashSearchTerm": "temple"},
+        {"front": "τό", "back": "Artigo, Nominativo/Acusativo, Singular, Neutro", "unsplashSearchTerm": "shield"},
+        {"front": "οἱ", "back": "Artigo, Nominativo, Plural, Masculino", "unsplashSearchTerm": "greek philosophers"},
+        {"front": "αἱ", "back": "Artigo, Nominativo, Plural, Feminino", "unsplashSearchTerm": "caryatid"},
+        {"front": "τά", "back": "Artigo, Nominativo/Acusativo, Plural, Neutro", "unsplashSearchTerm": "greek coins"},
+        {"front": "τῶν", "back": "Artigo, Genitivo, Plural, Masculino/Feminino/Neutro", "unsplashSearchTerm": "ancient map"},
+        {"front": "τοῖς", "back": "Artigo, Dativo, Plural, Masculino/Neutro", "unsplashSearchTerm": "greek architecture"},
+        {"front": "ταῖς", "back": "Artigo, Dativo, Plural, Feminino", "unsplashSearchTerm": "fresco"},
+        {"front": "τούς", "back": "Artigo, Acusativo, Plural, Masculino", "unsplashSearchTerm": "greek soldiers"},
+        {"front": "τάς", "back": "Artigo, Acusativo, Plural, Feminino", "unsplashSearchTerm": "athena"},
+        {"front": "ὁ λόγος", "back": "a palavra (masculino)", "unsplashSearchTerm": "ancient book"},
+        {"front": "ἡ γραφή", "back": "a escritura (feminino)", "unsplashSearchTerm": "quill and ink"},
+        {"front": "τὸ δῶρον", "back": "o presente, a dádiva (neutro)", "unsplashSearchTerm": "gift box"}
+      ],
+      "exercises": [
+        {
+          "exerciseId": "M02E01",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual caso é usado para indicar o sujeito de um verbo?",
+          "options": ["Genitivo", "Dativo", "Nominativo", "Acusativo"],
+          "correctAnswerIndex": 2,
+          "explanation": "O caso Nominativo é usado para o sujeito, aquele que pratica a ação do verbo."
+        },
+        {
+          "exerciseId": "M02E02",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A tradução 'do Senhor' provavelmente usa qual caso grego?",
+          "options": ["Dativo", "Genitivo", "Acusativo", "Nominativo"],
+          "correctAnswerIndex": 1,
+          "explanation": "O caso Genitivo expressa posse ou relação, frequentemente traduzido com a preposição 'de', 'do' ou 'da'."
+        },
+        {
+          "exerciseId": "M02E03",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'τόν':",
+          "options": [
+            "Nominativo, Singular, Masculino",
+            "Acusativo, Singular, Masculino",
+            "Acusativo, Singular, Neutro",
+            "Nominativo, Plural, Neutro"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'τόν' é a forma do artigo para o caso Acusativo, singular, masculino."
+        },
+        {
+          "exerciseId": "M02E04",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do artigo para Nominativo, Plural, Feminino?",
+          "options": ["οἱ", "αἱ", "τά", "ταῖς"],
+          "correctAnswerIndex": 1,
+          "explanation": "'αἱ' é a forma do artigo para o caso Nominativo, plural, feminino (ex: αἱ γυναῖκες - as mulheres)."
+        },
+        {
+          "exerciseId": "M02E05",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A forma 'τῶν' pode ser...",
+          "options": [
+            "Apenas Genitivo, Plural, Masculino",
+            "Apenas Genitivo, Plural, Neutro",
+            "Genitivo, Plural, de qualquer gênero",
+            "Dativo, Plural, Feminino"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "'τῶν' é a forma do Genitivo plural para todos os três gêneros: masculino, feminino e neutro."
+        },
+        {
+          "exerciseId": "M02E06",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual das seguintes formas é impossível para o gênero neutro?",
+          "options": ["τό", "τοῦ", "τῷ", "τόν"],
+          "correctAnswerIndex": 3,
+          "explanation": "A forma 'τόν' é exclusivamente Acusativo, Singular, Masculino. O Acusativo Singular Neutro é 'τό'."
+        },
+        {
+          "exerciseId": "M02E07",
+          "difficulty": "medium",
+          "type": "fill-in-the-blank",
+          "prompt": "Em grego, o gênero de um substantivo é sempre _______, não necessariamente natural.",
+          "correctAnswer": "gramatical",
+          "explanation": "O gênero de um substantivo em grego é uma categoria gramatical que deve ser memorizada e não segue necessariamente o gênero biológico do objeto."
+        },
+        {
+          "exerciseId": "M02E08",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'τῇ':",
+          "options": [
+            "Dativo, Singular, Feminino",
+            "Genitivo, Singular, Feminino",
+            "Dativo, Singular, Masculino",
+            "Nominativo, Plural, Feminino"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'τῇ' é a forma do artigo para o Dativo, singular, feminino."
+        },
+        {
+          "exerciseId": "M02E09",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Se uma palavra é o objeto direto de um verbo e é feminina e plural, qual artigo a acompanharia?",
+          "options": ["τούς", "τοῖς", "τάς", "ταῖς"],
+          "correctAnswerIndex": 2,
+          "explanation": "O objeto direto está no caso Acusativo. A forma para Acusativo, Plural, Feminino é 'τάς'."
+        },
+        {
+          "exerciseId": "M02E10",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "As formas do Nominativo e Acusativo são sempre idênticas para qual gênero?",
+          "options": ["Masculino", "Feminino", "Neutro", "Todos"],
+          "correctAnswerIndex": 2,
+          "explanation": "Uma regra fundamental é que, para substantivos e artigos neutros, as formas do Nominativo e do Acusativo são sempre as mesmas, tanto no singular (τό) quanto no plural (τά)."
+        },
+        {
+          "exerciseId": "M02E11",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do artigo para Genitivo, Singular, Feminino?",
+          "options": ["τοῦ", "τῆς", "τῇ", "τήν"],
+          "correctAnswerIndex": 1,
+          "explanation": "'τῆς' é a forma do artigo para Genitivo, singular, feminino."
+        },
+        {
+          "exerciseId": "M02E12",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A forma 'τοῖς' pode ser...",
+          "options": [
+            "Dativo, Plural, Masculino e Feminino",
+            "Dativo, Plural, Masculino e Neutro",
+            "Genitivo, Plural, Masculino e Neutro",
+            "Acusativo, Plural, Masculino e Neutro"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'τοῖς' é a forma do Dativo plural para os gêneros masculino e neutro."
+        },
+        {
+          "exerciseId": "M02E13",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual caso é usado para se dirigir diretamente a alguém, como em 'Senhor, ajuda-me'?",
+          "options": ["Nominativo", "Acusativo", "Genitivo", "Vocativo"],
+          "correctAnswerIndex": 3,
+          "explanation": "O caso Vocativo é usado para endereçamento direto."
+        },
+        {
+          "exerciseId": "M02E14",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do artigo para Dativo, Plural, Feminino?",
+          "options": ["τοῖς", "τάς", "τῶν", "ταῖς"],
+          "correctAnswerIndex": 3,
+          "explanation": "'ταῖς' é a forma específica do artigo para o Dativo, plural, feminino."
+        },
+        {
+          "exerciseId": "M02E15",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Na frase 'a palavra do apóstolo', 'do apóstolo' estaria em que caso?",
+          "options": ["Nominativo", "Genitivo", "Dativo", "Acusativo"],
+          "correctAnswerIndex": 1,
+          "explanation": "A expressão 'de/do/da' indica uma relação de posse ou origem, que é a principal função do caso Genitivo."
+        },
+        {
+          "exerciseId": "M02E16",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'οἱ':",
+          "options": [
+            "Nominativo, Singular, Masculino",
+            "Nominativo, Plural, Masculino",
+            "Nominativo, Plural, Feminino",
+            "Dativo, Singular, Masculino"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'οἱ' é a forma do artigo para o Nominativo, plural, masculino (ex: οἱ μαθηταί - os discípulos)."
+        },
+        {
+          "exerciseId": "M02E17",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "As formas 'τοῦ' e 'τῷ' são idênticas para quais gêneros?",
+          "options": [
+            "Masculino e Feminino",
+            "Feminino e Neutro",
+            "Masculino e Neutro",
+            "Nenhum, são todas distintas"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "No singular, as formas do Genitivo (τοῦ) e Dativo (τῷ) são as mesmas para os gêneros Masculino e Neutro."
+        },
+        {
+          "exerciseId": "M02E18",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do artigo para Nominativo, Singular, Neutro?",
+          "options": ["τό", "τόν", "τοῦ", "ὁ"],
+          "correctAnswerIndex": 0,
+          "explanation": "'τό' é a forma do artigo para o Nominativo (e Acusativo), singular, neutro."
+        },
+        {
+          "exerciseId": "M02E19",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'τά':",
+          "options": [
+            "Nominativo/Acusativo, Plural, Neutro",
+            "Acusativo, Plural, Feminino",
+            "Nominativo, Plural, Feminino",
+            "Dativo, Plural, Neutro"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'τά' é a forma do artigo para os casos Nominativo e Acusativo, no plural, do gênero neutro."
+        },
+        {
+          "exerciseId": "M02E20",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do artigo para Acusativo, Plural, Masculino?",
+          "options": ["τάς", "τοῖς", "τούς", "τῶν"],
+          "correctAnswerIndex": 2,
+          "explanation": "'τούς' é a forma do artigo para o Acusativo, plural, masculino."
+        },
+        {
+          "exerciseId": "M02E21",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual propriedade do substantivo indica se ele é singular ou plural?",
+          "options": ["Gênero", "Caso", "Número", "Declinação"],
+          "correctAnswerIndex": 2,
+          "explanation": "Número é a propriedade gramatical que se refere à quantidade, singular (um) ou plural (mais de um)."
+        },
+        {
+          "exerciseId": "M02E22",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "A frase 'para a mulher' exigiria que o artigo 'a' estivesse em que caso?",
+          "options": ["Genitivo", "Acusativo", "Nominativo", "Dativo"],
+          "correctAnswerIndex": 3,
+          "explanation": "O caso Dativo é frequentemente usado para indicar o objeto indireto, traduzido como 'a' ou 'para'."
+        },
+        {
+          "exerciseId": "M02E23",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual forma do artigo é usada para Acusativo Singular Feminino?",
+          "options": ["τήν", "τῆς", "τῇ", "ἡ"],
+          "correctAnswerIndex": 0,
+          "explanation": "A forma do artigo para Acusativo, singular, feminino é 'τήν'."
+        },
+        {
+          "exerciseId": "M02E24",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Se um substantivo masculino é o sujeito plural de uma frase, qual artigo o precederia?",
+          "options": ["ὁ", "οἱ", "τούς", "τοῖς"],
+          "correctAnswerIndex": 1,
+          "explanation": "O sujeito está no caso Nominativo. A forma para Nominativo, Plural, Masculino é 'οἱ'."
+        },
+        {
+          "exerciseId": "M02E25",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Analise a forma 'ἡ':",
+          "options": [
+            "Nominativo, Singular, Feminino",
+            "Genitivo, Singular, Feminino",
+            "Nominativo, Singular, Masculino",
+            "Acusativo, Singular, Feminino"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'ἡ' é a forma do artigo para o Nominativo, singular, feminino."
+        },
+        {
+          "exerciseId": "M02E26",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual das seguintes propriedades NÃO pertence a um substantivo grego?",
+          "options": ["Gênero", "Tempo", "Número", "Caso"],
+          "correctAnswerIndex": 1,
+          "explanation": "Tempo (presente, futuro, passado etc.) é uma propriedade dos verbos, não dos substantivos."
+        },
+        {
+          "exerciseId": "M02E27",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Qual é a forma do artigo para Acusativo, Plural, Feminino?",
+          "options": ["ταῖς", "αἱ", "τάς", "τῶν"],
+          "correctAnswerIndex": 2,
+          "explanation": "A forma do artigo para o Acusativo, plural, feminino é 'τάς'."
+        },
+        {
+          "exerciseId": "M02E28",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Na frase 'eu vejo as casas', 'as casas' seria o objeto direto. Se 'casa' é um substantivo feminino, qual artigo seria usado?",
+          "options": ["αἱ", "ταῖς", "τῶν", "τάς"],
+          "correctAnswerIndex": 3,
+          "explanation": "Como objeto direto, 'as casas' estaria no caso Acusativo. Sendo feminino e plural, a forma correta do artigo é 'τάς'."
+        },
+        {
+          "exerciseId": "M02E29",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "A forma 'ὁ' é:",
+          "options": [
+            "Nominativo, Singular, Masculino",
+            "Nominativo, Singular, Neutro",
+            "Acusativo, Singular, Masculino",
+            "Nominativo, Plural, Masculino"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "O artigo 'ὁ' é Nominativo, singular e masculino, usado para o sujeito masculino singular."
+        },
+        {
+          "exerciseId": "M02E30",
+          "difficulty": "medium",
+          "type": "multiple-choice",
+          "prompt": "Se você vê a forma 'τοῦ', quais são as duas possibilidades de análise?",
+          "options": [
+            "Genitivo Sing. Masc. ou Dativo Sing. Neutro",
+            "Genitivo Sing. Fem. ou Genitivo Sing. Masc.",
+            "Genitivo Sing. Masc. ou Genitivo Sing. Neutro",
+            "Genitivo Pl. Masc. ou Genitivo Sing. Masc."
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A forma 'τοῦ' é usada tanto para o Genitivo Singular Masculino quanto para o Genitivo Singular Neutro. O contexto da frase determinará qual é o correto."
+        }
+      ]
+    }
+  ]
+}
