@@ -1,0 +1,45 @@
+{
+  "courseTitle": "Gramática Introdutória ao Grego Coinê Bíblico",
+  "courseDescription": "Um curso online para autodidatas, focado em fornecer uma base sólida na gramática do Grego Coinê para a leitura e interpretação do Novo Testamento.",
+  "modules": [
+    {
+      "moduleId": "M02b",
+      "moduleTitle": "Substantivos da 1ª e 2ª Declinação",
+      "learningObjectives": [
+        "Identificar as desinências (terminações) da 2ª declinação para substantivos masculinos e neutros.",
+        "Declinar substantivos masculinos e neutros comuns da 2ª declinação (ex: λόγος, δῶρον).",
+        "Identificar as desinências da 1ª declinação para substantivos femininos.",
+        "Declinar substantivos femininos comuns da 1ª declinação (ex: γραφή, καρδία).",
+        "Aplicar as 'Oito Regras do Substantivo' para prever as formas de um substantivo.",
+        "Analisar (fazer o parsing) de substantivos da 1ª e 2ª declinação, identificando caso, número e gênero."
+      ],
+      "content": {
+        "html": "<div><h1>Módulo 2b: Substantivos da 1ª e 2ª Declinação</h1><p>Após aprendermos o conceito de casos e o artigo definido, vamos agora aplicar esse conhecimento às 'famílias' de substantivos mais comuns e regulares do Grego Coinê: a 1ª e a 2ª declinação. Dominar estes padrões é a chave para ler a maior parte do Novo Testamento.</p><h2>1. A 2ª Declinação (Substantivos Masculinos e Neutros)</h2><p>A 2ª declinação contém a maioria dos substantivos masculinos e neutros. Suas terminações são muito parecidas com as do artigo definido que você já aprendeu.</p><h3>Paradigma Masculino: λόγος, -ου, ὁ (palavra, razão)</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><b>Nominativo</b></td><td>λόγ<b>ος</b></td><td>λόγ<b>οι</b></td></tr><tr><td><b>Genitivo</b></td><td>λόγ<b>ου</b></td><td>λόγ<b>ων</b></td></tr><tr><td><b>Dativo</b></td><td>λόγ<b>ῳ</b></td><td>λόγ<b>οις</b></td></tr><tr><td><b>Acusativo</b></td><td>λόγ<b>ον</b></td><td>λόγ<b>ους</b></td></tr><tr><td><b>Vocativo</b></td><td>λόγ<b>ε</b></td><td>λόγ<b>οι</b></td></tr></tbody></table><h3>Paradigma Neutro: δῶρον, -ου, τό (presente, dádiva)</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><b>Nom./Acus./Voc.</b></td><td>δῶρ<b>ον</b></td><td>δῶρ<b>α</b></td></tr><tr><td><b>Genitivo</b></td><td>δώρ<b>ου</b></td><td>δώρ<b>ων</b></td></tr><tr><td><b>Dativo</b></td><td>δώρ<b>ῳ</b></td><td>δώρ<b>οις</b></td></tr></tbody></table><h2>2. A 1ª Declinação (Substantivos Femininos)</h2><p>A 1ª declinação contém a grande maioria dos substantivos femininos. Eles geralmente terminam em -η ou -α.</p><h3>Paradigma em -η: γραφή, -ῆς, ἡ (escritura)</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><b>Nominativo</b></td><td>γραφ<b>ή</b></td><td>γραφ<b>αί</b></td></tr><tr><td><b>Genitivo</b></td><td>γραφ<b>ῆς</b></td><td>γραφ<b>ῶν</b></td></tr><tr><td><b>Dativo</b></td><td>γραφ<b>ῇ</b></td><td>γραφ<b>αῖς</b></td></tr><tr><td><b>Acusativo</b></td><td>γραφ<b>ήν</b></td><td>γραφ<b>άς</b></td></tr><tr><td><b>Vocativo</b></td><td>γραφ<b>ή</b></td><td>γραφ<b>αί</b></td></tr></tbody></table><h3>Paradigma em -α: καρδία, -ας, ἡ (coração)</h3><table style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Caso</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><b>Nominativo</b></td><td>καρδί<b>α</b></td><td>καρδί<b>αι</b></td></tr><tr><td><b>Genitivo</b></td><td>καρδί<b>ας</b></td><td>καρδι<b>ῶν</b></td></tr><tr><td><b>Dativo</b></td><td>καρδί<b>ᾳ</b></td><td>καρδί<b>αις</b></td></tr><tr><td><b>Acusativo</b></td><td>καρδί<b>αν</b></td><td>καρδί<b>ας</b></td></tr><tr><td><b>Vocativo</b></td><td>καρδί<b>α</b></td><td>καρδί<b>αι</b></td></tr></tbody></table><h2>3. Oito Regras do Substantivo (Revisão e Aplicação)</h2><p>Observe como estas regras se aplicam perfeitamente aos paradigmas acima:</p><ol><li>O radical de um substantivo é constante.</li><li>As desinências de caso são ligadas ao radical.</li><li>O vocativo é frequentemente igual ao nominativo.</li><li>O dativo singular sempre tem um iota (subscrito ou não).</li><li>As vogais frequentemente se alongam (ablaut).</li><li>Nos neutros, o nominativo e o acusativo são sempre idênticos.</li><li>O nominativo e acusativo plural neutro quase sempre terminam em -α.</li><li>O genitivo plural quase sempre termina em -ων.</li></ol></div>"
+      },
+      "flashcards": [
+        {"front": "2ª Declinação", "back": "Família de substantivos majoritariamente Masculinos (-ος) e Neutros (-ον).", "unsplashSearchTerm": "masculine symbol"},
+        {"front": "1ª Declinação", "back": "Família de substantivos majoritariamente Femininos (-η, -α).", "unsplashSearchTerm": "feminine symbol"},
+        {"front": "λόγος, -ου, ὁ", "back": "palavra, razão", "unsplashSearchTerm": "word"},
+        {"front": "θεός, -οῦ, ὁ", "back": "Deus", "unsplashSearchTerm": "deity"},
+        {"front": "κύριος, -ου, ὁ", "back": "Senhor, mestre", "unsplashSearchTerm": "master"},
+        {"front": "δῶρον, -ου, τό", "back": "presente, dádiva", "unsplashSearchTerm": "gift"},
+        {"front": "τέκνον, -ου, τό", "back": "criança, filho", "unsplashSearchTerm": "child"},
+        {"front": "γραφή, -ῆς, ἡ", "back": "escritura", "unsplashSearchTerm": "scripture"},
+        {"front": "ἀγάπη, -ης, ἡ", "back": "amor", "unsplashSearchTerm": "love"},
+        {"front": "καρδία, -ας, ἡ", "back": "coração", "unsplashSearchTerm": "heart"},
+        {"front": "ἡμέρα, -ας, ἡ", "back": "dia", "unsplashSearchTerm": "day"},
+        {"front": "Desinência: -ου", "back": "Genitivo Singular, 2ª Declinação (masc/neutro)", "unsplashSearchTerm": "ending"}
+      ],
+      "exercises": [
+        { "exerciseId": "M02bE01", "difficulty": "easy", "type": "multiple-choice", "prompt": "A qual declinação pertence a maioria dos substantivos masculinos terminados em -ος?", "options": ["1ª Declinação", "2ª Declinação", "3ª Declinação", "4ª Declinação"], "correctAnswerIndex": 1, "explanation": "Substantivos masculinos em -ος e neutros em -ον são a marca registrada da 2ª Declinação." },
+        { "exerciseId": "M02bE02", "difficulty": "easy", "type": "multiple-choice", "prompt": "Analise a forma 'λόγῳ'.", "options": ["Genitivo Singular", "Dativo Plural", "Dativo Singular", "Acusativo Singular"], "correctAnswerIndex": 2, "explanation": "A terminação -ῳ (com iota subscrito) é a marca do Dativo Singular da 2ª declinação." },
+        { "exerciseId": "M02bE03", "difficulty": "medium", "type": "multiple-choice", "prompt": "Qual o genitivo plural de 'θεός'?", "options": ["θεοῦ", "θεούς", "θεῶν", "θεοῖς"], "correctAnswerIndex": 2, "explanation": "A desinência do genitivo plural para a 1ª e 2ª declinação é -ων. Portanto, θεῶν (dos deuses/de Deus)." },
+        { "exerciseId": "M02bE04", "difficulty": "easy", "type": "multiple-choice", "prompt": "A qual declinação pertence a maioria dos substantivos femininos terminados em -η ou -α?", "options": ["1ª Declinação", "2ª Declinação", "3ª Declinação", "Nenhuma"], "correctAnswerIndex": 0, "explanation": "Substantivos femininos que terminam em -η ou -α pertencem à 1ª Declinação." },
+        { "exerciseId": "M02bE05", "difficulty": "medium", "type": "multiple-choice", "prompt": "Analise a forma 'καρδίαις'.", "options": ["Dativo Plural", "Acusativo Plural", "Nominativo Plural", "Genitivo Singular"], "correctAnswerIndex": 0, "explanation": "A terminação -αις é a marca do Dativo Plural da 1ª Declinação." },
+        { "exerciseId": "M02bE06", "difficulty": "hard", "type": "multiple-choice", "prompt": "Qual a forma correta para 'as palavras' no caso acusativo (objeto direto)?", "options": ["λόγοι", "λόγων", "λόγοις", "λόγους"], "correctAnswerIndex": 3, "explanation": "O acusativo plural da 2ª declinação masculina termina em -ους." },
+        { "exerciseId": "M02bE07", "difficulty": "medium", "type": "fill-in-the-blank", "prompt": "Em um substantivo neutro, os casos Nominativo e ________ são sempre idênticos.", "correctAnswer": "Acusativo", "explanation": "Esta é uma das regras fundamentais dos substantivos em grego, especialmente visível nos neutros da 2ª declinação como δῶρον/δῶρα." },
+        { "exerciseId": "M02bE08", "difficulty": "easy", "type": "multiple-choice", "prompt": "Qual a tradução de 'τὰ τέκνα'?", "options": ["Da criança", "Para a criança", "A criança (sujeito)", "As crianças (sujeito/obj. direto)"], "correctAnswerIndex": 3, "explanation": "'τέκνον' é neutro. A terminação -α indica que é nominativo ou acusativo plural." }
+      ]
+    }
+  ]
+}
