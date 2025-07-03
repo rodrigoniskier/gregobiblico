@@ -170,3 +170,38 @@ main {
 .wrong-answer { color: red; font-weight: bold; }
 
 footer { text-align: center; padding: 20px; margin-top: 40px; background: #333; color: #fff; font-size: 0.9rem; }
+/* Estilos para a página do Léxico */
+html {
+    scroll-behavior: smooth; /* Efeito de rolagem suave! */
+}
+
+#alphabet-nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#alphabet-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    font-family: 'Cardo', serif;
+    transition: background-color 0.3s;
+}
+
+#alphabet-nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.lexicon-section h2 {
+    font-size: 3rem;
+    color: #ddd;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
