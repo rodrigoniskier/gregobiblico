@@ -14,7 +14,20 @@
         <p id="course-description"></p>
     </header>
 
-    <section id="screen-home" class="screen">
+    <section id="screen-welcome" class="screen">
+        <div class="welcome-container">
+            <div class="speech-bubble">
+                <p>Χαῖρε (Saudações)! Bem-vindo ao nosso curso de Grego Coinê Bíblico. <br><br>
+                Estou muito feliz em acompanhar a sua jornada pelos textos sagrados. Por onde deseja começar hoje?</p>
+            </div>
+            <div class="welcome-avatar">
+                <img src="escriba2.png" alt="Escriba IA" class="ia-photo-large" onerror="this.src='https://via.placeholder.com/120?text=EscribaIA'">
+            </div>
+            <button class="btn-start" onclick="irParaHome()">Entrar no Curso</button>
+        </div>
+    </section>
+
+    <section id="screen-home" class="screen" style="display: none;">
         <div class="menu-grid">
             <button onclick="irParaLista('theory')">Teoria</button>
             <button onclick="irParaLista('practice')">Prática</button>
@@ -59,14 +72,15 @@
             <button class="btn-disabled">Aula 1: O Alfabeto (Em breve)</button>
             <button class="btn-disabled">Aula 2: Substantivos (Em breve)</button>
             <button class="btn-disabled">Aula 3: Verbos Presente (Em breve)</button>
-            <button class="btn-disabled">Aula 4: Preposições (Em breve)</button>
         </div>
     </section>
 
     <section id="screen-ia" class="screen" style="display: none;">
         <button class="btn-voltar" onclick="voltar()">← Voltar</button>
         <div class="ia-header">
-<img src="escriba.png" alt="Escriba IA" class="ia-photo" onerror="this.src='https://via.placeholder.com/80?text=IA'">        </div>
+            <img src="escriba.png" alt="Escriba IA" class="ia-photo" onerror="this.src='https://via.placeholder.com/80?text=IA'">
+            <h2>EscribaIA</h2>
+        </div>
         <div id="chat-container">
             <div id="chat-messages">
                 <p class="msg-ia"><strong>EscribaIA:</strong> Χαῖρε! Sou o EscribaIA. Estou aqui para tirar as tuas dúvidas de Grego Coinê. O que vamos estudar hoje?</p>
@@ -84,15 +98,16 @@
             <h2>Criar Prova Personalizada</h2>
             <p>Selecione de 1 a 5 módulos para gerar uma prova com as questões difíceis.</p>
             <form id="quiz-setup-form">
-                <div id="quiz-module-options"></div>
-                <button type="submit" id="generate-quiz-btn" style="padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px; cursor:pointer;">Gerar Prova</button>
+                <div id="quiz-module-options">
+                    </div>
+                <button type="submit" id="generate-quiz-btn" style="padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px; cursor:pointer; width: 100%; margin-top: 10px;">Gerar Prova</button>
             </form>
             <p id="quiz-error-message" class="error-message"></p>
         </div>
     </div>
 
     <footer>
-        <p>Curso desenvolvido por RODRIGO NISKIER. Hospedado com ❤️ no GitHub Pages.</p>
+        <p>Curso desenvolvido por RODRIGO NISKIER. Hospedado com ❤️ na Vercel.</p>
     </footer>
 
 </body>
