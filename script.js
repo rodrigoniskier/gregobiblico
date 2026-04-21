@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             // 3. Faz o pedido ao nosso futuro servidor intermediário
             // NOTA: Vamos substituir 'URL_DO_SEU_BACKEND' pela URL real mais à frente
-            const resposta = await fetch('URL_DO_SEU_BACKEND', {
+            const resposta = await fetch('/api/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
