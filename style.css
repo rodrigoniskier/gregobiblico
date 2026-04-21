@@ -1,7 +1,5 @@
-/* Importa fontes */
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Lato:wght@400;700&display=swap');
 
-/* Configurações Globais */
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
@@ -14,110 +12,131 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 1rem 0;
+    padding: 1rem 10px;
     text-align: center;
 }
 
 header h1 {
     font-family: 'Cardo', serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin: 0;
 }
 
-/* Layout Principal de 3 Colunas */
-.main-container {
-    display: flex;
-    max-width: 1400px;
-    margin: 20px auto;
-    padding: 0 20px;
-    gap: 20px; /* Espaço entre as colunas */
-}
-
-/* Menus Laterais e Conteúdo Central */
-#nav-left, #nav-right {
-    flex: 1; /* Cada menu lateral ocupa 1 parte do espaço */
-    background: #fff;
+/* --- ESTRUTURA SPA --- */
+.screen {
     padding: 20px;
-    border-radius: 5px;
-    align-self: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 70vh; /* Mantém o rodapé lá em baixo */
 }
 
-main {
-    flex: 2; /* O conteúdo central ocupa 2 partes, o dobro dos menus */
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-#nav-left h2, #nav-right h2, main h2 {
-    font-family: 'Cardo', serif;
-    color: #0056b3;
-    margin-top: 0;
-}
-
-/* Estilo dos Botões de Módulo */
-#nav-left ul, #nav-right ul {
-    list-style: none;
-    padding: 0;
-}
-
-#nav-left button, #nav-right button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 5px;
-    background: #e9e9e9;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+/* --- BOTÕES GERAIS E NAVEGAÇÃO --- */
+button {
+    font-family: 'Lato', sans-serif;
     cursor: pointer;
-    text-align: left;
-    font-size: 0.9rem;
-    color: #333;
-    transition: background-color 0.3s ease;
 }
 
-#nav-left button:hover, #nav-right button:hover {
-    background-color: #d0d0d0;
+.btn-voltar {
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-#nav-left button.active, #nav-right button.active {
+.btn-voltar:hover { background-color: #ccc; }
+
+.btn-secondary {
+    padding: 12px 20px;
+    margin: 5px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-secondary:hover { background-color: #5a6268; }
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#hamburger-menu {
+    font-size: 1.2rem;
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* --- TELA INICIAL (Grade) --- */
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.menu-grid button {
+    height: 100px;
+    font-size: 1.4rem;
+    font-family: 'Cardo', serif;
     background-color: #007BFF;
     color: white;
-    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Botão da Prova Personalizada */
-#custom-quiz-btn {
-    margin-top: 20px;
-    background-color: #28a745;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-#custom-quiz-btn:hover {
-    background-color: #218838;
+.menu-grid button:active { transform: scale(0.98); }
+
+@media (max-width: 500px) {
+    .menu-grid { grid-template-columns: 1fr; } /* Empilha no celular */
 }
 
-/* Conteúdo exibido na área central (Teoria ou Prática) */
+/* --- LISTAS VERTICAIS --- */
+.vertical-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vertical-stack button {
+    padding: 15px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.btn-disabled {
+    background: #e9e9e9 !important;
+    color: #888;
+    cursor: not-allowed;
+}
+
+/* --- ÁREA DE CONTEÚDO E EXERCÍCIOS --- */
 #module-display-area {
     font-family: 'Cardo', serif;
     font-size: 1.1rem;
-}
-#module-display-area table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-#module-display-area th, #module-display-area td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-#module-display-area th {
-    background-color: #f2f2f2;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Conteúdo Prático (Flashcards e Exercícios) */
-#flashcards-container h3, #exercises-container h3 { font-family: 'Cardo', serif; color: #0056b3; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background-color: #f2f2f2; }
+
 .flashcard, .exercise {
     background: #fafafa;
     border: 1px solid #eaeaea;
@@ -128,80 +147,39 @@ main {
 }
 .flashcard .front { font-size: 1.2rem; font-weight: bold; }
 .exercise .prompt { font-weight: bold; margin-bottom: 10px; }
-.exercise .options label { display: block; margin-bottom: 5px; }
+.exercise .options label { display: block; margin-bottom: 8px; cursor: pointer; }
+.check-answer { padding: 8px 12px; background: #007BFF; color: white; border: none; border-radius: 4px; }
 .exercise .explanation { margin-top: 10px; padding: 10px; background: #e7f3fe; border: 1px solid #cce5ff; border-radius: 4px; font-size: 0.9rem; display: none; }
 
-/* Estilo da Janela (Modal) da Prova */
-.modal {
-    display: none; /* Escondido por padrão */
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.5);
-}
-.modal-content {
-    background-color: #fefefe;
-    margin: 10% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 500px;
-    border-radius: 5px;
-}
-.close-button {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
-#quiz-module-options label { display: block; margin-bottom: 8px; }
-.error-message { color: red; font-size: 0.9em; }
-
-/* Estilo para a Página da Prova */
-#quiz-form { list-style-type: none; padding: 0; }
-#quiz-results { padding: 20px; background: #e7f3fe; border: 1px solid #cce5ff; margin-top: 20px; }
-.result-question { border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 10px; }
-.correct-answer { color: green; font-weight: bold; }
-.wrong-answer { color: red; font-weight: bold; }
-
-footer { text-align: center; padding: 20px; margin-top: 40px; background: #333; color: #fff; font-size: 0.9rem; }
-/* Estilos para a página do Léxico */
-html {
-    scroll-behavior: smooth; /* Efeito de rolagem suave! */
+/* --- MENU LATERAL HAMBÚRGUER --- */
+.side-nav {
+    height: 100%; width: 0; position: fixed; z-index: 2000; top: 0; right: 0;
+    background-color: #222; overflow-x: hidden; transition: 0.3s; padding-top: 60px;
 }
 
-#alphabet-nav {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+.side-nav a {
+    padding: 15px 25px; text-decoration: none; font-size: 1.2rem;
+    color: #818181; display: block; border-bottom: 1px solid #444;
 }
 
-#alphabet-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 12px;
-    font-size: 1.2rem;
-    font-family: 'Cardo', serif;
-    transition: background-color 0.3s;
-}
+.side-nav a:hover { color: #f1f1f1; background-color: #333; }
+.side-nav .closebtn { position: absolute; top: 0; right: 25px; font-size: 30px; border: none; }
 
-#alphabet-nav a:hover {
-    background-color: #555;
-    border-radius: 4px;
-}
+/* --- CHAT ESCRIBA IA --- */
+.ia-header { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; }
+.ia-photo { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #28a745; }
+#chat-container { background: #fff; border: 1px solid #ccc; border-radius: 8px; height: 60vh; display: flex; flex-direction: column; }
+#chat-messages { flex: 1; padding: 15px; overflow-y: auto; background: #f4f7f6; display: flex; flex-direction: column; gap: 10px; }
+.msg-ia { background-color: #e2e3e5; padding: 10px 15px; border-radius: 15px; align-self: flex-start; max-width: 80%; margin:0;}
+.msg-user { background-color: #d1ecf1; padding: 10px 15px; border-radius: 15px; align-self: flex-end; max-width: 80%; margin:0;}
+.chat-input-area { display: flex; padding: 10px; border-top: 1px solid #ccc; background: white; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;}
+#chat-input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem; }
+#send-chat { padding: 10px 20px; margin-left: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; }
 
-.lexicon-section h2 {
-    font-size: 3rem;
-    color: #ddd;
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-top: 40px;
-}
+/* Modal */
+.modal { display: none; position: fixed; z-index: 3000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); }
+.modal-content { background-color: #fff; margin: 10% auto; padding: 20px; width: 90%; max-width: 500px; border-radius: 8px; }
+.close-button { color: #aaa; float: right; font-size: 28px; cursor: pointer; }
+#quiz-module-options label { display: block; margin-bottom: 10px; font-size: 1.1rem;}
+
+footer { text-align: center; padding: 20px; background: #333; color: #fff; font-size: 0.9rem; margin-top: 40px;}
