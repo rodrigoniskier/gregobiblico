@@ -1,0 +1,8 @@
+{
+  "name": "gregobiblico-api",
+  "version": "1.0.0",
+  "description": "API para o EscribaIA",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0"
+  }
+}
