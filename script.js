@@ -1,24 +1,41 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Referências aos elementos HTML
-    const courseTitleEl = document.getElementById('course-title');
-    const courseDescriptionEl = document.getElementById('course-description');
-    const theoryListEl = document.getElementById('theory-module-list');
-    const practiceListEl = document.getElementById('practice-module-list');
+    // --- VARIÁVEIS GLOBAIS E ESTADO ---
+    let allModulesData = [];
+    let pilhaNavegacao = []; // Guarda o histórico para o botão voltar
+    let telaAtual = 'screen-home';
+
+    // --- ELEMENTOS DA INTERFACE ---
     const moduleTitleEl = document.getElementById('module-title');
     const moduleDisplayAreaEl = document.getElementById('module-display-area');
-    const lexiconBtn = document.getElementById('lexicon-btn'); // Botão do léxico
+    const lessonsContainer = document.getElementById('lessons-container');
+    const listTitle = document.getElementById('list-title');
+    const sideMenuLinks = document.getElementById('side-menu-links');
+    const sideMenu = document.getElementById('side-menu');
 
-    // Referências à janela (modal) da prova
-    const quizModal = document.getElementById('quiz-modal');
-    const openQuizBtn = document.getElementById('custom-quiz-btn');
-    const closeQuizBtn = document.querySelector('.close-button');
-    const quizSetupForm = document.getElementById('quiz-setup-form');
-    const quizModuleOptionsEl = document.getElementById('quiz-module-options');
-    const quizErrorMsgEl = document.getElementById('quiz-error-message');
+    // --- NAVEGAÇÃO SPA ---
+    window.irPara = function(idNovaTela) {
+        if(telaAtual !== idNovaTela) {
+            document.getElementById(telaAtual).style.display = 'none';
+            pilhaNavegacao.push(telaAtual); // Guarda a tela de onde viemos
+            telaAtual = idNovaTela;
+            document.getElementById(idNovaTela).style.display = 'block';
+            window.scrollTo(0, 0); // Sobe para o topo
+            
+            // Se mudou de tela, garante que o menu lateral fecha
+            sideMenu.style.width = "0"; 
+        }
+    };
 
-    let allModulesData = [];
+    window.voltar = function() {
+        if (pilhaNavegacao.length > 0) {
+            document.getElementById(telaAtual).style.display = 'none';
+            telaAtual = pilhaNavegacao.pop(); // Retira a última tela do histórico
+            document.getElementById(telaAtual).style.display = 'block';
+            window.scrollTo(0, 0);
+        }
+    };
 
-    // Função para buscar TODOS os módulos
+    // --- CARREGAMENTO DE DADOS (JSON) ---
     async function fetchAllModules() {
         try {
             const moduleFilenames = [
@@ -27,62 +44,64 @@ document.addEventListener('DOMContentLoaded', () => {
                 'modulo_08.json', 'modulo_09.json', 'modulo_10.json', 'modulo_11.json',
                 'modulo_12.json', 'modulo_13.json', 'modulo_14.json', 'modulo_15.json'
             ];
+            
+            // Faz o fetch de todos os arquivos
             const fetchPromises = moduleFilenames.map(filename =>
                 fetch(`./data/${filename}`).then(res => res.ok ? res.json() : Promise.reject(`Falha ao carregar ${filename}`))
             );
             allModulesData = await Promise.all(fetchPromises);
-            return true;
+            
+            // Preenche o modal de Prova Personalizada
+            const quizModuleOptionsEl = document.getElementById('quiz-module-options');
+            if(quizModuleOptionsEl) {
+                quizModuleOptionsEl.innerHTML = '';
+                allModulesData.forEach((moduleContainer, index) => {
+                    const module = moduleContainer.modules[0];
+                    const label = document.createElement('label');
+                    label.innerHTML = `<input type="checkbox" value="${index + 1}"> ${module.moduleId}: ${module.moduleTitle}`;
+                    quizModuleOptionsEl.appendChild(label);
+                });
+            }
         } catch (error) {
-            console.error("Erro fatal ao carregar os dados dos módulos:", error);
-            moduleTitleEl.textContent = "Erro ao carregar os dados do curso.";
-            return false;
+            console.error("Erro ao carregar os dados:", error);
+            alert("Não foi possível carregar as lições. Verifique a sua conexão.");
         }
     }
 
-    // Função para popular o framework do curso
-    function populateCourseFramework() {
-        const firstModuleData = allModulesData[0];
-        courseTitleEl.textContent = firstModuleData.courseTitle;
-        courseDescriptionEl.textContent = firstModuleData.courseDescription;
+    // --- LISTA DE LIÇÕES (Teoria ou Prática) ---
+    window.irParaLista = function(tipo) {
+        lessonsContainer.innerHTML = ''; // Limpa a lista atual
+        sideMenuLinks.innerHTML = '';    // Limpa o menu lateral
 
-        theoryListEl.innerHTML = '';
-        practiceListEl.innerHTML = '';
-        quizModuleOptionsEl.innerHTML = '';
+        listTitle.innerText = tipo === 'theory' ? 'Lições de Teoria' : 'Exercícios Práticos';
 
         allModulesData.forEach((moduleContainer, index) => {
             const module = moduleContainer.modules[0];
             const conceptualModuleId = index + 1;
             const buttonText = `${module.moduleId}: ${module.moduleTitle}`;
 
-            // Botões para Teoria e Prática
-            const theoryLi = document.createElement('li');
-            const theoryBtn = document.createElement('button');
-            theoryBtn.textContent = buttonText;
-            theoryBtn.dataset.moduleId = conceptualModuleId;
-            theoryBtn.addEventListener('click', () => displayModuleContent(conceptualModuleId, 'theory'));
-            theoryLi.appendChild(theoryBtn);
-            theoryListEl.appendChild(theoryLi);
+            // 1. Cria botão na tela de lista
+            let btn = document.createElement('button');
+            btn.innerText = buttonText;
+            btn.onclick = () => carregarConteudo(conceptualModuleId, tipo);
+            lessonsContainer.appendChild(btn);
 
-            const practiceLi = document.createElement('li');
-            const practiceBtn = document.createElement('button');
-            practiceBtn.textContent = buttonText;
-            practiceBtn.dataset.moduleId = conceptualModuleId;
-            practiceBtn.addEventListener('click', () => displayModuleContent(conceptualModuleId, 'practice'));
-            practiceLi.appendChild(practiceBtn);
-            practiceListEl.appendChild(practiceLi);
-
-            // Checkboxes para a prova
-            const quizLabel = document.createElement('label');
-            const quizCheckbox = document.createElement('input');
-            quizCheckbox.type = 'checkbox';
-            quizCheckbox.value = conceptualModuleId;
-            quizLabel.appendChild(quizCheckbox);
-            quizLabel.append(` ${buttonText}`);
-            quizModuleOptionsEl.appendChild(quizLabel);
+            // 2. Adiciona link no menu hambúrguer para navegação rápida
+            let menuLink = document.createElement('a');
+            menuLink.href = "javascript:void(0)";
+            menuLink.innerText = module.moduleId;
+            menuLink.onclick = () => {
+                carregarConteudo(conceptualModuleId, tipo);
+                toggleMenu(); // Fecha o menu lateral após clicar
+            };
+            sideMenuLinks.appendChild(menuLink);
         });
-    }
+        
+        irPara('screen-lessons-list');
+    };
 
-    function displayModuleContent(conceptualModuleId, contentType) {
+    // --- CARREGAR CONTEÚDO (Lição) ---
+    function carregarConteudo(conceptualModuleId, contentType) {
         const module = allModulesData[conceptualModuleId - 1].modules[0];
         moduleTitleEl.textContent = `${module.moduleId}: ${module.moduleTitle}`;
         let contentHTML = '';
@@ -90,74 +109,121 @@ document.addEventListener('DOMContentLoaded', () => {
         if (contentType === 'theory') {
             contentHTML = module.content.html;
         } else {
+            // Monta os exercícios
             const flashcardsHTML = `<h3>Flashcards</h3>` + module.flashcards.map(card => `<div class="flashcard"><div class="front">${card.front}</div><div class="back">${card.back}</div></div>`).join('');
             const exercisesHTML = `<h3>Exercícios</h3>` + module.exercises.map((ex, index) => `<div class="exercise"><p class="prompt">${index + 1}. ${ex.prompt}</p><div class="options">${ex.options ? ex.options.map((opt, i) => `<label><input type="radio" name="ex${index}" value="${i}"> ${opt}</label>`).join('') : '<input type="text">'}</div><button class="check-answer" data-explanation="${ex.explanation}">Ver Resposta</button><div class="explanation"></div></div>`).join('');
             contentHTML = flashcardsHTML + exercisesHTML;
         }
 
         moduleDisplayAreaEl.innerHTML = contentHTML;
-        updateActiveButton(conceptualModuleId);
-
+        
+        // Ativa os botões de "Ver Resposta" da Prática
         if (contentType === 'practice') {
-            addExerciseListeners();
+            document.querySelectorAll('.check-answer').forEach(button => {
+                button.addEventListener('click', e => {
+                    const explanationText = e.target.dataset.explanation;
+                    const explanationDiv = e.target.nextElementSibling;
+                    explanationDiv.innerHTML = `<b>Explicação:</b> ${explanationText}`;
+                    explanationDiv.style.display = explanationDiv.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+        }
+
+        // Se já está na tela de conteúdo (clicou pelo menu hambúrguer), faz scroll pro topo, senão navega
+        if(telaAtual === 'screen-content') {
+            window.scrollTo(0, 0);
+        } else {
+            irPara('screen-content');
         }
     }
 
-    function addExerciseListeners() {
-        document.querySelectorAll('.check-answer').forEach(button => {
-            button.addEventListener('click', e => {
-                const explanationText = e.target.dataset.explanation;
-                const explanationDiv = e.target.nextElementSibling;
-                explanationDiv.innerHTML = `<b>Explicação:</b> ${explanationText}`;
-                explanationDiv.style.display = explanationDiv.style.display === 'block' ? 'none' : 'block';
-            });
+    // --- MENU HAMBÚRGUER ---
+    window.toggleMenu = function() {
+        if (sideMenu.style.width === "250px") {
+            sideMenu.style.width = "0";
+        } else {
+            sideMenu.style.width = "250px";
+        }
+    };
+
+    // --- ESCRIBA IA (Lógica do Chat) ---
+    const sendChatBtn = document.getElementById('send-chat');
+    const chatInput = document.getElementById('chat-input');
+    const chatMessages = document.getElementById('chat-messages');
+
+    if (sendChatBtn && chatInput) {
+        sendChatBtn.addEventListener('click', enviarMensagemIA);
+        chatInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') enviarMensagemIA();
         });
     }
 
-    function updateActiveButton(conceptualModuleId) {
-        document.querySelectorAll('#nav-left button, #nav-right button').forEach(b => b.classList.remove('active'));
-        document.querySelectorAll(`button[data-module-id="${conceptualModuleId}"]`).forEach(b => b.classList.add('active'));
+    function enviarMensagemIA() {
+        const mensagemUsuario = chatInput.value;
+        if (mensagemUsuario.trim() === '') return;
+
+        // Adiciona a mensagem do usuário
+        chatMessages.innerHTML += `<p class="msg-user"><strong>Você:</strong> ${mensagemUsuario}</p>`;
+        chatInput.value = '';
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+
+        // Simula carregamento
+        chatMessages.innerHTML += `<p id="loading-msg" class="msg-ia"><em>EscribaIA está a analisar os pergaminhos...</em></p>`;
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        
+        // Resposta simulada (Aqui entrará a integração com a API no futuro)
+        setTimeout(() => {
+            const loading = document.getElementById('loading-msg');
+            if(loading) loading.remove();
+            
+            chatMessages.innerHTML += `<p class="msg-ia"><strong>EscribaIA:</strong> No futuro estarei conectado a uma API de Inteligência Artificial para analisar a tua frase "${mensagemUsuario}". Por enquanto, ainda estou a aprender!</p>`;
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }, 1500);
     }
 
-    // Lógica da Prova Personalizada
-    openQuizBtn.onclick = () => { quizModal.style.display = 'block'; quizErrorMsgEl.textContent = ''; };
-    closeQuizBtn.onclick = () => { quizModal.style.display = 'none'; };
-    window.onclick = (event) => { if (event.target == quizModal) { quizModal.style.display = 'none'; } };
-    quizSetupForm.addEventListener('submit', (event) => {
-        event.preventDefault();
-        const selectedCheckboxes = quizModuleOptionsEl.querySelectorAll('input:checked');
-        if (selectedCheckboxes.length < 1 || selectedCheckboxes.length > 5) {
-            quizErrorMsgEl.textContent = 'Erro: Você deve selecionar entre 1 e 5 módulos.'; return;
-        }
-        quizErrorMsgEl.textContent = '';
-        let hardQuestions = [];
-        selectedCheckboxes.forEach(checkbox => {
-            const conceptualModuleId = parseInt(checkbox.value, 10);
-            const module = allModulesData[conceptualModuleId - 1].modules[0];
-            const questions = module.exercises.filter(ex => ex.difficulty === 'hard');
-            hardQuestions.push(...questions);
-        });
-        if (hardQuestions.length === 0) {
-            quizErrorMsgEl.textContent = 'Os módulos selecionados não possuem questões difíceis para a prova.'; return;
-        }
-        const quizData = { title: 'Prova Personalizada', questions: hardQuestions };
-        localStorage.setItem('customQuizData', JSON.stringify(quizData));
-        window.open('lexico.html', '_blank'); // Mudado de 'prova.html' para o novo nome do arquivo do léxico
-        quizModal.style.display = 'none';
-    });
+    // --- LÉXICO E PROVA PERSONALIZADA ---
+    const lexiconBtn = document.getElementById('lexicon-btn');
+    if (lexiconBtn) {
+        lexiconBtn.addEventListener('click', () => window.open('lexico.html', '_blank'));
+    }
 
-    // Função de inicialização
-    async function init() {
-        const success = await fetchAllModules();
-        if (success) {
-            populateCourseFramework();
-            // ATUALIZAÇÃO: O botão do léxico agora simplesmente abre uma nova aba.
-            lexiconBtn.addEventListener('click', () => {
-                window.open('lexico.html', '_blank');
+    const quizModal = document.getElementById('quiz-modal');
+    const openQuizBtn = document.getElementById('custom-quiz-btn');
+    const closeQuizBtn = document.querySelector('.close-button');
+    const quizSetupForm = document.getElementById('quiz-setup-form');
+    const quizErrorMsgEl = document.getElementById('quiz-error-message');
+
+    if (openQuizBtn && quizModal) {
+        openQuizBtn.onclick = () => { quizModal.style.display = 'block'; quizErrorMsgEl.textContent = ''; };
+        closeQuizBtn.onclick = () => { quizModal.style.display = 'none'; };
+        window.onclick = (event) => { if (event.target == quizModal) quizModal.style.display = 'none'; };
+        
+        quizSetupForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const selectedCheckboxes = document.getElementById('quiz-module-options').querySelectorAll('input:checked');
+            
+            if (selectedCheckboxes.length < 1 || selectedCheckboxes.length > 5) {
+                quizErrorMsgEl.textContent = 'Erro: Selecione entre 1 e 5 módulos.'; return;
+            }
+            
+            let hardQuestions = [];
+            selectedCheckboxes.forEach(checkbox => {
+                const conceptualModuleId = parseInt(checkbox.value, 10);
+                const module = allModulesData[conceptualModuleId - 1].modules[0];
+                const questions = module.exercises.filter(ex => ex.difficulty === 'hard');
+                hardQuestions.push(...questions);
             });
-            displayModuleContent(1, 'theory');
-        }
+            
+            if (hardQuestions.length === 0) {
+                quizErrorMsgEl.textContent = 'Os módulos selecionados não possuem questões difíceis.'; return;
+            }
+            
+            localStorage.setItem('customQuizData', JSON.stringify({ title: 'Prova Personalizada', questions: hardQuestions }));
+            window.open('prova.html', '_blank'); 
+            quizModal.style.display = 'none';
+        });
     }
 
-    init();
+    // Inicializa carregando os dados JSON
+    fetchAllModules();
 });
