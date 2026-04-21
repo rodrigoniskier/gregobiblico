@@ -116,145 +116,245 @@ document.addEventListener('DOMContentLoaded', () => {
     function carregarConteudo(conceptualModuleId, contentType) {
         const module = allModulesData[conceptualModuleId - 1].modules[0];
         moduleTitleEl.textContent = `${module.moduleId}: ${module.moduleTitle}`;
-        let contentHTML = '';
 
         if (contentType === 'theory') {
-            contentHTML = module.content.html;
+            moduleDisplayAreaEl.innerHTML = renderTheoryContent(module);
         } else {
-            // Monta os exercícios
-            const flashcardsHTML = `<h3>Flashcards</h3>` + module.flashcards.map(card => `<div class="flashcard"><div class="front">${card.front}</div><div class="back">${card.back}</div></div>`).join('');
-            const exercisesHTML = `<h3>Exercícios</h3>` + module.exercises.map((ex, index) => `<div class="exercise"><p class="prompt">${index + 1}. ${ex.prompt}</p><div class="options">${ex.options ? ex.options.map((opt, i) => `<label><input type="radio" name="ex${index}" value="${i}"> ${opt}</label>`).join('') : '<input type="text">'}</div><button class="check-answer" data-explanation="${ex.explanation}">Ver Resposta</button><div class="explanation"></div></div>`).join('');
-            contentHTML = flashcardsHTML + exercisesHTML;
+            moduleDisplayAreaEl.innerHTML = renderPracticeContent(module);
+            bindFlashcardInteractions(module);
         }
 
-        moduleDisplayAreaEl.innerHTML = contentHTML;
-        
-        // Ativa os botões de "Ver Resposta" da Prática
-        if (contentType === 'practice') {
-            document.querySelectorAll('.check-answer').forEach(button => {
-                button.addEventListener('click', e => {
-                    const explanationText = e.target.dataset.explanation;
-                    const explanationDiv = e.target.nextElementSibling;
-                    explanationDiv.innerHTML = `<b>Explicação:</b> ${explanationText}`;
-                    explanationDiv.style.display = explanationDiv.style.display === 'block' ? 'none' : 'block';
-                });
-            });
-        }
-
-        // Se já está na tela de conteúdo (clicou pelo menu hambúrguer), faz scroll pro topo, senão navega
-        if(telaAtual === 'screen-content') {
-            window.scrollTo(0, 0);
-        } else {
-            irPara('screen-content');
-        }
+        irPara('screen-module-content');
     }
 
-    // --- MENU HAMBÚRGUER ---
-    window.toggleMenu = function() {
-        if (sideMenu.style.width === "250px") {
-            sideMenu.style.width = "0";
-        } else {
-            sideMenu.style.width = "250px";
-        }
-    };
+    function renderTheoryContent(module) {
+        const content = module.content || {};
+        const intro = content.intro || {};
+        const objectives = Array.isArray(module.learningObjectives) ? module.learningObjectives : [];
+        const sections = Array.isArray(content.sections) ? content.sections : [];
+        const summary = Array.isArray(content.summary) ? content.summary : [];
 
-    // --- ESCRIBA IA (Lógica do Chat ligada à Vercel) ---
-    const sendChatBtn = document.getElementById('send-chat');
-    const chatInput = document.getElementById('chat-input');
-    const chatMessages = document.getElementById('chat-messages');
+        const introHTML = `
+            <section class="theory-intro">
+                <h2>${escapeHtml(intro.title || module.moduleTitle)}</h2>
+                ${intro.lead ? `<p>${escapeHtml(intro.lead)}</p>` : ''}
+                ${intro.importance ? `<p>${escapeHtml(intro.importance)}</p>` : ''}
+            </section>`;
 
-    if (sendChatBtn && chatInput) {
-        sendChatBtn.addEventListener('click', enviarMensagemIA);
-        // Permite enviar com a tecla "Enter"
-        chatInput.addEventListener('keypress', function (e) {
-            if (e.key === 'Enter') enviarMensagemIA();
-        });
-    }
+        const objectivesHTML = objectives.length ? `
+            <section class="theory-objectives">
+                <h3>Objetivos de aprendizagem</h3>
+                <ul>${objectives.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
+            </section>` : '';
 
-    async function enviarMensagemIA() {
-        const mensagemUsuario = chatInput.value;
-        if (mensagemUsuario.trim() === '') return;
-
-        // 1. Adiciona a mensagem do usuário na tela
-        chatMessages.innerHTML += `<p class="msg-user"><strong>Você:</strong> ${mensagemUsuario}</p>`;
-        chatInput.value = '';
-        chatMessages.scrollTop = chatMessages.scrollHeight;
-
-        // 2. Mostra que o EscribaIA está "pensando"
-        const idLoading = "loading-" + Date.now(); // Cria um ID único para a mensagem de carregamento
-        chatMessages.innerHTML += `<p id="${idLoading}" class="msg-ia"><em>EscribaIA está a analisar os pergaminhos...</em></p>`;
-        chatMessages.scrollTop = chatMessages.scrollHeight;
-        
-        try {
-            // 3. Faz o pedido à nossa função Serverless na Vercel (/api/chat)
-            const resposta = await fetch('/api/chat', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ mensagem: mensagemUsuario })
-            });
-
-            if (!resposta.ok) throw new Error('Falha na comunicação com o servidor.');
-
-            const dados = await resposta.json();
-            
-            // 4. Remove a mensagem de carregamento e mostra a resposta real do Gemini
-            document.getElementById(idLoading).remove();
-            chatMessages.innerHTML += `<p class="msg-ia"><strong>EscribaIA:</strong> ${dados.respostaIA}</p>`;
-            
-        } catch (erro) {
-            console.error(erro);
-            document.getElementById(idLoading).remove();
-            chatMessages.innerHTML += `<p class="msg-ia" style="color: red;"><strong>EscribaIA:</strong> Perdoe-me, os pergaminhos estão ilegíveis no momento. Verifique a conexão e tente novamente.</p>`;
-        }
-        
-        chatMessages.scrollTop = chatMessages.scrollHeight;
-    }
-
-    // --- LÉXICO E PROVA PERSONALIZADA ---
-    const lexiconBtn = document.getElementById('lexicon-btn');
-    if (lexiconBtn) {
-        lexiconBtn.addEventListener('click', () => window.open('lexico.html', '_blank'));
-    }
-
-    const quizModal = document.getElementById('quiz-modal');
-    const openQuizBtn = document.getElementById('custom-quiz-btn');
-    const closeQuizBtn = document.querySelector('.close-button');
-    const quizSetupForm = document.getElementById('quiz-setup-form');
-    const quizErrorMsgEl = document.getElementById('quiz-error-message');
-
-    if (openQuizBtn && quizModal) {
-        openQuizBtn.onclick = () => { quizModal.style.display = 'block'; quizErrorMsgEl.textContent = ''; };
-        closeQuizBtn.onclick = () => { quizModal.style.display = 'none'; };
-        window.onclick = (event) => { if (event.target == quizModal) quizModal.style.display = 'none'; };
-        
-        quizSetupForm.addEventListener('submit', (event) => {
-            event.preventDefault();
-            const selectedCheckboxes = document.getElementById('quiz-module-options').querySelectorAll('input:checked');
-            
-            if (selectedCheckboxes.length < 1 || selectedCheckboxes.length > 5) {
-                quizErrorMsgEl.textContent = 'Erro: Selecione entre 1 e 5 módulos.'; return;
+        const sectionsHTML = sections.length ? sections.map(section => {
+            let blockHTML = '';
+            if (section.dataKey && Array.isArray(content[section.dataKey])) {
+                blockHTML = renderDataBlock(section.title, content[section.dataKey], section.dataKey);
             }
-            
-            let hardQuestions = [];
-            selectedCheckboxes.forEach(checkbox => {
-                const conceptualModuleId = parseInt(checkbox.value, 10);
-                const module = allModulesData[conceptualModuleId - 1].modules[0];
-                const questions = module.exercises.filter(ex => ex.difficulty === 'hard');
-                hardQuestions.push(...questions);
-            });
-            
-            if (hardQuestions.length === 0) {
-                quizErrorMsgEl.textContent = 'Os módulos selecionados não possuem questões difíceis.'; return;
-            }
-            
-            localStorage.setItem('customQuizData', JSON.stringify({ title: 'Prova Personalizada', questions: hardQuestions }));
-            window.open('prova.html', '_blank'); 
-            quizModal.style.display = 'none';
-        });
+            return `
+                <section class="theory-section">
+                    <h3>${escapeHtml(section.title || '')}</h3>
+                    ${section.summary ? `<p><strong>Visão geral:</strong> ${escapeHtml(section.summary)}</p>` : ''}
+                    ${Array.isArray(section.body) ? section.body.map(par => `<p>${escapeHtml(par)}</p>`).join('') : ''}
+                    ${blockHTML}
+                </section>`;
+        }).join('') : (content.html || '<p>Conteúdo indisponível.</p>');
+
+        const summaryHTML = summary.length ? `
+            <section class="theory-summary">
+                <h3>Resumo para revisão</h3>
+                <ul>${summary.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
+            </section>` : '';
+
+        return `<div class="module-theory">${introHTML}${objectivesHTML}${sectionsHTML}${summaryHTML}</div>`;
     }
 
-    // Inicializa carregando os dados JSON assim que a página abre
+    function renderDataBlock(title, items, dataKey) {
+        if (!Array.isArray(items) || !items.length) return '';
+
+        if (dataKey === 'alphabet') {
+            return `
+                <div class="data-table-wrapper">
+                    <table class="greek-table">
+                        <thead>
+                            <tr>
+                                <th>Maiúscula</th><th>Minúscula</th><th>Nome</th><th>Transliteração</th><th>Pronúncia</th><th>Notas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${items.map(item => `
+                                <tr>
+                                    <td>${escapeHtml(item.uppercase || '')}</td>
+                                    <td>${escapeHtml(item.lowercase || '')}</td>
+                                    <td>${escapeHtml(item.name || '')}</td>
+                                    <td>${escapeHtml(item.transliteration || '')}</td>
+                                    <td>${escapeHtml(item.pronunciation || '')}</td>
+                                    <td>${escapeHtml(item.notes || '')}</td>
+                                </tr>`).join('')}
+                        </tbody>
+                    </table>
+                </div>`;
+        }
+
+        if (dataKey === 'diphthongs' || dataKey === 'diacritics' || dataKey === 'punctuation') {
+            return `<div class="content-cards">${items.map(item => `
+                <article class="content-card">
+                    <h4>${escapeHtml(item.form || item.name || item.mark || '')}</h4>
+                    ${item.pronunciation ? `<p><strong>Pronúncia:</strong> ${escapeHtml(item.pronunciation)}</p>` : ''}
+                    ${item.function ? `<p><strong>Função:</strong> ${escapeHtml(item.function)}</p>` : ''}
+                    ${item.equivalent ? `<p><strong>Equivalência:</strong> ${escapeHtml(item.equivalent)}</p>` : ''}
+                    ${item.example ? `<p><strong>Exemplo:</strong> ${escapeHtml(item.example)}</p>` : ''}
+                    ${item.notes ? `<p>${escapeHtml(item.notes)}</p>` : ''}
+                    ${item.importance ? `<p><strong>Importância:</strong> ${escapeHtml(item.importance)}</p>` : ''}
+                </article>`).join('')}</div>`;
+        }
+
+        return '';
+    }
+
+    function renderPracticeContent(module) {
+        const flashcards = Array.isArray(module.flashcards) ? module.flashcards : [];
+        const exercises = Array.isArray(module.exercises) ? module.exercises : [];
+
+        const flashcardsHTML = flashcards.length ? `
+            <section class="flashcards-section">
+                <div class="flashcards-toolbar">
+                    <button type="button" id="flashcard-prev">◀ Anterior</button>
+                    <button type="button" id="flashcard-flip">Virar card</button>
+                    <button type="button" id="flashcard-next">Próximo ▶</button>
+                    <button type="button" id="flashcard-shuffle">Embaralhar</button>
+                </div>
+                <div class="flashcards-meta">
+                    <span id="flashcard-counter">1 / ${flashcards.length}</span>
+                    <span id="flashcard-category">${escapeHtml(flashcards[0]?.category || 'geral')}</span>
+                </div>
+                <div class="flashcard-stage">
+                    <article class="flashcard" id="flashcard" data-index="0" data-side="front" tabindex="0" role="button" aria-label="Virar flashcard">
+                        <div class="flashcard-face flashcard-front">
+                            <h3>Frente</h3>
+                            <p id="flashcard-front">${escapeHtml(flashcards[0]?.front || '')}</p>
+                            <small id="flashcard-hint">${escapeHtml(flashcards[0]?.hint || 'Clique para virar')}</small>
+                        </div>
+                        <div class="flashcard-face flashcard-back" hidden>
+                            <h3>Verso</h3>
+                            <p id="flashcard-back">${escapeHtml(flashcards[0]?.back || '')}</p>
+                            <small id="flashcard-details">${escapeHtml(flashcards[0]?.details || '')}</small>
+                        </div>
+                    </article>
+                </div>
+            </section>` : '';
+
+        const exercisesHTML = exercises.length ? `
+            <section class="exercises-section">
+                <h3>Exercícios</h3>
+                <div class="exercises-list">
+                    ${exercises.map((ex, index) => `
+                        <article class="exercise-card">
+                            <h4>${index + 1}. ${escapeHtml(ex.prompt || '')}</h4>
+                            <p><strong>Dificuldade:</strong> ${escapeHtml(ex.difficulty || 'não informada')}</p>
+                            <p><strong>Tipo:</strong> ${escapeHtml(ex.type || 'não informado')}</p>
+                            ${Array.isArray(ex.options) ? `<ol>${ex.options.map(opt => `<li>${escapeHtml(opt)}</li>`).join('')}</ol>` : ''}
+                            ${ex.correctAnswer ? `<p><strong>Resposta esperada:</strong> ${escapeHtml(ex.correctAnswer)}</p>` : ''}
+                            ${Number.isInteger(ex.correctAnswerIndex) && Array.isArray(ex.options) ? `<p><strong>Resposta correta:</strong> ${escapeHtml(ex.options[ex.correctAnswerIndex] || '')}</p>` : ''}
+                            ${ex.explanation ? `<details><summary>Ver explicação</summary><p>${escapeHtml(ex.explanation)}</p></details>` : ''}
+                        </article>`).join('')}
+                </div>
+            </section>` : '';
+
+        return `<div class="module-practice">${flashcardsHTML}${exercisesHTML}</div>`;
+    }
+
+    function bindFlashcardInteractions(module) {
+        const flashcards = Array.isArray(module.flashcards) ? module.flashcards : [];
+        if (!flashcards.length) return;
+
+        const cardEl = document.getElementById('flashcard');
+        const frontEl = document.getElementById('flashcard-front');
+        const backEl = document.getElementById('flashcard-back');
+        const hintEl = document.getElementById('flashcard-hint');
+        const detailsEl = document.getElementById('flashcard-details');
+        const categoryEl = document.getElementById('flashcard-category');
+        const counterEl = document.getElementById('flashcard-counter');
+        const frontFace = cardEl?.querySelector('.flashcard-front');
+        const backFace = cardEl?.querySelector('.flashcard-back');
+        const prevBtn = document.getElementById('flashcard-prev');
+        const nextBtn = document.getElementById('flashcard-next');
+        const flipBtn = document.getElementById('flashcard-flip');
+        const shuffleBtn = document.getElementById('flashcard-shuffle');
+
+        let deck = [...flashcards];
+        let currentIndex = 0;
+        let isFront = true;
+
+        function updateCard() {
+            const current = deck[currentIndex];
+            if (!current || !cardEl) return;
+            frontEl.textContent = current.front || '';
+            backEl.textContent = current.back || '';
+            hintEl.textContent = current.hint || 'Clique para virar';
+            detailsEl.textContent = current.details || '';
+            categoryEl.textContent = current.category || 'geral';
+            counterEl.textContent = `${currentIndex + 1} / ${deck.length}`;
+            isFront = true;
+            cardEl.dataset.side = 'front';
+            frontFace.hidden = false;
+            backFace.hidden = true;
+        }
+
+        function flipCard() {
+            if (!cardEl) return;
+            isFront = !isFront;
+            cardEl.dataset.side = isFront ? 'front' : 'back';
+            frontFace.hidden = !isFront;
+            backFace.hidden = isFront;
+        }
+
+        function nextCard() {
+            currentIndex = (currentIndex + 1) % deck.length;
+            updateCard();
+        }
+
+        function prevCard() {
+            currentIndex = (currentIndex - 1 + deck.length) % deck.length;
+            updateCard();
+        }
+
+        function shuffleDeck() {
+            for (let i = deck.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [deck[i], deck[j]] = [deck[j], deck[i]];
+            }
+            currentIndex = 0;
+            updateCard();
+        }
+
+        cardEl.addEventListener('click', flipCard);
+        cardEl.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                flipCard();
+            }
+            if (event.key === 'ArrowRight') nextCard();
+            if (event.key === 'ArrowLeft') prevCard();
+        });
+        prevBtn?.addEventListener('click', prevCard);
+        nextBtn?.addEventListener('click', nextCard);
+        flipBtn?.addEventListener('click', flipCard);
+        shuffleBtn?.addEventListener('click', shuffleDeck);
+
+        updateCard();
+    }
+
+    function escapeHtml(value) {
+        return String(value ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+// Inicializa carregando os dados JSON assim que a página abre
     fetchAllModules();
 });
