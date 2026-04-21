@@ -10,35 +10,75 @@
 <body>
 
     <header>
-        <h1 id="course-title">Curso de Grego Coinê Bíblico</h1>
+        <h1 id="main-title">Grego Coinê Bíblico</h1>
         <p id="course-description"></p>
     </header>
 
-    <div class="main-container">
-        <nav id="nav-left">
-            <h2>Teoria</h2>
-            <button id="lexicon-btn">Léxico Grego-Português</button>
-    <hr>
-            <ul id="theory-module-list"></ul>
-        </nav>
+    <section id="screen-home" class="screen">
+        <div class="menu-grid">
+            <button onclick="irParaLista('theory')">Teoria</button>
+            <button onclick="irParaLista('practice')">Prática</button>
+            <button onclick="irPara('screen-videos')">Vídeo-aulas</button>
+            <button onclick="irPara('screen-ia')" style="background-color: #28a745;">EscribaIA</button>
+        </div>
+        
+        <div style="margin-top: 30px; text-align: center;">
+            <button id="lexicon-btn" class="btn-secondary">Léxico Grego-Português</button>
+            <button id="custom-quiz-btn" class="btn-secondary">Prova Personalizada</button>
+        </div>
+    </section>
 
-        <main id="main-content">
-            <h2 id="module-title">Bem-vindo!</h2>
-            <div id="module-display-area">
-                <p>Selecione um módulo teórico no menu à esquerda ou um módulo prático no menu à direita para começar.</p>
+    <section id="screen-lessons-list" class="screen" style="display: none;">
+        <button class="btn-voltar" onclick="voltar()">← Voltar</button>
+        <h2 id="list-title">Lições</h2>
+        <div id="lessons-container" class="vertical-stack">
             </div>
-        </main>
+    </section>
 
-        <aside id="nav-right">
-            <h2>Prática</h2>
-            <ul id="practice-module-list"></ul>
-            <button id="custom-quiz-btn">Prova Personalizada</button>
-        </aside>
-    </div>
+    <section id="screen-content" class="screen" style="display: none;">
+        <div class="top-bar">
+            <button class="btn-voltar" onclick="voltar()">← Voltar</button>
+            <button id="hamburger-menu" onclick="toggleMenu()">☰ Módulos</button>
+        </div>
+        
+        <h2 id="module-title">Título</h2>
+        <div id="module-display-area">
+            </div>
+        
+        <div id="side-menu" class="side-nav">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times; Fechar</a>
+            <hr style="border-color: #555;">
+            <div id="side-menu-links"></div>
+        </div>
+    </section>
 
-    <footer>
-        <p>Curso desenvolvido por RODRIGO NISKIER e Gemini. Hospedado com ❤️ no GitHub Pages.</p>
-    </footer>
+    <section id="screen-videos" class="screen" style="display: none;">
+        <button class="btn-voltar" onclick="voltar()">← Voltar</button>
+        <h2>Vídeo-aulas</h2>
+        <div class="vertical-stack" id="videos-container">
+            <button class="btn-disabled">Aula 1: O Alfabeto (Em breve)</button>
+            <button class="btn-disabled">Aula 2: Substantivos (Em breve)</button>
+            <button class="btn-disabled">Aula 3: Verbos Presente (Em breve)</button>
+            <button class="btn-disabled">Aula 4: Preposições (Em breve)</button>
+        </div>
+    </section>
+
+    <section id="screen-ia" class="screen" style="display: none;">
+        <button class="btn-voltar" onclick="voltar()">← Voltar</button>
+        <div class="ia-header">
+            <img src="assets/escriba.png" alt="Escriba IA" class="ia-photo" onerror="this.src='https://via.placeholder.com/80?text=IA'">
+            <h2>EscribaIA</h2>
+        </div>
+        <div id="chat-container">
+            <div id="chat-messages">
+                <p class="msg-ia"><strong>EscribaIA:</strong> Χαῖρε! Sou o EscribaIA. Estou aqui para tirar as tuas dúvidas de Grego Coinê. O que vamos estudar hoje?</p>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Escreva a sua dúvida...">
+                <button id="send-chat">Enviar</button>
+            </div>
+        </div>
+    </section>
 
     <div id="quiz-modal" class="modal">
         <div class="modal-content">
@@ -47,11 +87,15 @@
             <p>Selecione de 1 a 5 módulos para gerar uma prova com as questões difíceis.</p>
             <form id="quiz-setup-form">
                 <div id="quiz-module-options"></div>
-                <button type="submit" id="generate-quiz-btn">Gerar Prova</button>
+                <button type="submit" id="generate-quiz-btn" style="padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px; cursor:pointer;">Gerar Prova</button>
             </form>
             <p id="quiz-error-message" class="error-message"></p>
         </div>
     </div>
+
+    <footer>
+        <p>Curso desenvolvido por RODRIGO NISKIER. Hospedado com ❤️ no GitHub Pages.</p>
+    </footer>
 
 </body>
 </html>
