@@ -158,27 +158,46 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function enviarMensagemIA() {
+   async function enviarMensagemIA() {
         const mensagemUsuario = chatInput.value;
         if (mensagemUsuario.trim() === '') return;
 
-        // Adiciona a mensagem do usuário
+        // 1. Adiciona a mensagem do usuário na tela
         chatMessages.innerHTML += `<p class="msg-user"><strong>Você:</strong> ${mensagemUsuario}</p>`;
         chatInput.value = '';
         chatMessages.scrollTop = chatMessages.scrollHeight;
 
-        // Simula carregamento
-        chatMessages.innerHTML += `<p id="loading-msg" class="msg-ia"><em>EscribaIA está a analisar os pergaminhos...</em></p>`;
+        // 2. Mostra que o EscribaIA está "pensando"
+        const idLoading = "loading-" + Date.now(); // Cria um ID único para a mensagem de loading
+        chatMessages.innerHTML += `<p id="${idLoading}" class="msg-ia"><em>EscribaIA está a analisar os pergaminhos...</em></p>`;
         chatMessages.scrollTop = chatMessages.scrollHeight;
         
-        // Resposta simulada (Aqui entrará a integração com a API no futuro)
-        setTimeout(() => {
-            const loading = document.getElementById('loading-msg');
-            if(loading) loading.remove();
+        try {
+            // 3. Faz o pedido ao nosso futuro servidor intermediário
+            // NOTA: Vamos substituir 'URL_DO_SEU_BACKEND' pela URL real mais à frente
+            const resposta = await fetch('URL_DO_SEU_BACKEND', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ mensagem: mensagemUsuario })
+            });
+
+            if (!resposta.ok) throw new Error('Falha na comunicação com o servidor.');
+
+            const dados = await resposta.json();
             
-            chatMessages.innerHTML += `<p class="msg-ia"><strong>EscribaIA:</strong> No futuro estarei conectado a uma API de Inteligência Artificial para analisar a tua frase "${mensagemUsuario}". Por enquanto, ainda estou a aprender!</p>`;
-            chatMessages.scrollTop = chatMessages.scrollHeight;
-        }, 1500);
+            // 4. Remove a mensagem de carregamento e mostra a resposta real
+            document.getElementById(idLoading).remove();
+            chatMessages.innerHTML += `<p class="msg-ia"><strong>EscribaIA:</strong> ${dados.respostaIA}</p>`;
+            
+        } catch (erro) {
+            console.error(erro);
+            document.getElementById(idLoading).remove();
+            chatMessages.innerHTML += `<p class="msg-ia" style="color: red;"><strong>EscribaIA:</strong> Perdoe-me, os pergaminhos estão ilegíveis no momento. (Erro de conexão)</p>`;
+        }
+        
+        chatMessages.scrollTop = chatMessages.scrollHeight;
     }
 
     // --- LÉXICO E PROVA PERSONALIZADA ---
