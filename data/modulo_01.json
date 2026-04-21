@@ -10,42 +10,42 @@
         "Pronunciar cada letra e ditongo de acordo com o sistema de pronúncia Erasmiano.",
         "Identificar e entender a função dos principais sinais diacríticos: acentos (agudo, grave, circunflexo), espíritos (brando e áspero) e o iota subscrito.",
         "Transliterar palavras gregas para o alfabeto latino.",
-        "Ler palavras gregas simples em voz alta com a pronúncia correta, identificando vocabulário bíblico básico."
+        "Ler palavras gregas simples em voz alta com a pronúncia correta."
       ],
       "content": {
-        "html": "<div><h1>Módulo 1: O Alfabeto, Pronúncia e Sinais Diacríticos</h1><p>Bem-vindo ao início de sua jornada no Grego Coinê! A palavra Coinê (κοινή) significa 'comum'. Este não é o grego clássico dos filósofos, mas a língua das ruas do Império Romano do primeiro século. Foi este o idioma exato que Deus escolheu para registrar o Novo Testamento, garantindo que o Evangelho fosse acessível a todos.</p><p>Dominar o alfabeto e sua pronúncia é o primeiro e mais crucial passo. Aprenderemos usando o <b>Sistema Erasmiano</b>, o método padrão adotado nos seminários teológicos do mundo inteiro para diferenciar claramente o som de cada letra.</p><h2>1. O Alfabeto Grego (τὸ ἀλφάβητον)</h2><p>O alfabeto grego possui 24 letras. Preste muita atenção às letras minúsculas, pois os textos originais e os léxicos modernos são escritos majoritariamente com elas.</p><table style='width:100%; border-collapse: collapse; text-align: left; margin-bottom: 20px;'><thead><tr style='background-color: #f2f2f2;'><th>Maiús.</th><th>Minús.</th><th>Nome</th><th>Transliteração</th><th>Som (Erasmiano)</th><th>Exemplo Bíblico</th></tr></thead><tbody><tr><td>Α</td><td>α</td><td>Alfa</td><td>a</td><td>'a' como em 'pai'</td><td><b>ἀγάπη</b> (agapē) - amor incondicional</td></tr><tr><td>Β</td><td>β</td><td>Beta</td><td>b</td><td>'b' como em 'bola'</td><td><b>βίβλος</b> (biblos) - livro</td></tr><tr><td>Γ</td><td>γ</td><td>Gama</td><td>g</td><td>'g' como em 'gato'</td><td><b>γῆ</b> (gē) - terra</td></tr><tr><td>Δ</td><td>δ</td><td>Delta</td><td>d</td><td>'d' como em 'dado'</td><td><b>δοῦλος</b> (doulos) - servo, escravo</td></tr><tr><td>Ε</td><td>ε</td><td>Épsilon</td><td>e</td><td>'e' breve (pedra)</td><td><b>ἐγώ</b> (egō) - eu</td></tr><tr><td>Ζ</td><td>ζ</td><td>Zeta</td><td>z</td><td>'z' ou 'dz'</td><td><b>ζωή</b> (zōē) - vida</td></tr><tr><td>Η</td><td>η</td><td>Eta</td><td>ē</td><td>'e' longo (sede)</td><td><b>ἥλιος</b> (hēlios) - sol</td></tr><tr><td>Θ</td><td>θ</td><td>Teta</td><td>th</td><td>'th' (think em inglês)</td><td><b>θεός</b> (theos) - Deus</td></tr><tr><td>Ι</td><td>ι</td><td>Iota</td><td>i</td><td>'i' como em 'vi'</td><td><b>ἰχθύς</b> (ichthys) - peixe</td></tr><tr><td>Κ</td><td>κ</td><td>Capa</td><td>k</td><td>'c' como em 'casa'</td><td><b>κόσμος</b> (kosmos) - mundo</td></tr><tr><td>Λ</td><td>λ</td><td>Lambda</td><td>l</td><td>'l' como em 'lua'</td><td><b>λόγος</b> (logos) - palavra, verbo</td></tr><tr><td>Μ</td><td>μ</td><td>Mi</td><td>m</td><td>'m' como em 'mãe'</td><td><b>μαθητής</b> (mathētēs) - discípulo</td></tr><tr><td>Ν</td><td>ν</td><td>Ni</td><td>n</td><td>'n' como em 'nada'</td><td><b>νόμος</b> (nomos) - lei</td></tr><tr><td>Ξ</td><td>ξ</td><td>Xi</td><td>x</td><td>'x' (ks) como em 'táxi'</td><td><b>ξύλον</b> (xylon) - madeiro, árvore</td></tr><tr><td>Ο</td><td>ο</td><td>Ômicron</td><td>o</td><td>'o' breve (avó)</td><td><b>ὁδός</b> (hodos) - caminho</td></tr><tr><td>Π</td><td>π</td><td>Pi</td><td>p</td><td>'p' como em 'pai'</td><td><b>πατήρ</b> (patēr) - pai</td></tr><tr><td>Ρ</td><td>ρ</td><td>Rô</td><td>r</td><td>'r' vibrante (caro)</td><td><b>ῥῆμα</b> (rhēma) - palavra falada</td></tr><tr><td>Σ</td><td>σ, ς</td><td>Sigma</td><td>s</td><td>'s' como em 'sapo'</td><td><b>σάρξ</b> (sarx) - carne (ς só no fim da palavra)</td></tr><tr><td>Τ</td><td>τ</td><td>Tau</td><td>t</td><td>'t' como em 'tatu'</td><td><b>τέκνον</b> (teknon) - criança, filho</td></tr><tr><td>Υ</td><td>υ</td><td>Úpsilon</td><td>y</td><td>'u' francês ou 'ü'</td><td><b>υἱός</b> (huios) - filho</td></tr><tr><td>Φ</td><td>φ</td><td>Fi</td><td>ph</td><td>'f' como em 'faca'</td><td><b>φῶς</b> (phōs) - luz</td></tr><tr><td>Χ</td><td>χ</td><td>Qui</td><td>ch</td><td>'rr' forte (gutural)</td><td><b>χριστός</b> (christos) - Cristo, ungido</td></tr><tr><td>Ψ</td><td>ψ</td><td>Psi</td><td>ps</td><td>'ps' como em 'psicólogo'</td><td><b>ψυχή</b> (psychē) - alma, vida</td></tr><tr><td>Ω</td><td>ω</td><td>Ômega</td><td>ō</td><td>'o' longo (amor)</td><td><b>ὥρα</b> (hōra) - hora</td></tr></tbody></table><p><i>Nota Fonética Importante:</i> Quando a letra <b>Gama (γ)</b> aparece antes de outras letras guturais (γ, κ, χ, ξ), ela perde o som de 'g' e ganha um som anasalado de 'n'. Exemplo: ἄ<b>γγ</b>ελος pronuncia-se 'a<b>ng</b>elos' (anjo).</p><h2>2. Vogais e Ditongos: O Segredo da Quantidade</h2><p>Diferente do português, o grego diferencia as vogais pelo tempo que você demora a pronunciá-las (quantidade).</p><ul><li><b>Sempre Breves:</b> Épsilon (ε) e Ômicron (ο).</li><li><b>Sempre Longas:</b> Eta (η) e Ômega (ω).</li><li><b>Podem ser ambas:</b> Alfa (α), Iota (ι) e Úpsilon (υ).</li></ul><p>Os <b>ditongos</b> são o encontro de duas vogais pronunciadas numa só emissão de voz:</p><ul><li><b>αι</b>: 'ai' como em 'pai' (Ex: αἷμα - sangue)</li><li><b>ει</b>: 'ei' como em 'rei' (Ex: εἰρήνη - paz)</li><li><b>οι</b>: 'oi' como em 'boi' (Ex: οἶκος - casa)</li><li><b>υι</b>: 'ui' como em 'fui' (Ex: υἱός - filho)</li><li><b>αυ</b>: 'au' como em 'mau' (Ex: αὐτός - ele/mesmo)</li><li><b>ευ</b>: 'eu' como em 'céu' (Ex: εὐαγγέλιον - evangelho)</li><li><b>ου</b>: 'u' como em 'lua' (Ex: οὐρανός - céu)</li></ul><h2>3. Sinais Diacríticos: Pequenos Mas Poderosos</h2><p>Os sinais que pairam sobre ou sob as letras gregas são fundamentais para o significado e a leitura em voz alta.</p><h3>3.1. Espíritos (Respirações)</h3><p>Toda palavra grega que começa com uma vogal ou com a consoante 'ρ' recebe um espírito.</p><ul><li><b>Espírito Brando (᾽):</b> Ex: <b>ἀ</b>πόστολος (apostolos). Não altera o som da vogal.</li><li><b>Espírito Áspero (῾):</b> Ex: <b>ἁ</b>μαρτία (hamartia). Introduz um som de 'h' aspirado (como em 'house' no inglês). É por isso que palavras como <i>história</i> ou <i>hipopótamo</i> começam com 'H' no nosso idioma!</li></ul><h3>3.2. Acentos</h3><p>Acentuação no grego indica a sílaba tônica (a mais forte). Embora não alterem o tipo de som no sistema Erasmiano, eles ajudam a diferenciar palavras idênticas.</p><ul><li><b>Agudo (´):</b> Pode cair nas três últimas sílabas. Ex: λ<b>ό</b>γος (logos).</li><li><b>Grave (`):</b> Ocorre apenas na última sílaba, substituindo o acento agudo quando a palavra é imediatamente seguida por outra sem pontuação. Ex: ἀγάπη ἐστ<b>ὶ</b>ν.</li><li><b>Circunflexo (~ ou ^):</b> Só pode cair sobre vogais longas ou ditongos nas duas últimas sílabas. Ex: δ<b>ῶ</b>ρον (dōron - dádiva).</li></ul><h3>3.3. O Misterioso Iota Subscrito (ᾳ, ῃ, ῳ)</h3><p>Um pequeno 'ι' escrito debaixo das vogais longas α, η, ω. Ele não é pronunciado, mas é vital: ele é a marca visual de que a palavra está no caso Dativo (geralmente traduzido com as preposições 'para' ou 'a').</p><h2>4. Pontuação</h2><ul><li><b>Ponto final (.) e Vírgula (,):</b> Mesma função do português.</li><li><b>Ponto e vírgula (;):</b> É o <b>ponto de interrogação</b> do grego! Ex: τίς εἶ; (Quem és tu?)</li><li><b>Ponto alto (·):</b> Um ponto escrito no meio da linha. Funciona como nosso ponto e vírgula (;) ou dois pontos (:).</li></ul></div>"
+        "html": "<div><h1>Módulo 1: O Alfabeto, Pronúncia e Sinais Diacríticos</h1><p>Bem-vindo ao início de sua jornada no Grego Coinê! Este primeiro módulo é a fundação de tudo o que aprenderemos. Dominar o alfabeto e sua pronúncia é o primeiro e mais crucial passo para ler o Novo Testamento em sua língua original.</p><h2>1. O Alfabeto Grego (τὸ ἀλφάβητον)</h2><p>O alfabeto grego possui 24 letras. Abaixo, você encontrará a forma maiúscula, minúscula, o nome da letra, sua transliteração (como a representamos em nosso alfabeto) e sua pronúncia (seguindo o sistema Erasmiano, o mais comum em ambientes acadêmicos).</p><table style='width:100%; border-collapse: collapse; text-align: left;'><thead><tr><th>Maiúscula</th><th>Minúscula</th><th>Nome</th><th>Transliteração</th><th>Pronúncia (Erasmiana)</th></tr></thead><tbody><tr><td>Α</td><td>α</td><td>Alfa</td><td>a</td><td>'a' como em 'p<b>a</b>i'</td></tr><tr><td>Β</td><td>β</td><td>Beta</td><td>b</td><td>'b' como em '<b>b</b>ola'</td></tr><tr><td>Γ</td><td>γ</td><td>Gama</td><td>g</td><td>'g' como em '<b>g</b>ato' (antes de γ, κ, χ, ξ, soa como 'n')</td></tr><tr><td>Δ</td><td>δ</td><td>Delta</td><td>d</td><td>'d' como em '<b>d</b>ado'</td></tr><tr><td>Ε</td><td>ε</td><td>Épsilon</td><td>e</td><td>'e' como em 'p<b>e</b>dra' (breve)</td></tr><tr><td>Ζ</td><td>ζ</td><td>Zeta</td><td>z</td><td>'z' como em '<b>z</b>ebra'</td></tr><tr><td>Η</td><td>η</td><td>Eta</td><td>ē</td><td>'e' como em 's<b>e</b>de' (longo)</td></tr><tr><td>Θ</td><td>θ</td><td>Teta</td><td>th</td><td>'th' como em '<b>th</b>ink' (inglês)</td></tr><tr><td>Ι</td><td>ι</td><td>Iota</td><td>i</td><td>'i' como em 'v<b>i</b>'</td></tr><tr><td>Κ</td><td>κ</td><td>Capa</td><td>k</td><td>'c' como em '<b>c</b>asa'</td></tr><tr><td>Λ</td><td>λ</td><td>Lambda</td><td>l</td><td>'l' como em '<b>l</b>ua'</td></tr><tr><td>Μ</td><td>μ</td><td>Mi</td><td>m</td><td>'m' como em '<b>m</b>ãe'</td></tr><tr><td>Ν</td><td>ν</td><td>Ni</td><td>n</td><td>'n' como em '<b>n</b>ada'</td></tr><tr><td>Ξ</td><td>ξ</td><td>Xi</td><td>x</td><td>'x' como em 'tá<b>x</b>i'</td></tr><tr><td>Ο</td><td>ο</td><td>Ômicron</td><td>o</td><td>'o' como em 'av<b>ó</b>' (breve)</td></tr><tr><td>Π</td><td>π</td><td>Pi</td><td>p</td><td>'p' como em '<b>p</b>ai'</td></tr><tr><td>Ρ</td><td>ρ</td><td>Rô</td><td>r</td><td>'r' como em 'ca<b>r</b>o' (vibrante)</td></tr><tr><td>Σ</td><td>σ, ς</td><td>Sigma</td><td>s</td><td>'s' como em '<b>s</b>apo' (ς é usado apenas no final de uma palavra)</td></tr><tr><td>Τ</td><td>τ</td><td>Tau</td><td>t</td><td>'t' como em '<b>t</b>a<b>t</b>u'</td></tr><tr><td>Υ</td><td>υ</td><td>Úpsilon</td><td>y</td><td>'u' francês ou 'ü' alemão (bico para 'u', diga 'i')</td></tr><tr><td>Φ</td><td>φ</td><td>Fi</td><td>ph</td><td>'f' como em '<b>f</b>aca'</td></tr><tr><td>Χ</td><td>χ</td><td>Qui</td><td>ch</td><td>'ch' como em 'Ba<b>ch</b>' (alemão), gutural</td></tr><tr><td>Ψ</td><td>ψ</td><td>Psi</td><td>ps</td><td>'ps' como em '<b>ps</b>icólogo'</td></tr><tr><td>Ω</td><td>ω</td><td>Ômega</td><td>ō</td><td>'o' como em 'am<b>o</b>r' (longo)</td></tr></tbody></table><h2>2. Vogais e Ditongos</h2><p>As vogais são: <b>α, ε, η, ι, ο, ω, υ</b>.</p><p>Ditongos são combinações de duas vogais que produzem um único som:</p><ul><li><b>αι</b>: 'ai' como em 'p<b>ai</b>'</li><li><b>ει</b>: 'ei' como em 'r<b>ei</b>'</li><li><b>οι</b>: 'oi' como em 'b<b>oi</b>'</li><li><b>υι</b>: 'ui' como em 'f<b>ui</b>'</li><li><b>αυ</b>: 'au' como em 'm<b>au</b>'</li><li><b>ευ</b>: 'eu' como em 'c<b>éu</b>'</li><li><b>ου</b>: 'u' como em 'l<b>u</b>a'</li></ul><h2>3. Sinais Diacríticos</h2><p>O grego usa pequenos sinais sobre as letras para indicar pronúncia e significado.</p><h3>3.1. Espíritos</h3><p>Colocados sobre a vogal inicial de uma palavra (ou a segunda vogal de um ditongo inicial).</p><ul><li><b>Espírito Brando (᾽):</b> Ex: <b>ἀ</b>γάπη (agapē). Não afeta a pronúncia.</li><li><b>Espírito Áspero (῾):</b> Ex: <b>ἡ</b>μέρα (hēmera). Adiciona um som de 'h' no início da palavra.</li></ul><h3>3.2. Acentos</h3><p>Indicam a sílaba tônica. Não alteram a pronúncia no sistema Erasmiano, mas são cruciais para a gramática.</p><ul><li><b>Agudo (´):</b> Ex: λ<b>ό</b>γος (logos)</li><li><b>Grave (`):</b> Ex: ἀγάπη ἐστ<b>ὶ</b>ν (agapē estin) - O agudo se torna grave na última sílaba quando outra palavra se segue.</li><li><b>Circunflexo (~ ou ^):</b> Ex: δ<b>ῶ</b>ρον (dōron)</li></ul><h3>3.3. Iota Subscrito</h3><p>Um pequeno iota (ι) escrito sob as vogais longas <b>α, η, ω</b> (ᾳ, ῃ, ῳ). Era pronunciado na antiguidade, mas é mudo no sistema Erasmiano. É importante para a gramática.</p><h2>4. Pontuação</h2><ul><li><b>Ponto final (.) e Vírgula (,):</b> Iguais ao português.</li><li><b>Ponto e vírgula (;):</b> Funciona como nosso ponto de interrogação (?). Ex: τίς εἶ; (tis ei?) - Quem és tu?</li><li><b>Ponto alto (·):</b> Funciona como nosso ponto e vírgula (;) ou dois pontos (:).</li></ul></div>"
       },
       "flashcards": [
-        {"front": "Α α", "back": "Alfa (a)<br>📖 <b>ἀγάπη</b> (agapē) - amor ❤️", "unsplashSearchTerm": "greek letter alpha"},
-        {"front": "Β β", "back": "Beta (b)<br>📖 <b>βίβλος</b> (biblos) - livro 📚", "unsplashSearchTerm": "greek letter beta"},
-        {"front": "Γ γ", "back": "Gama (g)<br>📖 <b>γῆ</b> (gē) - terra 🌍", "unsplashSearchTerm": "greek letter gamma"},
-        {"front": "Δ δ", "back": "Delta (d)<br>📖 <b>δοῦλος</b> (doulos) - servo 🤲", "unsplashSearchTerm": "greek letter delta"},
-        {"front": "Ε ε", "back": "Épsilon (e breve)<br>📖 <b>ἐγώ</b> (egō) - eu 🙋", "unsplashSearchTerm": "greek letter epsilon"},
-        {"front": "Ζ ζ", "back": "Zeta (z)<br>📖 <b>ζωή</b> (zōē) - vida 🌱", "unsplashSearchTerm": "greek letter zeta"},
-        {"front": "Η η", "back": "Eta (e longo)<br>📖 <b>ἥλιος</b> (hēlios) - sol ☀️", "unsplashSearchTerm": "greek letter eta"},
-        {"front": "Θ θ", "back": "Teta (th)<br>📖 <b>θεός</b> (theos) - Deus ✨", "unsplashSearchTerm": "greek letter theta"},
-        {"front": "Ι ι", "back": "Iota (i)<br>📖 <b>ἰχθύς</b> (ichthys) - peixe 🐟", "unsplashSearchTerm": "greek letter iota"},
-        {"front": "Κ κ", "back": "Capa (k)<br>📖 <b>κόσμος</b> (kosmos) - mundo 🌐", "unsplashSearchTerm": "greek letter kappa"},
-        {"front": "Λ λ", "back": "Lambda (l)<br>📖 <b>λόγος</b> (logos) - palavra 📜", "unsplashSearchTerm": "greek letter lambda"},
-        {"front": "Μ μ", "back": "Mi (m)<br>📖 <b>μαθητής</b> (mathētēs) - discípulo 🚶", "unsplashSearchTerm": "greek letter mu"},
-        {"front": "Ν ν", "back": "Ni (n)<br>📖 <b>νόμος</b> (nomos) - lei ⚖️", "unsplashSearchTerm": "greek letter nu"},
-        {"front": "Ξ ξ", "back": "Xi (x/ks)<br>📖 <b>ξύλον</b> (xylon) - madeiro/árvore 🌳", "unsplashSearchTerm": "greek letter xi"},
-        {"front": "Ο ο", "back": "Ômicron (o breve)<br>📖 <b>ὁδός</b> (hodos) - caminho 🛣️", "unsplashSearchTerm": "greek letter omicron"},
-        {"front": "Π π", "back": "Pi (p)<br>📖 <b>πατήρ</b> (patēr) - pai 👨", "unsplashSearchTerm": "greek letter pi"},
-        {"front": "Ρ ρ", "back": "Rô (r vibrante)<br>📖 <b>ῥῆμα</b> (rhēma) - palavra falada 🗣️", "unsplashSearchTerm": "greek letter rho"},
-        {"front": "Σ σ, ς", "back": "Sigma (s)<br>📖 <b>σάρξ</b> (sarx) - carne 🥩 (ς apenas no fim)", "unsplashSearchTerm": "greek letter sigma"},
-        {"front": "Τ τ", "back": "Tau (t)<br>📖 <b>τέκνον</b> (teknon) - criança 👶", "unsplashSearchTerm": "greek letter tau"},
-        {"front": "Υ υ", "back": "Úpsilon (u/ü)<br>📖 <b>υἱός</b> (huios) - filho 👦", "unsplashSearchTerm": "greek letter upsilon"},
-        {"front": "Φ φ", "back": "Fi (ph/f)<br>📖 <b>φῶς</b> (phōs) - luz 💡", "unsplashSearchTerm": "greek letter phi"},
-        {"front": "Χ χ", "back": "Qui (ch/rr)<br>📖 <b>χριστός</b> (christos) - Ungido, Cristo 👑", "unsplashSearchTerm": "greek letter chi"},
-        {"front": "Ψ ψ", "back": "Psi (ps)<br>📖 <b>ψυχή</b> (psychē) - alma 🕊️", "unsplashSearchTerm": "greek letter psi"},
-        {"front": "Ω ω", "back": "Ômega (o longo)<br>📖 <b>ὥρα</b> (hōra) - hora ⏳", "unsplashSearchTerm": "greek letter omega"},
-        {"front": "῾ (Espírito Áspero)", "back": "Som de 'h' aspirado.<br>Ex: ἁμαρτία (hamartia - pecado) 🌬️", "unsplashSearchTerm": "ancient manuscript"},
-        {"front": "᾽ (Espírito Brando)", "back": "Vogal sem alteração de som.<br>Ex: ἀγάπη (agapē) 🔇", "unsplashSearchTerm": "ancient scroll"},
-        {"front": "´ (Acento Agudo)", "back": "Sílaba Tônica.<br>Ex: λόγος (ló-gos) 🗣️", "unsplashSearchTerm": "greek text"},
-        {"front": "Ditongo αι", "back": "Som de 'ai'.<br>Ex: αἷμα (sangue) 🩸", "unsplashSearchTerm": "papyrus"},
-        {"front": "Ditongo ου", "back": "Som de 'u' (como lua).<br>Ex: οὐρανός (céu) 🌌", "unsplashSearchTerm": "codex"},
-        {"front": "ᾳ, ῃ, ῳ", "back": "Iota Subscrito. 'i' mudo abaixo de vogal longa. Indica o caso Dativo! 📝", "unsplashSearchTerm": "parthenon"}
+        {"front": "Α α", "back": "Alfa", "unsplashSearchTerm": "greek letter alpha"},
+        {"front": "Β β", "back": "Beta", "unsplashSearchTerm": "greek letter beta"},
+        {"front": "Γ γ", "back": "Gama", "unsplashSearchTerm": "greek letter gamma"},
+        {"front": "Δ δ", "back": "Delta", "unsplashSearchTerm": "greek letter delta"},
+        {"front": "Ε ε", "back": "Épsilon", "unsplashSearchTerm": "greek letter epsilon"},
+        {"front": "Ζ ζ", "back": "Zeta", "unsplashSearchTerm": "greek letter zeta"},
+        {"front": "Η η", "back": "Eta", "unsplashSearchTerm": "greek letter eta"},
+        {"front": "Θ θ", "back": "Teta", "unsplashSearchTerm": "greek letter theta"},
+        {"front": "Ι ι", "back": "Iota", "unsplashSearchTerm": "greek letter iota"},
+        {"front": "Κ κ", "back": "Capa", "unsplashSearchTerm": "greek letter kappa"},
+        {"front": "Λ λ", "back": "Lambda", "unsplashSearchTerm": "greek letter lambda"},
+        {"front": "Μ μ", "back": "Mi", "unsplashSearchTerm": "greek letter mu"},
+        {"front": "Ν ν", "back": "Ni", "unsplashSearchTerm": "greek letter nu"},
+        {"front": "Ξ ξ", "back": "Xi", "unsplashSearchTerm": "greek letter xi"},
+        {"front": "Ο ο", "back": "Ômicron", "unsplashSearchTerm": "greek letter omicron"},
+        {"front": "Π π", "back": "Pi", "unsplashSearchTerm": "greek letter pi"},
+        {"front": "Ρ ρ", "back": "Rô", "unsplashSearchTerm": "greek letter rho"},
+        {"front": "Σ σ, ς", "back": "Sigma", "unsplashSearchTerm": "greek letter sigma"},
+        {"front": "Τ τ", "back": "Tau", "unsplashSearchTerm": "greek letter tau"},
+        {"front": "Υ υ", "back": "Úpsilon", "unsplashSearchTerm": "greek letter upsilon"},
+        {"front": "Φ φ", "back": "Fi", "unsplashSearchTerm": "greek letter phi"},
+        {"front": "Χ χ", "back": "Qui", "unsplashSearchTerm": "greek letter chi"},
+        {"front": "Ψ ψ", "back": "Psi", "unsplashSearchTerm": "greek letter psi"},
+        {"front": "Ω ω", "back": "Ômega", "unsplashSearchTerm": "greek letter omega"},
+        {"front": "῾", "back": "Espírito Áspero (som de 'h')", "unsplashSearchTerm": "ancient manuscript"},
+        {"front": "᾽", "back": "Espírito Brando (sem som)", "unsplashSearchTerm": "ancient scroll"},
+        {"front": "´", "back": "Acento Agudo", "unsplashSearchTerm": "greek text"},
+        {"front": "αι", "back": "Pronúncia: 'ai' como em 'pai'", "unsplashSearchTerm": "papyrus"},
+        {"front": "ου", "back": "Pronúncia: 'u' como em 'lua'", "unsplashSearchTerm": "codex"},
+        {"front": "θεός", "back": "theos (Deus)", "unsplashSearchTerm": "parthenon"}
       ],
       "exercises": [
         {
@@ -55,7 +55,7 @@
           "prompt": "Qual é o nome da letra grega 'λ'?",
           "options": ["Alfa", "Lambda", "Gama", "Delta"],
           "correctAnswerIndex": 1,
-          "explanation": "A letra 'λ' (minúscula) e 'Λ' (maiúscula) é chamada de Lambda. Ela produz o som de 'L' e é a inicial de palavras cruciais como λόγος (logos - palavra, verbo)."
+          "explanation": "A letra 'λ' (minúscula) e 'Λ' (maiúscula) é chamada de Lambda."
         },
         {
           "exerciseId": "M01E02",
@@ -64,7 +64,7 @@
           "prompt": "A letra 'Ω' é a forma maiúscula de qual letra?",
           "options": ["Ômicron", "Úpsilon", "Ômega", "Qui"],
           "correctAnswerIndex": 2,
-          "explanation": "O 'Ω' é a forma maiúscula do 'ω' (Ômega). Sendo a última letra do alfabeto, é frequentemente usada biblicamente para representar 'o fim', como na declaração de Cristo: 'Eu sou o Alfa e o Ômega'."
+          "explanation": "'Ω' é a forma maiúscula de 'ω', chamada Ômega. É a última letra do alfabeto."
         },
         {
           "exerciseId": "M01E03",
@@ -72,34 +72,34 @@
           "type": "transliteration",
           "prompt": "Como se translitera a letra 'θ'?",
           "correctAnswer": "th",
-          "explanation": "A letra Teta (θ) translitera-se como 'th'. É importante lembrar que ela não tem um som de 't' duro, mas sim um som de língua entre os dentes, semelhante ao 'th' de 'think' em inglês. É a inicial de θεός (Deus)."
+          "explanation": "A letra Teta (θ) é transliterada como 'th', com um som semelhante ao 'th' em 'think' do inglês."
         },
         {
           "exerciseId": "M01E04",
           "difficulty": "easy",
           "type": "multiple-choice",
-          "prompt": "Qual sinal diacrítico adiciona um som de 'h' aspirado no início de uma palavra?",
+          "prompt": "Qual sinal diacrítico adiciona um som de 'h' no início de uma palavra?",
           "options": ["Espírito Brando", "Acento Agudo", "Espírito Áspero", "Iota Subscrito"],
           "correctAnswerIndex": 2,
-          "explanation": "O Espírito Áspero (῾) é crucial na pronúncia. Ele indica que a palavra ganha uma aspiração, soando como um 'H' inicial. É por isso que ὑπέρ (hyper) origina palavras portuguesas com 'H', como 'hiperativo'."
+          "explanation": "O Espírito Áspero (῾) indica que a vogal inicial deve ser pronunciada com um som de 'h'."
         },
         {
           "exerciseId": "M01E05",
           "difficulty": "easy",
           "type": "multiple-choice",
-          "prompt": "Quantas letras compõem o alfabeto grego coinê?",
+          "prompt": "Quantas letras existem no alfabeto grego?",
           "options": ["22", "24", "26", "28"],
           "correctAnswerIndex": 1,
-          "explanation": "O alfabeto grego clássico e coinê estabilizou-se com exatamente 24 letras, indo do Alfa (A) ao Ômega (Ω)."
+          "explanation": "O alfabeto grego clássico e coinê é composto por 24 letras."
         },
         {
           "exerciseId": "M01E06",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "Qual é a forma correta da letra Sigma quando ela aparece no final de uma palavra (posição final)?",
+          "prompt": "Qual é a forma correta do Sigma no final de uma palavra?",
           "options": ["σ", "Σ", "ς", "S"],
           "correctAnswerIndex": 2,
-          "explanation": "O Sigma tem uma particularidade: ele usa a forma 'σ' no início ou no meio das palavras (como em σάρξ), mas ao encerrar uma palavra, ele obrigatoriamente assume a forma de Sigma Final: 'ς'."
+          "explanation": "Sigma tem duas formas minúsculas: 'σ' é usada no início ou meio da palavra, e 'ς' é usada exclusivamente no final."
         },
         {
           "exerciseId": "M01E07",
@@ -107,34 +107,34 @@
           "type": "transliteration",
           "prompt": "Translitere a palavra grega 'λόγος'.",
           "correctAnswer": "logos",
-          "explanation": "Passo a passo: λ (l) + ό (o) + γ (g) + ο (o) + ς (s) = logos. Este é um dos termos mais ricos do NT, significando 'palavra', 'razão', e usado por João para descrever a segunda pessoa da Trindade."
+          "explanation": "λ -> l, ό -> o, γ -> g, ο -> o, ς -> s. A palavra significa 'palavra' ou 'razão'."
         },
         {
           "exerciseId": "M01E08",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "Como se pronuncia corretamente o ditongo 'ει' no sistema Erasmiano?",
+          "prompt": "Como se pronuncia o ditongo 'ει'?",
           "options": ["'ai' como em 'pai'", "'eu' como em 'céu'", "'ei' como em 'rei'", "'oi' como em 'boi'"],
           "correctAnswerIndex": 2,
-          "explanation": "Um ditongo é a união de duas vogais num único som. O ditongo 'ει' mantém os sons das suas vogais, formando o som 'ei' (como em εἰρήνη - eirēnē - paz)."
+          "explanation": "O ditongo 'ει' tem o som de 'ei', como na palavra 'rei'."
         },
         {
           "exerciseId": "M01E09",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "Na palavra 'ἡμέρα' (dia), qual é a função exata do sinal sobre a primeira letra 'η'?",
-          "options": ["É um acento agudo indicando a sílaba tônica", "É um espírito brando sem som", "É um iota subscrito", "É um espírito áspero que adiciona som de 'h'"],
+          "prompt": "Na palavra 'ἡμέρα', qual é a função do sinal sobre o 'η'?",
+          "options": ["É um acento agudo", "É um espírito brando", "É um iota subscrito", "É um espírito áspero"],
           "correctAnswerIndex": 3,
-          "explanation": "Note a curva virada para a direita (῾). Este é o espírito áspero. Sem ele, leríamos 'ēmera'. Com ele, pronunciamos 'hēmera'."
+          "explanation": "O sinal '῾' é um espírito áspero, indicando que a palavra é pronunciada 'hēmera'."
         },
         {
           "exerciseId": "M01E10",
           "difficulty": "easy",
           "type": "multiple-choice",
-          "prompt": "Qual letra do alfabeto grego é uma 'consoante dupla' que produz o som de 'ps'?",
+          "prompt": "Qual letra é uma consoante dupla com som de 'ps'?",
           "options": ["Ξ ξ", "Ζ ζ", "Ψ ψ", "Φ φ"],
           "correctAnswerIndex": 2,
-          "explanation": "A letra Psi (Ψ ψ) é o equivalente a duas consoantes nossas (P+S). É dela que derivam todas as nossas palavras ligadas à mente, como ψυχή (psychē = alma, psicologia)."
+          "explanation": "A letra Psi (Ψ ψ) representa o som combinado de 'p' e 's'."
         },
         {
           "exerciseId": "M01E11",
@@ -142,157 +142,192 @@
           "type": "transliteration",
           "prompt": "Translitere a palavra grega 'ἄνθρωπος'.",
           "correctAnswer": "anthrōpos",
-          "explanation": "Decompondo: ἄ (a) + ν (n) + θ (th) + ρ (r) + ω (ō) + π (p) + ο (o) + ς (s). Esta palavra é a base para o termo 'antropologia' (estudo do homem)."
+          "explanation": "ἄ -> a, ν -> n, θ -> th, ρ -> r, ω -> ō, π -> p, ο -> o, ς -> s. A palavra significa 'homem' ou 'ser humano'."
         },
         {
           "exerciseId": "M01E12",
           "difficulty": "hard",
           "type": "multiple-choice",
-          "prompt": "O Novo Testamento grego possui um sinal de pontuação chamado 'ponto alto' (·), que flutua no meio da linha. Qual a sua função gramatical?",
-          "options": ["Indica que a próxima frase é uma pergunta", "Funciona como o nosso ponto final", "Equivale ao nosso ponto e vírgula (;) ou dois pontos (:)", "Indica que a consoante anterior é dobrada"],
+          "prompt": "Qual é a função do ponto alto (·) na pontuação grega?",
+          "options": ["Indica uma pergunta", "É um ponto final", "Equivale ao nosso ponto e vírgula ou dois pontos", "Separa sílabas"],
           "correctAnswerIndex": 2,
-          "explanation": "O ponto alto (·) marca uma pausa média, servindo exatamente como o nosso ponto e vírgula ou para introduzir uma citação direta (dois pontos)."
+          "explanation": "O ponto alto (·) funciona como nosso ponto e vírgula (;) ou dois pontos (:), marcando uma pausa mais forte que a vírgula."
         },
         {
           "exerciseId": "M01E13",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "Quando a letra Gama (γ) aparece imediatamente antes da letra Capa (κ), como na palavra 'ἀνάγκη', qual som o Gama assume?",
-          "options": ["g (gue)", "k (ca)", "n (ne)", "y (i)"],
+          "prompt": "A letra 'γ' antes de 'κ' (por exemplo, em 'ἄγγελος') tem o som de:",
+          "options": ["g", "k", "n", "y"],
           "correctAnswerIndex": 2,
-          "explanation": "Regra do Gama Nasal: Sempre que o Gama (γ) vem antes de uma letra gutural (γ, κ, χ, ξ), o som dele transforma-se na consoante nasal 'n'. Por isso, lê-se 'anankē' (necessidade)."
+          "explanation": "Quando Gama (γ) precede uma gutural (γ, κ, χ, ξ), ela é nasalizada e soa como 'n'. Portanto, 'ἄγγελος' soa como 'angelos'."
         },
         {
           "exerciseId": "M01E14",
           "difficulty": "easy",
           "type": "multiple-choice",
-          "prompt": "Qual é a forma minúscula da letra grega 'Π' (Pi)?",
+          "prompt": "Qual é a forma minúscula de 'Π'?",
           "options": ["ρ", "π", "τ", "φ"],
           "correctAnswerIndex": 1,
-          "explanation": "A forma minúscula do Pi maiúsculo (Π) é 'π'. Cuidado para não confundir com o Rô (ρ), que parece o nosso 'p' mas soa como 'r'."
+          "explanation": "A forma minúscula da letra Pi (Π) é 'π'."
         },
         {
           "exerciseId": "M01E15",
           "difficulty": "hard",
           "type": "multiple-choice",
-          "prompt": "O que representa o 'Iota Subscrito' na gramática grega (por exemplo, na terminação 'τῷ')?",
-          "options": ["Um acento forte que muda o sentido da palavra", "Um 'i' mudo escrito sob uma vogal longa, indicando o caso gramatical Dativo", "Um sinal de pontuação arcaico equivalente à vírgula", "Uma indicação de que a palavra foi transliterada do aramaico"],
+          "prompt": "O que é um iota subscrito (por exemplo, em 'τῷ')?",
+          "options": ["Um acento que muda a pronúncia", "Um 'i' pequeno e mudo escrito sob uma vogal longa", "Um sinal que indica uma pergunta", "Uma forma antiga de vírgula"],
           "correctAnswerIndex": 1,
-          "explanation": "O iota subscrito (ᾳ, ῃ, ῳ) é um vestígio de um antigo ditongo. No coinê bíblico ele não é mais pronunciado, mas tem um valor imenso na tradução: ele é a pista visual de que a palavra está no caso Dativo."
+          "explanation": "O iota subscrito é um 'ι' escrito sob as vogais longas α, η, ω. É um vestígio de um ditongo antigo e é gramaticalmente importante, mas mudo na pronúncia Erasmiana."
         },
         {
           "exerciseId": "M01E16",
           "difficulty": "medium",
           "type": "transliteration",
-          "prompt": "Translitere o nome mais importante do Novo Testamento: 'Ἰησοῦς'.",
+          "prompt": "Translitere o nome 'Ἰησοῦς'.",
           "correctAnswer": "Iēsous",
-          "explanation": "Decompondo: Ἰ (I) + η (ē) + σ (s) + οῦ (ou) + ς (s). Iēsous é a forma grega do hebraico Yeshua (Josué/Jesus), que significa 'Yahweh é salvação'."
+          "explanation": "Ἰ -> I, η -> ē, σ -> s, ο -> o, ῦ -> u, ς -> s. Este é o nome 'Jesus' em grego."
         },
         {
           "exerciseId": "M01E17",
           "difficulty": "easy",
           "type": "multiple-choice",
-          "prompt": "Quais destas vogais gregas são consideradas 'sempre longas' na sua pronúncia?",
-          "options": ["Épsilon (ε) e Ômicron (ο)", "Alfa (α) e Iota (ι)", "Eta (η) e Ômega (ω)", "Úpsilon (υ) e Iota (ι)"],
-          "correctAnswerIndex": 2,
-          "explanation": "O alfabeto grego ajuda-nos visualmente: o Eta (η) é o irmão longo do Épsilon (ε), e o Ômega (ω) é o irmão longo do Ômicron (ο)."
+          "prompt": "Qual das seguintes letras é uma vogal longa?",
+          "options": ["ε", "ο", "α", "η"],
+          "correctAnswerIndex": 3,
+          "explanation": "Eta (η) e Ômega (ω) são sempre vogais longas. Épsilon (ε) e Ômicron (ο) são sempre breves. Alfa (α), Iota (ι) e Úpsilon (υ) podem ser longas ou breves."
         },
         {
           "exerciseId": "M01E18",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "O acento Grave (`) tem uma regra de uso muito específica. Em qual situação ele ocorre?",
-          "options": ["Em toda a primeira sílaba de um verbo", "Apenas em palavras de origem estrangeira", "Ocorre apenas na última sílaba de uma palavra, substituindo o acento agudo quando outra palavra se segue", "Quando uma vogal breve precisa soar como longa"],
+          "prompt": "Qual acento pode aparecer apenas na última sílaba de uma palavra e somente quando outra palavra se segue sem pontuação?",
+          "options": ["Agudo", "Circunflexo", "Grave", "Espírito Áspero"],
           "correctAnswerIndex": 2,
-          "explanation": "O acento Grave é essencialmente um acento Agudo que foi 'rebaixado'. Quando uma palavra oxítona (agudo na última) não está no fim da frase, o seu acento 'cai' para Grave (`) para mostrar que a voz deve seguir para a próxima palavra."
+          "explanation": "O acento Grave (`) é uma forma do acento Agudo que ocorre na sílaba final de uma palavra antes de outra palavra."
         },
         {
           "exerciseId": "M01E19",
           "difficulty": "hard",
           "type": "transliteration",
-          "prompt": "Translitere o grande título messiânico: 'Χριστός'.",
+          "prompt": "Translitere a palavra 'Χριστός'.",
           "correctAnswer": "Christos",
-          "explanation": "Χ (Ch) + ρ (r) + ι (i) + σ (s) + τ (t) + ό (o) + ς (s). 'Christos' é a tradução grega exata para a palavra hebraica 'Mashiach' (Messias), ambas significando 'O Ungido'."
+          "explanation": "Χ -> Ch, ρ -> r, ι -> i, σ -> s, τ -> t, ό -> o, ς -> s. Esta é a palavra 'Cristo'."
         },
         {
           "exerciseId": "M01E20",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "Imagine que você está a ler João 3:4. Você depara-se com este sinal no final da frase: (;). O que isso significa em grego?",
-          "options": ["Uma pausa para respirar", "Fim de parágrafo", "A frase anterior é uma pergunta", "Uma citação do Antigo Testamento"],
-          "correctAnswerIndex": 2,
-          "explanation": "Isto confunde muitos iniciantes! O ponto e vírgula inglês/português (;) foi adotado pelos editores do Novo Testamento grego para funcionar exclusivamente como o nosso Ponto de Interrogação (?)."
+          "prompt": "Qual pontuação grega é usada para indicar uma pergunta?",
+          "options": ["?", ".", "·", ";"],
+          "correctAnswerIndex": 3,
+          "explanation": "O ponto e vírgula (;) em grego funciona como o nosso ponto de interrogação (?)."
         },
         {
           "exerciseId": "M01E21",
           "difficulty": "easy",
           "type": "multiple-choice",
-          "prompt": "Qual é o nome correto da letra 'Φ φ'?",
+          "prompt": "Qual é o nome da letra 'Φ φ'?",
           "options": ["Fi", "Qui", "Psi", "Pi"],
           "correctAnswerIndex": 0,
-          "explanation": "A letra 'Φ φ' é chamada de Fi e tem o som de 'f', originando palavras como φῶς (luz -> fotografia, fóton)."
+          "explanation": "A letra 'Φ φ' é chamada de Fi e tem o som de 'f'."
         },
         {
           "exerciseId": "M01E22",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "Na palavra 'ἀγάπη', vemos o sinal (᾽) sobre a primeira letra. Qual é a sua função?",
+          "prompt": "Na palavra 'ἀγάπη', qual é a função do sinal sobre o 'α' inicial?",
           "options": ["Espírito Áspero", "Acento Agudo", "Espírito Brando", "Acento Grave"],
           "correctAnswerIndex": 2,
-          "explanation": "Toda a vogal inicial no grego exige um espírito. O Espírito Brando (virado para a esquerda, ᾽) sinaliza apenas que a vogal deve ser pronunciada de forma pura, sem o sopro/aspiração do 'H'."
+          "explanation": "O sinal '᾽' é um espírito brando. Ele deve estar presente em toda palavra que começa com vogal e não tem um espírito áspero, mas não afeta a pronúncia."
         },
         {
           "exerciseId": "M01E23",
           "difficulty": "easy",
           "type": "transliteration",
-          "prompt": "Como se translitera a letra dupla 'ψ'?",
+          "prompt": "Como se translitera a letra 'ψ'?",
           "correctAnswer": "ps",
-          "explanation": "A letra Psi (ψ) é transliterada com a combinação 'ps', como nas palavras Salmos (Psalmos) ou alma (Psychē)."
+          "explanation": "A letra Psi (ψ) é transliterada como 'ps'."
         },
         {
           "exerciseId": "M01E24",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "O ditongo 'ου' (Ômicron + Úpsilon) é muito comum no grego. Como ele deve ser pronunciado?",
-          "options": ["Como 'oi'", "Como 'au'", "Como 'eu'", "Como o 'u' do português (ex: lua)"],
+          "prompt": "Como se pronuncia o ditongo 'ου'?",
+          "options": ["'oi'", "'au'", "'eu'", "'u'"],
           "correctAnswerIndex": 3,
-          "explanation": "Apesar de ser escrito com duas letras (ou), este ditongo produz o som simples e redondo de um 'U' longo."
+          "explanation": "O ditongo 'ου' tem o som de um 'u' simples e longo, como em 'lua'."
         },
         {
           "exerciseId": "M01E25",
           "difficulty": "hard",
           "type": "multiple-choice",
-          "prompt": "Qual destas palavras bíblicas abaixo obrigatoriamente começa com um som de 'H' (aspirado)?",
-          "options": ["αὐτός (ele)", "ἐγώ (eu)", "υἱός (filho)", "οὐρανός (céu)"],
+          "prompt": "Qual palavra abaixo certamente começa com um som de 'h'?",
+          "options": ["αὐτός", "ἐγώ", "υἱός", "οὐρανός"],
           "correctAnswerIndex": 2,
-          "explanation": "Existe uma regra de ouro: TODA a palavra grega que começa com Úpsilon (υ) e toda a palavra que começa com Rô (ρ) recebe, obrigatoriamente, o espírito áspero, soando como 'Huios' e 'Rhēma'."
+          "explanation": "A palavra 'υἱός' (huios) começa com um espírito áspero sobre o úpsilon, indicando o som de 'h'."
         },
         {
           "exerciseId": "M01E26",
           "difficulty": "easy",
           "type": "multiple-choice",
-          "prompt": "Qual é a correspondência correta em maiúscula para a letra minúscula 'β'?",
+          "prompt": "Qual é a forma maiúscula de 'β'?",
           "options": ["Δ", "Β", "Η", "Ρ"],
           "correctAnswerIndex": 1,
-          "explanation": "O Beta maiúsculo (Β) é idêntico ao nosso B maiúsculo do alfabeto latino."
+          "explanation": "A forma maiúscula da letra Beta (β) é 'Β'."
         },
         {
           "exerciseId": "M01E27",
           "difficulty": "medium",
           "type": "transliteration",
-          "prompt": "Translitere a palavra que significa 'espírito' ou 'vento': 'πνεῦμα'.",
+          "prompt": "Translitere a palavra 'πνεῦμα'.",
           "correctAnswer": "pneuma",
-          "explanation": "π (p) + ν (n) + ε (e) + ῦ (u) + μ (m) + α (a). Note o ditongo 'ευ' (eu). Desta raiz vêm palavras médicas e teológicas como 'pneumonia' ou 'pneumatologia'."
+          "explanation": "π -> p, ν -> n, ε -> e, ῦ -> u, μ -> m, α -> a. A palavra significa 'espírito' ou 'vento'."
         },
         {
           "exerciseId": "M01E28",
           "difficulty": "medium",
           "type": "multiple-choice",
-          "prompt": "A pronúncia correta da letra 'υ' (Úpsilon) no sistema erasmiano assemelha-se a qual som moderno?",
-          "options": ["Ao 'u' do português em 'urubu'", "Ao 'i' do português em 'vi'", "Ao 'u' da palavra francesa 'tu' ou 'ü' alemão", "Ao 'o' fechado de 'ovo'"],
+          "prompt": "A pronúncia da letra 'υ' (Úpsilon) é mais parecida com:",
+          "options": ["O 'u' em 'urubu'", "O 'i' em 'vi'", "O 'u' na palavra francesa 'tu'", "O 'o' em 'ovo'"],
           "correctAnswerIndex": 2,
-          "explanation": "Para pronunciar o Úpsilon corretamente, você deve fazer um 'bico' com os lábios (como se fosse dizer U), mas emitir o som da letra I. É um som intermediário muito
-}
+          "explanation": "A pronúncia Erasmiana do Úpsilon (υ) não tem um equivalente exato em português. É como o 'u' francês ou o 'ü' alemão, um som produzido arredondando os lábios para dizer 'u' mas pronunciando 'i'."
+        },
+        {
+          "exerciseId": "M01E29",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "O acento circunflexo (~) pode ocorrer sobre quais tipos de sílabas?",
+          "options": ["Apenas sílabas com vogais breves", "Apenas sílabas com vogais longas", "Qualquer sílaba tônica", "Apenas a primeira sílaba da palavra"],
+          "correctAnswerIndex": 1,
+          "explanation": "O acento circunflexo só pode aparecer sobre uma sílaba que contém uma vogal longa ou um ditongo."
+        },
+        {
+          "exerciseId": "M01E30",
+          "difficulty": "easy",
+          "type": "multiple-choice",
+          "prompt": "Qual é o nome da letra 'Ζ ζ'?",
+          "options": ["Zeta", "Xi", "Eta", "Teta"],
+          "correctAnswerIndex": 0,
+          "explanation": "A letra 'Ζ ζ' é chamada de Zeta e tem o som de 'z'."
+        },
+        {
+          "exerciseId": "M01E31",
+          "difficulty": "medium",
+          "type": "transliteration",
+          "prompt": "Translitere a palavra 'βαπτίζω'.",
+          "correctAnswer": "baptizō",
+          "explanation": "β -> b, α -> a, π -> p, τ -> t, ι -> i, ζ -> z, ω -> ō. Esta é a palavra 'eu batizo'."
+        },
+        {
+          "exerciseId": "M01E32",
+          "difficulty": "hard",
+          "type": "multiple-choice",
+          "prompt": "Em qual das palavras abaixo o 'γ' soaria como 'n'?",
+          "options": ["γῆ", "γινώσκω", "ἄγγελος", "γράφω"],
+          "correctAnswerIndex": 2,
+          "explanation": "Em 'ἄγγελος', o primeiro 'γ' precede o segundo 'γ' (uma gutural), então ele é pronunciado como 'n' (angelos)."
+        }
       ]
     }
   ]
