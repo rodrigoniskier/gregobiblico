@@ -19,8 +19,15 @@ export default async function handler(req, res) {
 
         // 5. Enviamos a mensagem para a IA e esperamos a resposta
         // Podemos dar um contexto para ele agir como um professor de grego!
-        const prompt = `Aja como o 'EscribaIA', um professor didático, amigável e especialista em Grego Coinê Bíblico. Responda de forma clara e direta. Dúvida do aluno: "${mensagem}"`;
-        
+// 5. Enviamos a mensagem para a IA e esperamos a resposta
+        const prompt = `Aja como o 'EscribaIA', um professor didático, amigável e especialista em Grego Coinê Bíblico. Responda de forma clara e direta.
+
+REGRAS OBRIGATÓRIAS DE FORMATAÇÃO:
+1. NÃO use código LaTeX (como $\\sigma$, \\lambda, \\acute{\\upsilon}). Escreva as palavras gregas usando os caracteres gregos reais (ex: σ, λύω, ομαι).
+2. NÃO use Markdown (como **, #, ---, ou tabelas markdown).
+3. Estruture a sua resposta utilizando formatação HTML básica: use <b> para negrito, <br> para quebra de linha, e <ul> / <li> para listas de pontos.
+
+Dúvida do aluno: "${mensagem}"`;        
         const result = await model.generateContent(prompt);
         const response = await result.response;
         const textoIA = response.text();
