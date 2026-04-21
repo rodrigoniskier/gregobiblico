@@ -180,21 +180,22 @@ th { background-color: #f2f2f2; }
 .modal { display: none; position: fixed; z-index: 3000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); }
 .modal-content { background-color: #fff; margin: 10% auto; padding: 20px; width: 90%; max-width: 500px; border-radius: 8px; }
 .close-button { color: #aaa; float: right; font-size: 28px; cursor: pointer; }
-#quiz-module-options label { max-height: 40vh; /* A lista ocupará no máximo 40% da altura da tela (Viewport Height) */
-    overflow-y: auto; /* Adiciona a barra de rolagem vertical automaticamente se passar do tamanho */
+#quiz-module-options { 
+    max-height: 40vh; /* Altura máxima da caixa */
+    overflow-y: auto; /* Cria a barra de rolagem vertical se a lista for muito longa */
     margin-bottom: 20px;
-    padding-right: 10px; /* Um pequeno espaço à direita para o texto não colar na barra de rolagem */
-    border: 1px solid #eee; /* Uma borda subtil para mostrar onde é a área de rolagem */
+    padding-right: 10px; 
+    border: 1px solid #eee; 
     padding: 10px;
     border-radius: 5px;
 }
 
-/* Garante que o botão de fechar não fique escondido e o modal não ultrapasse a tela toda */
-.modal-content {
-    max-height: 90vh; /* Altura máxima da janela branca do modal */
-    overflow: hidden; /* Evita que conteúdo vaze da janela branca */
-    display: flex;
-    flex-direction: column;
+/* 2. Regra para cada OPÇÃO (as lições individuais dentro da caixa) */
+#quiz-module-options label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima */
 }
 
 footer { text-align: center; padding: 20px; background: #333; color: #fff; font-size: 0.9rem; margin-top: 40px;}
