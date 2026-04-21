@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- VARIÁVEIS GLOBAIS E ESTADO ---
     let allModulesData = [];
     let pilhaNavegacao = []; // Guarda o histórico para o botão voltar
-    let telaAtual = 'screen-home';
+    
+    // IMPORTANTE: Começamos agora na tela de boas-vindas
+    let telaAtual = 'screen-welcome'; 
 
     // --- ELEMENTOS DA INTERFACE ---
     const moduleTitleEl = document.getElementById('module-title');
@@ -13,6 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const sideMenu = document.getElementById('side-menu');
 
     // --- NAVEGAÇÃO SPA ---
+    
+    // Função exclusiva para sair da tela de boas-vindas para o menu principal
+    window.irParaHome = function() {
+        document.getElementById('screen-welcome').style.display = 'none';
+        document.getElementById('screen-home').style.display = 'block';
+        telaAtual = 'screen-home';
+        window.scrollTo(0, 0);
+    };
+
+    // Navegação geral do site
     window.irPara = function(idNovaTela) {
         if(telaAtual !== idNovaTela) {
             document.getElementById(telaAtual).style.display = 'none';
@@ -45,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 'modulo_12.json', 'modulo_13.json', 'modulo_14.json', 'modulo_15.json'
             ];
             
-            // Faz o fetch de todos os arquivos
+            // Faz o fetch de todos os arquivos JSON de dados
             const fetchPromises = moduleFilenames.map(filename =>
                 fetch(`./data/${filename}`).then(res => res.ok ? res.json() : Promise.reject(`Falha ao carregar ${filename}`))
             );
@@ -146,19 +158,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- ESCRIBA IA (Lógica do Chat) ---
+    // --- ESCRIBA IA (Lógica do Chat ligada à Vercel) ---
     const sendChatBtn = document.getElementById('send-chat');
     const chatInput = document.getElementById('chat-input');
     const chatMessages = document.getElementById('chat-messages');
 
     if (sendChatBtn && chatInput) {
         sendChatBtn.addEventListener('click', enviarMensagemIA);
+        // Permite enviar com a tecla "Enter"
         chatInput.addEventListener('keypress', function (e) {
             if (e.key === 'Enter') enviarMensagemIA();
         });
     }
 
-   async function enviarMensagemIA() {
+    async function enviarMensagemIA() {
         const mensagemUsuario = chatInput.value;
         if (mensagemUsuario.trim() === '') return;
 
@@ -168,13 +181,12 @@ document.addEventListener('DOMContentLoaded', () => {
         chatMessages.scrollTop = chatMessages.scrollHeight;
 
         // 2. Mostra que o EscribaIA está "pensando"
-        const idLoading = "loading-" + Date.now(); // Cria um ID único para a mensagem de loading
+        const idLoading = "loading-" + Date.now(); // Cria um ID único para a mensagem de carregamento
         chatMessages.innerHTML += `<p id="${idLoading}" class="msg-ia"><em>EscribaIA está a analisar os pergaminhos...</em></p>`;
         chatMessages.scrollTop = chatMessages.scrollHeight;
         
         try {
-            // 3. Faz o pedido ao nosso futuro servidor intermediário
-            // NOTA: Vamos substituir 'URL_DO_SEU_BACKEND' pela URL real mais à frente
+            // 3. Faz o pedido à nossa função Serverless na Vercel (/api/chat)
             const resposta = await fetch('/api/chat', {
                 method: 'POST',
                 headers: {
@@ -187,14 +199,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const dados = await resposta.json();
             
-            // 4. Remove a mensagem de carregamento e mostra a resposta real
+            // 4. Remove a mensagem de carregamento e mostra a resposta real do Gemini
             document.getElementById(idLoading).remove();
             chatMessages.innerHTML += `<p class="msg-ia"><strong>EscribaIA:</strong> ${dados.respostaIA}</p>`;
             
         } catch (erro) {
             console.error(erro);
             document.getElementById(idLoading).remove();
-            chatMessages.innerHTML += `<p class="msg-ia" style="color: red;"><strong>EscribaIA:</strong> Perdoe-me, os pergaminhos estão ilegíveis no momento. (Erro de conexão)</p>`;
+            chatMessages.innerHTML += `<p class="msg-ia" style="color: red;"><strong>EscribaIA:</strong> Perdoe-me, os pergaminhos estão ilegíveis no momento. Verifique a conexão e tente novamente.</p>`;
         }
         
         chatMessages.scrollTop = chatMessages.scrollHeight;
@@ -243,6 +255,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Inicializa carregando os dados JSON
+    // Inicializa carregando os dados JSON assim que a página abre
     fetchAllModules();
 });
